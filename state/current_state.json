@@ -1,0 +1,25 @@
+{
+  "player_active": "포푸니크",
+  "opponent_active": "한카리아스",
+  "player_party_source": "party_memory",
+  "opponent_profile": "default",
+  "player_moves": ["인파이트", "속이다", "애크러뱃", "방어"],
+  "opponent_team": ["한카리아스", "어흥염", "리자몽", "마릴리", "팬텀", "토게키스"],
+  "field": {
+    "weather": null,
+    "terrain": null,
+    "trick_room": false,
+    "reflect_player": false,
+    "reflect_opponent": false,
+    "light_screen_player": false,
+    "light_screen_opponent": false,
+    "tailwind_player": false,
+    "tailwind_opponent": false,
+    "battle_format": "single"
+  },
+  "boosts": {
+    "player": {"atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0},
+    "opponent": {"atk": 0, "def": 0, "spa": 0, "spd": 0, "spe": 0}
+  },
+  "mode": "live"
+}
