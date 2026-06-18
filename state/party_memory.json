@@ -1,0 +1,22 @@
+{
+  "party": [
+    {
+      "slot": 1,
+      "pokemon_name": "포푸니크",
+      "pokemon_id": "sneasler",
+      "level": 50,
+      "current_hp": 155,
+      "max_hp": 155,
+      "atk": 182,
+      "def": 80,
+      "spa": 45,
+      "spd": 100,
+      "spe": 189,
+      "ability": "곡예",
+      "item": null,
+      "status": null,
+      "moves": ["인파이트", "속이다", "애크러뱃", "방어"],
+      "source": "manual_or_status_screen_confirmed"
+    }
+  ]
+}
