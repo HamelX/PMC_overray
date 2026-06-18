@@ -1,0 +1,14 @@
+{
+  "player_pokemon": "포푸니크",
+  "opponent_pokemon": "한카리아스",
+  "player_moves": ["인파이트", "속이다", "애크러뱃", "방어"],
+  "opponent_team": ["한카리아스", "어흥염", "리자몽", "마릴리", "팬텀", "토게키스"],
+  "field": {
+    "weather": null,
+    "terrain": null,
+    "trick_room": false,
+    "tailwind_player": false,
+    "tailwind_opponent": false
+  },
+  "mode": "demo"
+}
