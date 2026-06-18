@@ -5,10 +5,11 @@ from dataclasses import dataclass, field
 from app.state.current_state import BattleState
 from app.state.party_memory import PartyMemory
 from .data_loader import ChampionsData, Move, Pokemon
-from .move_classifier import ClassifiedMove, classify_move, classify_moves
+from app.tactical.move_classifier import classify_move, classify_moves
 from .type_chart import effectiveness
 from app.damage.damage_calculator import calculate_damage
 from app.damage.damage_models import DamageContext, DamageResult, estimate_combatant, party_to_combatant
+from app.tactical.threat_scorer import ThreatItem, score_opponent_threats
 
 TAG_LABELS = {
     'protect': '방어', 'fake_out': '속이다', 'priority': '선공기', 'setup': '랭업',
@@ -32,10 +33,12 @@ class TacticalReport:
     player_move_risks: list[MoveRisk]
     speed_notes: list[str]
     memo: list[str]
+    opponent_threats: list[ThreatItem] = field(default_factory=list)
     data_available: bool = True
     player_speed: int = 0
     opponent_speed: int = 0
     opponent_bulk_label: str = '추정'
+    mode: str = 'demo'
 
 
 def _find_move_by_name(data: ChampionsData, name: str) -> Move | None:
@@ -79,12 +82,12 @@ def _risk_notes_for_move(move: Move, tags: frozenset[str], target: Pokemon | Non
 
 def analyze_state(state: BattleState, data: ChampionsData | None, party_memory: PartyMemory | None = None) -> TacticalReport:
     if not data or not data.pokemon:
-        return TacticalReport(None, None, [], [], ['데이터팩 없음: demo tooltip만 표시'], ['state/current_state.json은 읽었지만 데이터 기반 판단은 비활성'], False)
+        return TacticalReport(None, None, [], [], ['데이터팩 없음: demo tooltip만 표시'], ['state/current_state.json은 읽었지만 데이터 기반 판단은 비활성'], data_available=False)
 
     player = data.get_pokemon(state.player_pokemon)
     opponent = data.get_pokemon(state.opponent_pokemon)
     if not player or not opponent:
-        return TacticalReport(player, opponent, [], [], ['포켓몬 이름을 데이터에서 찾지 못했습니다'], ['current_state.json 이름을 확인하세요'], True)
+        return TacticalReport(player, opponent, [], [], ['포켓몬 이름을 데이터에서 찾지 못했습니다'], ['current_state.json 이름을 확인하세요'], data_available=True)
 
     opponent_risks: list[MoveRisk] = []
     important_tags = {'protect','fake_out','priority','setup','speed_control','status','weather','terrain','hazard','pivot','recovery','high_risk','ohko_or_explosive'}
@@ -93,7 +96,7 @@ def analyze_state(state: BattleState, data: ChampionsData | None, party_memory: 
         if cm.tags & important_tags or target_pressure:
             opponent_risks.append(MoveRisk(cm.move, cm.tags, _risk_notes_for_move(cm.move, cm.tags, player)))
 
-    opponent_risks.sort(key=lambda r: (0 if r.move.name_ko in {'지진', '칼춤'} else 1 if r.tags & important_tags else 2, r.move.name_ko))
+    opponent_risks.sort(key=lambda r: (0 if r.tags & important_tags else 1, r.move.name_ko))
 
     party_pokemon = party_memory.find(player.id) if party_memory else None
     attacker_stats = party_to_combatant(party_pokemon, player.types) if party_pokemon else estimate_combatant(player, 'default')
@@ -128,19 +131,26 @@ def analyze_state(state: BattleState, data: ChampionsData | None, party_memory: 
     else:
         speed_notes = [f'기본 스피드 동률 {ps}: 동속/보정/도구 변수 주의', f'상대 내구: {defender_stats.source_label}']
 
-    memo = _build_memo(opponent_risks, player_move_risks, speed_notes)
-    return TacticalReport(player, opponent, opponent_risks[:16], player_move_risks, speed_notes, memo, True, attacker_stats.spe, defender_stats.spe, defender_stats.source_label)
+    opponent_attacker = estimate_combatant(opponent, state.opponent_profile)
+    player_defender = attacker_stats
+    party_pokemon_models = [data.get_pokemon(p.pokemon_id) for p in party_memory.party] if party_memory else []
+    opponent_threats = score_opponent_threats(
+        opponent=opponent,
+        player=player,
+        opponent_attacker=opponent_attacker,
+        player_defender=player_defender,
+        state=state,
+        player_party=[p for p in party_pokemon_models if p],
+        limit=5,
+    )
+    memo = _build_memo(opponent_threats, player_move_risks, speed_notes)
+    return TacticalReport(player, opponent, opponent_risks[:16], player_move_risks, speed_notes, memo, opponent_threats, True, attacker_stats.spe, defender_stats.spe, defender_stats.source_label, state.mode)
 
 
-def _build_memo(opponent_risks: list[MoveRisk], player_moves: list[MoveRisk], speed_notes: list[str]) -> list[str]:
+def _build_memo(opponent_threats: list[ThreatItem], player_moves: list[MoveRisk], speed_notes: list[str]) -> list[str]:
     memo: list[str] = []
-    names = {r.move.name_ko for r in opponent_risks}
-    if '지진' in names:
-        memo.append('상대 지진 보유 가능')
-    if any('setup' in r.tags for r in opponent_risks):
-        memo.append('랭업 허용 시 다음 턴 위험')
-    if any('speed_control' in r.tags for r in opponent_risks):
-        memo.append('트릭룸/순풍/스피드 조작 변수 확인')
+    for threat in opponent_threats[:3]:
+        memo.append(threat.short)
     if any('fake_out' in r.tags for r in player_moves):
         memo.append('내 속이다로 템포 조절 가능')
     if any('high_risk' in r.tags for r in player_moves):

@@ -9,8 +9,8 @@ def test_tooltip_builder_outputs_short_cards_not_type_calculator():
     report = analyze_state(BattleState(), ChampionsData().load(), load_party_memory('state/party_memory.json'))
     cards = build_tooltips(report)
     joined = '\n'.join(line for card in cards for line in card.lines)
-    assert any(card.title == '전술 메모' for card in cards)
-    assert '상대 지진 보유 가능' in joined
+    assert any(card.title == '위험 패널' for card in cards)
+    assert '지진' in joined
     assert '효과 굉장' not in joined
-    assert '결정력:' in joined
-    assert '상대 내구: 기본 추정' in joined
+    assert '%' in joined
+    assert any(len(card.lines) <= 4 for card in cards if card.title == '한카리아스')
