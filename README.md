@@ -108,6 +108,11 @@ python -m app.main
 
 기본 모드는 상대 카드 최대 4줄, 내 카드 최대 3줄, 기술 카드 최대 3줄, 위험 패널 최대 5줄만 표시합니다. `current_state.json`의 `mode`를 `expanded`로 바꾸면 근거 줄을 조금 더 보여주되 카드 길이 제한을 유지합니다.
 
+
+## 캡처 대상 창/프로세스 선택
+
+화면 인식이 기본 target title로 잘 잡히지 않으면 `F11`을 눌러 현재 보이는 Windows 창 목록에서 LDPlayer/게임 창을 직접 선택합니다. 선택한 창의 제목, 프로세스명, 마지막 HWND는 `state/target_window.json`에 저장되고 이후 F6/F7 파티 스캔은 선택된 프로세스/창을 우선 캡처합니다. 이 기능은 Windows 창 관리자에 노출되는 창 제목/프로세스명/위치만 사용하며 게임 메모리나 프로세스 내부 데이터에는 접근하지 않습니다.
+
 ## 파티 화면 OCR 스캔 플로우
 
 파티 정보 화면은 두 탭을 슬롯 번호 기준으로 따로 읽은 뒤 pending 결과에서 병합합니다.
@@ -146,7 +151,7 @@ OCR은 `app/vision/status_screen_reader.py`가 담당하고, ROI는 `app/vision/
 - `F8`: 오버레이 표시/숨김
 - `F9`: click-through on/off
 - `F10`: `current_state.json` reload
-- `F11`: target window 다시 찾기
+- `F11`: 실행 중인 창/프로세스 목록에서 LDPlayer 또는 게임 창 선택
 - `F12`: pending scan result를 party_memory.json에 확정 반영
 - `ESC`: demo mode 종료
 

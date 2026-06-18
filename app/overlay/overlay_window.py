@@ -5,16 +5,18 @@ from pathlib import Path
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QApplication, QLabel, QVBoxLayout, QWidget
 
-from app.config import DATA_DIR, DEFAULT_TARGET_WINDOW_TITLE, PARTY_MEMORY_FILE, PENDING_SCAN_FILE, STATE_FILE
+from app.config import DATA_DIR, DEFAULT_TARGET_WINDOW_TITLE, PARTY_MEMORY_FILE, PENDING_SCAN_FILE, STATE_FILE, TARGET_WINDOW_FILE
 from app.data.data_loader import ChampionsData, DataLoadError
 from app.data.tactical_analyzer import analyze_state
 from app.data.tooltip_builder import build_tooltips
 from app.state.current_state import load_current_state
 from app.state.party_memory import load_party_memory
 from app.state.pending_scan_result import confirm_pending_scan
+from app.state.target_window import TargetWindowConfig, load_target_window, save_target_window
 from app.capture.screen_capture import capture_window_or_fullscreen
 from app.vision.status_screen_reader import StatusScreenReader
 from .hotkeys import bind_hotkeys
+from .window_selector import WindowSelectorDialog
 from .layout import rebuild_cards
 from .window_tracker import TrackedWindow
 
@@ -26,7 +28,10 @@ class TacticalOverlayWindow(QWidget):
         super().__init__()
         self.state_path = state_path
         self.click_through = False
-        self.tracker = TrackedWindow(target_window_title)
+        self.target_config = load_target_window(TARGET_WINDOW_FILE)
+        if self.target_config.title_keyword == 'Pokémon Champions' and target_window_title != DEFAULT_TARGET_WINDOW_TITLE:
+            self.target_config.title_keyword = target_window_title
+        self.tracker = TrackedWindow(self.target_config.title_keyword, self.target_config.process_name)
         self.data = self._load_data()
         self.party_memory = load_party_memory(PARTY_MEMORY_FILE)
         self.status_reader = StatusScreenReader(self.data)
@@ -39,7 +44,7 @@ class TacticalOverlayWindow(QWidget):
 
         self.layout = QVBoxLayout(self)
         self.layout.setContentsMargins(8, 8, 8, 8)
-        self.status = QLabel('F6 능력스캔 · F7 스탯스캔 · F8 숨김 · F9 클릭통과 · F10 reload · F11 창찾기 · F12 확정 · ESC 종료')
+        self.status = QLabel('F6 능력스캔 · F7 스탯스캔 · F8 숨김 · F9 클릭통과 · F10 reload · F11 창/프로세스 선택 · F12 확정 · ESC 종료')
         self.status.setStyleSheet('color: #eeeeee; background: rgba(0,0,0,120); padding: 4px; border-radius: 6px;')
         self.layout.addWidget(self.status)
 
@@ -48,7 +53,7 @@ class TacticalOverlayWindow(QWidget):
             toggle_visible=self.toggle_overlay_visible,
             toggle_click_through=self.toggle_click_through,
             reload_state=self.reload_state,
-            refind_window=self.refind_window,
+            refind_window=self.open_window_selector,
             quit_demo=QApplication.instance().quit,
             scan_ability=lambda: self.scan_party_screen('ability'),
             scan_status=lambda: self.scan_party_screen('status'),
@@ -85,7 +90,23 @@ class TacticalOverlayWindow(QWidget):
         window = self.tracker.refind()
         x, y = self.tracker.overlay_position()
         self.move(x, y)
-        self.status.setText(('창 추적 ON: ' + window.title) if window else 'DEMO: 대상 창 없음 · F11 재탐색')
+        self.status.setText(('창 추적 ON: ' + window.title) if window else 'DEMO: 대상 창 없음 · F11 선택')
+
+
+    def open_window_selector(self) -> None:
+        dialog = WindowSelectorDialog(self)
+        if dialog.exec() and dialog.selected_window:
+            selected = dialog.selected_window
+            self.tracker.set_selected(selected)
+            self.target_config = TargetWindowConfig(
+                title_keyword=selected.title,
+                process_name=selected.process_name,
+                last_hwnd=selected.hwnd,
+                last_title=selected.title,
+            )
+            save_target_window(TARGET_WINDOW_FILE, self.target_config)
+            self.refind_window()
+            self.status.setText(f'캡처 대상 선택: {selected.process_name or "unknown"} · {selected.title}')
 
     def toggle_overlay_visible(self) -> None:
         self.setVisible(not self.isVisible())
@@ -100,7 +121,7 @@ class TacticalOverlayWindow(QWidget):
     def scan_party_screen(self, mode: str) -> None:
         tmp = self.state_path.parent / f'_party_scan_{mode}.png'
         try:
-            capture_window_or_fullscreen(title_keyword=self.tracker.title_keyword, output=tmp)
+            capture_window_or_fullscreen(title_keyword=self.tracker.title_keyword, process_name=self.tracker.process_name, output=tmp)
             pending = self.status_reader.scan_to_pending(tmp, mode, PENDING_SCAN_FILE)
             self.status.setText(f'{mode} 스캔 pending 저장: {len(pending.slots)}슬롯 · F12 확정')
         except Exception as exc:
