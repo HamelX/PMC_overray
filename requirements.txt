@@ -5,3 +5,4 @@ opencv-python>=4.9
 pytest>=8.0
 pywin32>=306; platform_system == "Windows"
 psutil>=5.9
+pytesseract>=0.3.10

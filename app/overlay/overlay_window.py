@@ -5,12 +5,15 @@ from pathlib import Path
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QApplication, QLabel, QVBoxLayout, QWidget
 
-from app.config import DATA_DIR, DEFAULT_TARGET_WINDOW_TITLE, PARTY_MEMORY_FILE, STATE_FILE
+from app.config import DATA_DIR, DEFAULT_TARGET_WINDOW_TITLE, PARTY_MEMORY_FILE, PENDING_SCAN_FILE, STATE_FILE
 from app.data.data_loader import ChampionsData, DataLoadError
 from app.data.tactical_analyzer import analyze_state
 from app.data.tooltip_builder import build_tooltips
 from app.state.current_state import load_current_state
 from app.state.party_memory import load_party_memory
+from app.state.pending_scan_result import confirm_pending_scan
+from app.capture.screen_capture import capture_window_or_fullscreen
+from app.vision.status_screen_reader import StatusScreenReader
 from .hotkeys import bind_hotkeys
 from .layout import rebuild_cards
 from .window_tracker import TrackedWindow
@@ -26,6 +29,7 @@ class TacticalOverlayWindow(QWidget):
         self.tracker = TrackedWindow(target_window_title)
         self.data = self._load_data()
         self.party_memory = load_party_memory(PARTY_MEMORY_FILE)
+        self.status_reader = StatusScreenReader(self.data)
 
         self.setWindowTitle('Pokémon Champions 전술 툴팁 HUD')
         self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint | Qt.Tool)
@@ -35,7 +39,7 @@ class TacticalOverlayWindow(QWidget):
 
         self.layout = QVBoxLayout(self)
         self.layout.setContentsMargins(8, 8, 8, 8)
-        self.status = QLabel('F8 숨김 · F9 클릭통과 · F10 reload · F11 창찾기 · ESC 종료')
+        self.status = QLabel('F6 능력스캔 · F7 스탯스캔 · F8 숨김 · F9 클릭통과 · F10 reload · F11 창찾기 · F12 확정 · ESC 종료')
         self.status.setStyleSheet('color: #eeeeee; background: rgba(0,0,0,120); padding: 4px; border-radius: 6px;')
         self.layout.addWidget(self.status)
 
@@ -46,6 +50,9 @@ class TacticalOverlayWindow(QWidget):
             reload_state=self.reload_state,
             refind_window=self.refind_window,
             quit_demo=QApplication.instance().quit,
+            scan_ability=lambda: self.scan_party_screen('ability'),
+            scan_status=lambda: self.scan_party_screen('status'),
+            confirm_pending=self.confirm_pending_scan,
         )
         self.refind_window()
         self.reload_state()
@@ -89,3 +96,20 @@ class TacticalOverlayWindow(QWidget):
         self.setWindowFlag(Qt.WindowTransparentForInput, self.click_through)
         self.show()
         self.status.setText(('클릭 통과 ON' if self.click_through else '클릭 통과 OFF') + ' · F10 reload')
+
+    def scan_party_screen(self, mode: str) -> None:
+        tmp = self.state_path.parent / f'_party_scan_{mode}.png'
+        try:
+            capture_window_or_fullscreen(title_keyword=self.tracker.title_keyword, output=tmp)
+            pending = self.status_reader.scan_to_pending(tmp, mode, PENDING_SCAN_FILE)
+            self.status.setText(f'{mode} 스캔 pending 저장: {len(pending.slots)}슬롯 · F12 확정')
+        except Exception as exc:
+            self.status.setText(f'{mode} 스캔 실패: {exc}')
+
+    def confirm_pending_scan(self) -> None:
+        try:
+            self.party_memory = confirm_pending_scan(PENDING_SCAN_FILE, PARTY_MEMORY_FILE)
+            self.reload_state()
+            self.status.setText('pending scan result를 party_memory.json에 반영했습니다')
+        except Exception as exc:
+            self.status.setText(f'pending 확정 실패: {exc}')

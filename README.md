@@ -55,7 +55,7 @@ python -m app.main
 
 ## 내 파티 실능력치 기억
 
-내 파티의 실능력치는 `state/party_memory.json`에 저장합니다. 처음부터 OCR로 확정하지 않고, 수동 입력 또는 JSON 편집으로 등록하는 구조입니다. 이후 스테이터스 화면 OCR 결과는 바로 확정하지 않고 `state/pending_scan_result.json`에 저장한 뒤 사용자가 확인/수정해 반영하는 흐름을 준비했습니다.
+내 파티의 실능력치는 `state/party_memory.json`에 저장합니다. 처음부터 OCR로 확정하지 않고, 수동 입력 또는 JSON 편집으로 등록하는 구조입니다. 이후 스테이터스 화면 OCR 결과는 바로 확정하지 않고 `state/pending_scan_result.json`에 저장한 뒤 사용자가 확인/수정해 반영합니다. 파티 정보 화면은 전체 화면 OCR이 아니라 734x429 기준 비율 ROI를 현재 LDPlayer 창 크기에 맞춰 crop하는 방식입니다.
 
 ```json
 {
@@ -82,6 +82,24 @@ python -m app.main
 }
 ```
 
+
+## 파티 화면 OCR 스캔 플로우
+
+파티 정보 화면은 두 탭을 슬롯 번호 기준으로 따로 읽은 뒤 pending 결과에서 병합합니다.
+
+- `F6`: 현재 LDPlayer/대상 창 화면을 **능력 탭**으로 스캔해 이름, 특성, 도구, 기술 4개를 읽고 `state/pending_scan_result.json`에 저장
+- `F7`: 현재 화면을 **스테이터스 탭**으로 스캔해 이름, HP, 공격, 방어, 특수공격, 특수방어, 스피드를 읽고 pending에 병합
+- `F12`: 사용자가 pending 결과를 확인한 뒤 `state/party_memory.json`에 확정 반영
+
+OCR은 `app/vision/status_screen_reader.py`가 담당하고, ROI는 `app/vision/roi_profile.py`에 734x429 기준 비율 좌표로 저장되어 있습니다. 한글 OCR과 숫자 OCR은 `app/vision/ocr_engine.py`에서 분리 처리하고, 데이터팩 기준 보정은 `app/vision/fuzzy_matcher.py`가 수행합니다. `pytesseract` 또는 로컬 Tesseract OCR 엔진이 없거나 OCR이 실패하면 빈 결과와 경고를 pending에 남기며, party_memory에는 자동 확정하지 않습니다.
+
+보정 기준은 다음과 같습니다.
+
+- 포켓몬명: `14_POKEMON_INDEX_FULL_CLEAN.csv`
+- 기술명: `13_POKEMON_MOVES_OPGG_VERIFIED_KO_FULL.csv`
+- 도구명: `16_ITEMS_FULL_CLEAN.csv`
+- 특성명: `17_ABILITIES_FULL_CLEAN.csv`
+
 ## 결정력/타수 계산
 
 `app/damage/` 아래에 피해 계산 구조를 추가했습니다. 계산은 표준 포켓몬식 구조를 따르며, 보정은 `DamageModifier` 리스트로 쌓아 이후 특성/도구/날씨/필드/랭크/더블 보정을 확장하기 쉽게 했습니다. 상대 실능력치를 모르면 `opponent_profile`에 따라 `default`, `bulky`, `offensive`, `unknown` 추정값을 사용하고 툴팁에 `상대 내구: 기본 추정`처럼 표시합니다.
@@ -98,10 +116,13 @@ python -m app.main
 
 ## 핫키
 
+- `F6`: 현재 화면을 능력 탭으로 스캔
+- `F7`: 현재 화면을 스테이터스 탭으로 스캔
 - `F8`: 오버레이 표시/숨김
 - `F9`: click-through on/off
 - `F10`: `current_state.json` reload
 - `F11`: target window 다시 찾기
+- `F12`: pending scan result를 party_memory.json에 확정 반영
 - `ESC`: demo mode 종료
 
 ## 툴팁 카드
