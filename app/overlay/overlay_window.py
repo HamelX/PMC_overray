@@ -5,11 +5,12 @@ from pathlib import Path
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QApplication, QLabel, QVBoxLayout, QWidget
 
-from app.config import DATA_DIR, DEFAULT_TARGET_WINDOW_TITLE, STATE_FILE
+from app.config import DATA_DIR, DEFAULT_TARGET_WINDOW_TITLE, PARTY_MEMORY_FILE, STATE_FILE
 from app.data.data_loader import ChampionsData, DataLoadError
 from app.data.tactical_analyzer import analyze_state
 from app.data.tooltip_builder import build_tooltips
 from app.state.current_state import load_current_state
+from app.state.party_memory import load_party_memory
 from .hotkeys import bind_hotkeys
 from .layout import rebuild_cards
 from .window_tracker import TrackedWindow
@@ -24,6 +25,7 @@ class TacticalOverlayWindow(QWidget):
         self.click_through = False
         self.tracker = TrackedWindow(target_window_title)
         self.data = self._load_data()
+        self.party_memory = load_party_memory(PARTY_MEMORY_FILE)
 
         self.setWindowTitle('Pokémon Champions 전술 툴팁 HUD')
         self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint | Qt.Tool)
@@ -56,7 +58,8 @@ class TacticalOverlayWindow(QWidget):
 
     def reload_state(self) -> None:
         state = load_current_state(self.state_path)
-        report = analyze_state(state, self.data)
+        self.party_memory = load_party_memory(PARTY_MEMORY_FILE)
+        report = analyze_state(state, self.data, self.party_memory)
         cards = build_tooltips(report)
         # status 라벨은 유지하고 카드만 다시 구성한다.
         while self.layout.count() > 1:

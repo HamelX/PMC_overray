@@ -3,9 +3,12 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 
 from app.state.current_state import BattleState
+from app.state.party_memory import PartyMemory
 from .data_loader import ChampionsData, Move, Pokemon
 from .move_classifier import ClassifiedMove, classify_move, classify_moves
 from .type_chart import effectiveness
+from app.damage.damage_calculator import calculate_damage
+from app.damage.damage_models import DamageContext, DamageResult, estimate_combatant, party_to_combatant
 
 TAG_LABELS = {
     'protect': '방어', 'fake_out': '속이다', 'priority': '선공기', 'setup': '랭업',
@@ -19,6 +22,7 @@ class MoveRisk:
     move: Move
     tags: frozenset[str]
     notes: list[str] = field(default_factory=list)
+    damage: DamageResult | None = None
 
 @dataclass
 class TacticalReport:
@@ -29,6 +33,9 @@ class TacticalReport:
     speed_notes: list[str]
     memo: list[str]
     data_available: bool = True
+    player_speed: int = 0
+    opponent_speed: int = 0
+    opponent_bulk_label: str = '추정'
 
 
 def _find_move_by_name(data: ChampionsData, name: str) -> Move | None:
@@ -70,7 +77,7 @@ def _risk_notes_for_move(move: Move, tags: frozenset[str], target: Pokemon | Non
     return notes
 
 
-def analyze_state(state: BattleState, data: ChampionsData | None) -> TacticalReport:
+def analyze_state(state: BattleState, data: ChampionsData | None, party_memory: PartyMemory | None = None) -> TacticalReport:
     if not data or not data.pokemon:
         return TacticalReport(None, None, [], [], ['데이터팩 없음: demo tooltip만 표시'], ['state/current_state.json은 읽었지만 데이터 기반 판단은 비활성'], False)
 
@@ -88,6 +95,10 @@ def analyze_state(state: BattleState, data: ChampionsData | None) -> TacticalRep
 
     opponent_risks.sort(key=lambda r: (0 if r.move.name_ko in {'지진', '칼춤'} else 1 if r.tags & important_tags else 2, r.move.name_ko))
 
+    party_pokemon = party_memory.find(player.id) if party_memory else None
+    attacker_stats = party_to_combatant(party_pokemon, player.types) if party_pokemon else estimate_combatant(player, 'default')
+    defender_stats = estimate_combatant(opponent, state.opponent_profile)
+
     player_move_risks: list[MoveRisk] = []
     for name in state.player_moves:
         move = _find_move_by_name(data, name)
@@ -96,20 +107,29 @@ def analyze_state(state: BattleState, data: ChampionsData | None) -> TacticalRep
             notes = _risk_notes_for_move(move, tags, opponent)
             if not notes:
                 notes.append('단순 배율보다 상대 교체/방어/특성 변수를 확인')
-            player_move_risks.append(MoveRisk(move, tags, notes))
+            damage = calculate_damage(DamageContext(
+                attacker=attacker_stats,
+                defender=defender_stats,
+                move=move,
+                field=state.field,
+                attacker_boosts=state.boosts.player,
+                defender_boosts=state.boosts.opponent,
+                battle_format=state.field.battle_format,
+            ))
+            player_move_risks.append(MoveRisk(move, tags, notes, damage))
 
-    ps, os = player.stats.get('spe', 0), opponent.stats.get('spe', 0)
+    ps, os = attacker_stats.spe, defender_stats.spe
     if state.field.trick_room:
-        speed_notes = [f'트릭룸 ON: 기본 스피드 {ps} vs {os}, 느린 쪽 우선 가능']
+        speed_notes = [f'트릭룸 ON: 기본 스피드 {ps} vs {os}, 느린 쪽 우선 가능', f'상대 내구: {defender_stats.source_label}']
     elif ps > os:
-        speed_notes = [f'기본 스피드 {player.name_ko} {ps} > {opponent.name_ko} {os}', '스카프/순풍/선공기 변수는 별도 주의']
+        speed_notes = [f'기본 스피드 {player.name_ko} {ps} > {opponent.name_ko} {os}', '스카프/순풍/선공기 변수는 별도 주의', f'상대 내구: {defender_stats.source_label}']
     elif ps < os:
-        speed_notes = [f'기본 스피드 {player.name_ko} {ps} < {opponent.name_ko} {os}', '속이다/방어/선공기 등 템포 수단 확인']
+        speed_notes = [f'기본 스피드 {player.name_ko} {ps} < {opponent.name_ko} {os}', '속이다/방어/선공기 등 템포 수단 확인', f'상대 내구: {defender_stats.source_label}']
     else:
-        speed_notes = [f'기본 스피드 동률 {ps}: 동속/보정/도구 변수 주의']
+        speed_notes = [f'기본 스피드 동률 {ps}: 동속/보정/도구 변수 주의', f'상대 내구: {defender_stats.source_label}']
 
     memo = _build_memo(opponent_risks, player_move_risks, speed_notes)
-    return TacticalReport(player, opponent, opponent_risks[:16], player_move_risks, speed_notes, memo, True)
+    return TacticalReport(player, opponent, opponent_risks[:16], player_move_risks, speed_notes, memo, True, attacker_stats.spe, defender_stats.spe, defender_stats.source_label)
 
 
 def _build_memo(opponent_risks: list[MoveRisk], player_moves: list[MoveRisk], speed_notes: list[str]) -> list[str]:
