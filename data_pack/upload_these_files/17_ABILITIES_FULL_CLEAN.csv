@@ -1,0 +1,313 @@
+﻿ability_id,numeric_id,ability_name_ko,ability_name_en_or_raw,description_ko,pokemon_count,is_new,source
+rks-system,225,AR시스템,RKS System,지니고 있는 메모리로 자신의 타입이 변한다.,0,,opgg_rsc_abilities_list
+drought,70,가뭄,Drought,등장 시 날씨를 맑음으로 변경,3,,opgg_rsc_abilities_list
+speed-boost,3,가속,Speed Boost,매 턴 스피드 상승,6,,opgg_rsc_abilities_list
+lingering-aroma,268,가시지않는향기,Lingering Aroma,접촉한 상대의 특성을 자신과 동일하게 변경,0,,opgg_rsc_abilities_list
+tangled-feet,77,갈지자걸음,Tangled Feet,혼란 상태일 때 회피율 증가,2,,opgg_rsc_abilities_list
+supersweet-syrup,300,감미로운꿀,Supersweet Syrup,등장 시 상대의 회피율을 1랭크 하락,1,,opgg_rsc_abilities_list
+steelworker,200,강철술사,Steelworker,강철 타입 기술 위력 1.5배 증가,0,,opgg_rsc_abilities_list
+steely-spirit,252,강철정신,Steely Spirit,같은 편의 강철 타입 공격 위력 증가,0,,opgg_rsc_abilities_list
+arena-trap,71,개미지옥,Arena Trap,상대를 도망칠 수 없게 봉쇄,0,,opgg_rsc_abilities_list
+dry-skin,87,건조피부,Dry Skin,"물 공격 회복, 불 공격 피해 증가",2,,opgg_rsc_abilities_list
+truant,54,게으름,Truant,2턴에 1턴만 행동,0,,opgg_rsc_abilities_list
+protosynthesis,281,고대활성,Protosynthesis,부스트에너지 또는 맑음 날씨에서 최고 능력 상승,0,,opgg_rsc_abilities_list
+unburden,84,곡예,Unburden,도구 소모 시 스피드 2배 증가,5,,opgg_rsc_abilities_list
+symbiosis,180,공생,Symbiosis,같은 편이 도구 사용 시 자신의 도구 전달,3,,opgg_rsc_abilities_list
+power-of-alchemy,223,과학의힘,Power of Alchemy,쓰러진 같은 편의 특성을 이어받는다,0,,opgg_rsc_abilities_list
+piercing-drill,10061,관통드릴,Piercing Drill,접촉 기술을 사용할 때 방어 중인 상대에게도 명중하여 원래 데미지의 1/4을 입힌다.,1,0,opgg_rsc_abilities_list
+hyper-cutter,52,괴력집게,Hyper Cutter,공격 랭크 하락 무시,4,,opgg_rsc_abilities_list
+imposter,150,괴짜,Imposter,상대로 변신,1,,opgg_rsc_abilities_list
+stalwart,242,굳건한신념,Stalwart,어그로 기술 영향 무시,2,,opgg_rsc_abilities_list
+mycelium-might,298,균사의힘,Mycelium Might,변화기 사용 시 느려지지만 상대 특성 무시,0,,opgg_rsc_abilities_list
+gulp-missile,241,그대로꿀꺽미사일,Gulp Missile,"물 속성 기술 후 먹이 회수, 피해 시 반격",0,,opgg_rsc_abilities_list
+grassy-surge,229,그래스메이커,Grassy Surge,등장 시 그래스필드 발동,0,,opgg_rsc_abilities_list
+shadow-tag,23,그림자밟기,Shadow Tag,상대 교체 봉쇄,1,,opgg_rsc_abilities_list
+guts,62,근성,Guts,상태이상 시 공격 50% 상승,5,,opgg_rsc_abilities_list
+torrent,67,급류,Torrent,HP 1/3 이하일 때 물 공격 1.5배,10,,opgg_rsc_abilities_list
+curious-medicine,261,기묘한약,Curious Medicine,등장 시 같은 편 능력 변화 초기화,1,,opgg_rsc_abilities_list
+forecast,59,기분파,Forecast,날씨에 따라 타입 변경,1,,opgg_rsc_abilities_list
+unnerve,127,긴장감,Unnerve,상대의 나무열매 사용 불가,7,,opgg_rsc_abilities_list
+rough-skin,24,까칠한피부,Rough Skin,접촉 공격 받을 시 상대 피해 1/8,2,,opgg_rsc_abilities_list
+weak-armor,133,깨어진갑옷,Weak Armor,"물리 공격 시 방어 하락, 스피드 상승",6,,opgg_rsc_abilities_list
+hunger-switch,258,꼬르륵스위치,Hunger Switch,턴마다 모양 변경,1,,opgg_rsc_abilities_list
+water-compaction,195,꾸덕꾸덕굳기,Water Compaction,물 공격 시 방어 2랭크 상승,0,,opgg_rsc_abilities_list
+honey-gather,118,꿀모으기,Honey Gather,배틀 후 달콤한꿀 획득 가능,0,,opgg_rsc_abilities_list
+desolate-land,190,끝의대지,Desolate Land,매우 강한 햇살로 물 공격 무효화,0,,opgg_rsc_abilities_list
+pickpocket,124,나쁜손버릇,Pickpocket,자신에게 접촉한 상대의 도구를 훔친다,4,,opgg_rsc_abilities_list
+bad-dreams,123,나이트메어,Bad Dreams,잠듦 상태의 상대에게 데미지를 준다,0,,opgg_rsc_abilities_list
+cloud-nine,13,날씨부정,Cloud Nine,모든 날씨의 영향이 없어진다,2,,opgg_rsc_abilities_list
+keen-eye,51,날카로운눈,Keen Eye,명중률이 떨어지지 않는다,10,,opgg_rsc_abilities_list
+heatproof,85,내열,Heatproof,불꽃타입 공격의 데미지를 반감한다,1,,opgg_rsc_abilities_list
+innards-out,215,내용물분출,Innards Out,상대에게 쓰러졌을 때 남은 HP만큼 상대에게 데미지를 준다,1,,opgg_rsc_abilities_list
+seed-sower,269,넘치는씨,Seed Sower,공격을 받으면 필드를 그래스필드로 만든다,0,,opgg_rsc_abilities_list
+no-guard,99,노가드,No Guard,서로가 사용하는 기술이 반드시 맞게 된다,6,,opgg_rsc_abilities_list
+well-baked-body,273,노릇노릇바디,Well-Baked Body,불꽃타입 기술로 공격받으면 데미지 없이 방어가 크게 올라간다,0,,opgg_rsc_abilities_list
+normalize,96,노말스킨,Normalize,사용하는 기술의 타입이 모두 노말타입이 되며 위력이 증가한다,0,,opgg_rsc_abilities_list
+snow-cloak,81,눈숨기,Snow Cloak,날씨가 눈일 때 회피율이 올라간다,5,,opgg_rsc_abilities_list
+slush-rush,202,눈치우기,Slush Rush,날씨가 눈일 때 스피드가 올라간다,1,,opgg_rsc_abilities_list
+snow-warning,117,눈퍼뜨리기,Snow Warning,등장했을 때 날씨를 눈으로 만든다,6,,opgg_rsc_abilities_list
+download,88,다운로드,Download,상대의 방어와 특방을 비교해 낮은 쪽에 맞춰 자신의 공격 또는 특공 상승,0,,opgg_rsc_abilities_list
+dark-aura,186,다크오라,Dark Aura,전원의 악타입 기술 위력 증가 (1.33배),0,,opgg_rsc_abilities_list
+tough-claws,181,단단한발톱,Tough Claws,접촉 기술의 위력이 1.3배가 된다,6,,opgg_rsc_abilities_list
+simple,86,단순,Simple,능력 변화가 2배,0,,opgg_rsc_abilities_list
+zen-mode,161,달마모드,Zen Mode,HP 절반 이하 시 모습 변화,0,,opgg_rsc_abilities_list
+super-luck,105,대운,Super Luck,급소 확률 상승,1,,opgg_rsc_abilities_list
+hospitality,301,대접,Hospitality,등장 시 같은 편 HP 회복,1,,opgg_rsc_abilities_list
+delta-stream,191,델타스트림,Delta Stream,비행타입 약점 없는 날씨 생성,0,,opgg_rsc_abilities_list
+wimp-out,193,도망태세,Wimp Out,HP 절반 시 강제 교체,0,,opgg_rsc_abilities_list
+run-away,50,도주,Run Away,야생 포켓몬으로부터 100% 도주,0,,opgg_rsc_abilities_list
+poison-point,38,독가시,Poison Point,접촉 시 상대 중독 확률 30%,5,,opgg_rsc_abilities_list
+toxic-chain,302,독사슬,Toxic Chain,공격 히트 시 맹독 확률 30%,0,,opgg_rsc_abilities_list
+poison-touch,143,독수,Poison Touch,접촉기 사용 시 상대 중독 확률 30%,3,,opgg_rsc_abilities_list
+toxic-debris,295,독치장,Toxic Debris,물리 기술로 데미지를 받으면 상대 발밑에 독압정을 뿌린다,1,,opgg_rsc_abilities_list
+toxic-boost,137,독폭주,Toxic Boost,중독 상태 시 물리기 위력 1.5배,0,,opgg_rsc_abilities_list
+rock-head,69,돌머리,Rock Head,반동 피해 무시,5,,opgg_rsc_abilities_list
+cud-chew,291,되새김질,Cud Chew,나무열매 중복 사용,4,,opgg_rsc_abilities_list
+thick-fat,47,두꺼운지방,Thick Fat,불꽃·얼음 기술 피해 절감 (0.5배),5,,opgg_rsc_abilities_list
+oblivious,12,둔감,Oblivious,헤롱헤롱·도발·위협 무시,4,,opgg_rsc_abilities_list
+dragonize,10062,드래곤스킨,Dragonize,노말 타입 기술이 드래곤 타입으로 변하고 위력이 20% 상승한다.,1,0,opgg_rsc_abilities_list
+wandering-spirit,254,떠도는영혼,Wandering Spirit,접촉기 공격 시 상대와 특성 교체,1,,opgg_rsc_abilities_list
+light-metal,135,라이트메탈,Light Metal,자신의 무게가 절반이 된다,2,,opgg_rsc_abilities_list
+shields-down,197,리밋실드,Shields Down,HP가 절반 이하로 떨어지면 껍질이 부서지면서 폼 변화,0,,opgg_rsc_abilities_list
+libero,236,리베로,Libero,배틀에 나올 때마다 단 한 번 자신이 사용한 기술과 같은 타입으로 변화한다,0,,opgg_rsc_abilities_list
+receiver,222,리시버,Receiver,쓰러진 같은 편의 특성을 이어받아 같은 특성이 된다,1,,opgg_rsc_abilities_list
+leaf-guard,102,리프가드,Leaf Guard,날씨가 맑을 때는 상태 이상이 되지 않는다,3,,opgg_rsc_abilities_list
+magma-armor,40,마그마의무장,Magma Armor,"얼음 상태 방지, 알 부화 가속",1,,opgg_rsc_abilities_list
+minus,58,마이너스,Minus,플러스/마이너스 특성 포켓몬과 함께 특공 상승,1,,opgg_rsc_abilities_list
+zero-to-hero,278,마이티체인지,Zero to Hero,돌아올 때 마이티폼으로 변신,1,,opgg_rsc_abilities_list
+own-tempo,20,마이페이스,Own Tempo,"혼란 상태 방지, 위협 무시",7,,opgg_rsc_abilities_list
+storm-drain,114,마중물,Storm Drain,"물 기술 흡수, 특공 상승",0,,opgg_rsc_abilities_list
+magician,170,매지션,Magician,공격한 상대의 도구 탈취,2,,opgg_rsc_abilities_list
+magic-guard,98,매직가드,Magic Guard,공격 외 모든 피해 방지,3,,opgg_rsc_abilities_list
+magic-bounce,156,매직미러,Magic Bounce,변화기 반사,5,,opgg_rsc_abilities_list
+blaze,66,맹화,Blaze,HP 1/3 이하 시 불꽃 기술 위력 상승,11,,opgg_rsc_abilities_list
+gluttony,82,먹보,Gluttony,HP 50% 이하에서 나무열매 사용,7,,opgg_rsc_abilities_list
+multiscale,136,멀티스케일,Multiscale,HP 100% 시 받는 피해 50% 감소,2,,opgg_rsc_abilities_list
+multitype,121,멀티타입,Multitype,플레이트/Z크리스탈에 따라 타입 변경,0,,opgg_rsc_abilities_list
+mega-launcher,178,메가런처,Mega Launcher,파동 기술 위력 상승,2,,opgg_rsc_abilities_list
+mega-sol,10063,메가솔라,Mega Sol,쾌청 상태가 아니더라도 쾌청 상태인 것처럼 기술을 사용할 수 있다.,1,0,opgg_rsc_abilities_list
+full-metal-body,230,메탈프로텍트,Full Metal Body,"능력 다운 방지, 무시 불가",0,,opgg_rsc_abilities_list
+immunity,17,면역,Immunity,독 상태 방지,1,,opgg_rsc_abilities_list
+perish-body,253,멸망의바디,Perish Body,접촉 공격 시 3턴 후 양쪽 기절,0,,opgg_rsc_abilities_list
+sand-stream,45,모래날림,Sand Stream,등장 시 모래바람 발동,3,,opgg_rsc_abilities_list
+sand-spit,245,모래뿜기,Sand Spit,공격받으면 모래바람 발동,1,,opgg_rsc_abilities_list
+sand-veil,8,모래숨기,Sand Veil,모래바람 시 회피율 상승,6,,opgg_rsc_abilities_list
+sand-force,159,모래의힘,Sand Force,모래바람 시 암석/땅/강철 기술 위력 상승,4,,opgg_rsc_abilities_list
+sand-rush,146,모래헤치기,Sand Rush,모래바람 시 스피드 2배 상승,3,,opgg_rsc_abilities_list
+defeatist,129,무기력,Defeatist,HP 절반 이하 시 공격/특공 반감,0,,opgg_rsc_abilities_list
+merciless,196,무도한행동,Merciless,독 상태 상대에게 급소 확정 명중,1,,opgg_rsc_abilities_list
+gorilla-tactics,255,무아지경,Gorilla Tactics,"공격 상승, 처음 선택 기술만 사용",0,,opgg_rsc_abilities_list
+dancer,216,무희,Dancer,춤 기술 사용 시 자동으로 따라함,0,,opgg_rsc_abilities_list
+gooey,183,미끈미끈,Gooey,접촉 공격 시 상대 스피드 하락,2,,opgg_rsc_abilities_list
+mummy,152,미라,Mummy,접촉 시 상대 특성을 미라로 변경,1,,opgg_rsc_abilities_list
+wonder-skin,147,미라클스킨,Wonder Skin,변화기 명중률 50% 감소,0,,opgg_rsc_abilities_list
+mirror-armor,240,미러아머,Mirror Armor,능력 다운 효과 반사,1,,opgg_rsc_abilities_list
+misty-surge,228,미스트메이커,Misty Surge,등장 시 미스트필드 발동,0,,opgg_rsc_abilities_list
+wind-rider,274,바람타기,Wind Rider,순풍이 불거나 바람 기술로 공격받으면 데미지를 받지 않고 공격이 올라간다,0,,opgg_rsc_abilities_list
+rocky-payload,276,바위나르기,Rocky Payload,바위타입 기술의 위력이 올라간다,0,,opgg_rsc_abilities_list
+illuminate,35,발광,Illuminate,주변을 밝게 하여 명중률이 떨어지지 않는다,2,,opgg_rsc_abilities_list
+berserk,201,발끈,Berserk,상대의 공격으로 HP가 절반이 되면 특수공격이 올라간다,2,,opgg_rsc_abilities_list
+soundproof,43,방음,Soundproof,소리를 차단하여 소리 기술의 영향을 받지 않는다,3,,opgg_rsc_abilities_list
+overcoat,142,방진,Overcoat,모래바람에 데미지를 받지 않으며 가루나 포자의 영향도 받지 않는다,3,,opgg_rsc_abilities_list
+bulletproof,171,방탄,Bulletproof,상대의 구슬이나 폭탄 등의 기술을 막을 수 있다,3,,opgg_rsc_abilities_list
+screen-cleaner,251,배리어프리,Screen Cleaner,등장했을 때 상대와 같은 편의 벽 효과가 사라진다,1,,opgg_rsc_abilities_list
+scrappy,113,배짱,Scrappy,노말·격투 기술을 고스트타입에게 맞힐 수 있다,4,,opgg_rsc_abilities_list
+battery,217,배터리,Battery,같은 편 특수 기술의 위력을 올린다,0,,opgg_rsc_abilities_list
+stance-change,176,배틀스위치,Stance Change,배틀모드에서 모습이 바뀐다.,1,,opgg_rsc_abilities_list
+chilling-neigh,264,백의울음,Chilling Neigh,상대를 쓰러뜨리면 차가운 울음소리를 내면서 공격이 올라간다.,0,,opgg_rsc_abilities_list
+swarm,68,벌레의알림,Swarm,위급할 때 벌레타입의 위력이 올라간다.,7,,opgg_rsc_abilities_list
+moody,141,변덕쟁이,Moody,능력이 오르락내리락한다.,2,,opgg_rsc_abilities_list
+color-change,16,변색,Color Change,받은 기술의 타입으로 변화한다.,0,,opgg_rsc_abilities_list
+protean,168,변환자재,Protean,사용한 기술과 같은 타입으로 변화한다.,3,,opgg_rsc_abilities_list
+unseen-fist,260,보이지않는주먹,Unseen Fist,상대에게 접촉하는 기술을 사용하면 방어의 효과를 무시하고 공격할 수 있다.,1,,opgg_rsc_abilities_list
+fluffy,218,복슬복슬,Fluffy,상대로부터 받은 접촉하는 기술의 데미지를 반감시키지만 불꽃타입 기술의 데미지는 2배가 된다.,1,,opgg_rsc_abilities_list
+compound-eyes,14,복안,Compound Eyes,기술의 명중률이 올라간다.,1,,opgg_rsc_abilities_list
+cheek-pouch,167,볼주머니,Cheek Pouch,어떤 나무열매라도 먹으면 HP도 회복한다.,4,,opgg_rsc_abilities_list
+ball-fetch,237,볼줍기,Ball Fetch,도구를 지니고 있지 않은 경우 첫 번째로 던져서 실패한 몬스터볼을 주워온다.,0,,opgg_rsc_abilities_list
+corrosion,212,부식,Corrosion,강철타입이나 독타입도 독 상태로 만들 수 있다.,2,,opgg_rsc_abilities_list
+levitate,26,부유,Levitate,땅타입의 기술을 받지 않는다.,11,,opgg_rsc_abilities_list
+parental-bond,185,부자유친,Parental Bond,부모와 자식 2마리가 공격한다.,1,,opgg_rsc_abilities_list
+big-pecks,145,부풀린가슴,Big Pecks,방어를 떨어뜨리는 공격을 받지 않는다.,1,,opgg_rsc_abilities_list
+anger-shell,271,분노의 껍질,Anger Shell,"HP가 절반일 시 방어와 특수방어가 떨어지고 공격과 특수공격, 스피드가 올라간다.",0,,opgg_rsc_abilities_list
+anger-point,83,분노의경혈,Anger Point,급소에 맞으면 공격이 올라간다.,7,,opgg_rsc_abilities_list
+wonder-guard,25,불가사의부적,Wonder Guard,효과가 굉장한 기술밖에 맞지 않는다.,0,,opgg_rsc_abilities_list
+steadfast,80,불굴의마음,Steadfast,풀죽을 때마다 스피드가 올라간다.,4,,opgg_rsc_abilities_list
+dauntless-shield,235,불굴의방패,Dauntless Shield,등장했을 때 방어가 올라간다.,0,,opgg_rsc_abilities_list
+flame-body,49,불꽃몸,Flame Body,접촉한 상대에게 화상을 입힐 때가 있다.,3,,opgg_rsc_abilities_list
+fire-mane,10066,불꽃의갈기,불꽃의갈기,불꽃 타입 기술의 위력이 1.5배가 된다,1,1,opgg_rsc_abilities_list
+insomnia,15,불면,Insomnia,잠듦 상태가 되지 않는다.,7,,opgg_rsc_abilities_list
+intrepid-sword,234,불요의검,Intrepid Sword,등장했을 때 공격이 올라간다.,0,,opgg_rsc_abilities_list
+neuroforce,233,브레인포스,Neuroforce,효과가 굉장한 공격의 위력이 더욱 올라간다.,0,,opgg_rsc_abilities_list
+dazzling,219,비비드바디,Dazzling,상대를 놀라게 해서 이쪽을 향한 선제 기술을 사용할 수 없게 한다.,0,,opgg_rsc_abilities_list
+beast-boost,224,비스트부스트,Beast Boost,상대를 기절시켰을 때 자신의 가장 높은 능력이 올라간다.,0,,opgg_rsc_abilities_list
+commander,279,사령탑,Commander,같은 편에 어써러셔가 있으면 입속에 들어가 지시를 냄,0,,opgg_rsc_abilities_list
+psychic-surge,227,사이코메이커,Psychic Surge,등장했을 때 사이코필드를 생성,0,,opgg_rsc_abilities_list
+tinted-lens,110,색안경,Tinted Lens,반감 기술의 위력을 정상으로 만듦,0,,opgg_rsc_abilities_list
+klutz,103,서투름,Klutz,지닌 도구를 배틀 중 사용할 수 없음,3,,opgg_rsc_abilities_list
+surge-surfer,207,서핑테일,Surge Surfer,일렉트릭필드일 때 스피드 2배,1,,opgg_rsc_abilities_list
+solar-power,94,선파워,Solar Power,"맑은 날씨일 때 특공 1.5배, 매 턴 HP 1/8 감소",3,,opgg_rsc_abilities_list
+soul-heart,220,소울하트,Soul-Heart,포켓몬이 기절할 때마다 특공 1랭크 상승,0,,opgg_rsc_abilities_list
+quick-feet,95,속보,Quick Feet,상태이상 시 스피드 1.5배,1,,opgg_rsc_abilities_list
+cotton-down,238,솜털,Cotton Down,공격 받으면 모든 포켓몬의 스피드 1랭크 감소,0,,opgg_rsc_abilities_list
+water-veil,41,수의베일,Water Veil,화상 상태가 되지 않음,0,,opgg_rsc_abilities_list
+water-bubble,199,수포,Water Bubble,"불꽃 기술 반감, 화상 면역, 물 기술 위력 2배",1,,opgg_rsc_abilities_list
+harvest,139,수확,Harvest,사용한 나무열매를 재생성,1,,opgg_rsc_abilities_list
+ripen,247,숙성,Ripen,나무열매의 효과를 2배로 만듦,2,,opgg_rsc_abilities_list
+pure-power,74,순수한힘,Pure Power,물리 기술의 위력 2배,2,,opgg_rsc_abilities_list
+sniper,97,스나이퍼,Sniper,급소 명중 시 대미지 1.5배 추가,3,,opgg_rsc_abilities_list
+power-construct,211,스웜체인지,Power Construct,HP 절반 이하일 때 퍼펙트폼으로 변화,0,,opgg_rsc_abilities_list
+sweet-veil,175,스위트베일,Sweet Veil,아군이 잠들지 않게 함,3,,opgg_rsc_abilities_list
+aerilate,184,스카이스킨,Aerilate,"노말 기술을 비행 기술로 변경, 위력 1.2배",1,,opgg_rsc_abilities_list
+propeller-tail,239,스크루지느러미,Propeller Tail,상대의 기술 끌어모음 특성 효과 무시,0,,opgg_rsc_abilities_list
+skill-link,92,스킬링크,Skill Link,연속 기술을 항상 최고 횟수로 시전,2,,opgg_rsc_abilities_list
+shadow-shield,231,스펙터가드,Shadow Shield,HP 풀 상태일 때 피해 감소,0,,opgg_rsc_abilities_list
+slow-start,112,슬로스타트,Slow Start,5턴 동안 공격과 스피드 절반,0,,opgg_rsc_abilities_list
+damp,6,습기,Damp,자폭 기술 사용 봉쇄,3,,opgg_rsc_abilities_list
+competitive,172,승기,Competitive,능력 감소 시 특공 2랭크 상승,2,,opgg_rsc_abilities_list
+victory-star,162,승리의별,Victory Star,아군의 명중률 10% 상승,0,,opgg_rsc_abilities_list
+stall,100,시간벌기,Stall,기술 시전 순서가 항상 마지막,1,,opgg_rsc_abilities_list
+primordial-sea,189,시작의바다,Primordial Sea,불꽃타입 공격을 받지 않는 날씨 생성,0,,opgg_rsc_abilities_list
+overgrow,65,심록,Overgrow,HP 1/3 이하일 때 풀 기술 위력 1.5배,10,,opgg_rsc_abilities_list
+contrary,126,심술꾸러기,Contrary,능력 변화가 반대로 적용된다,4,,opgg_rsc_abilities_list
+minds-eye,299,심안,Mind’s Eye,노말/격투 기술이 고스트타입에 효과,0,,opgg_rsc_abilities_list
+synchronize,28,싱크로,Synchronize,상태이상을 상대에게 옮김,5,,opgg_rsc_abilities_list
+swift-swim,33,쓱쓱,Swift Swim,비 올 때 스피드 2배,6,,opgg_rsc_abilities_list
+aroma-veil,165,아로마베일,Aroma Veil,자신과 같은 편으로 향하는 멘탈 공격을 막을 수 있다,2,,opgg_rsc_abilities_list
+ice-body,115,아이스바디,Ice Body,날씨가 눈일 때 HP를 조금씩 회복한다,5,,opgg_rsc_abilities_list
+ice-face,248,아이스페이스,Ice Face,물리공격을 머리의 얼음이 대신 맞아 주지만 모습도 바뀐다,0,,opgg_rsc_abilities_list
+stench,1,악취,Stench,악취를 풍겨서 공격했을 때 상대가 풀죽을 때가 있다,1,,opgg_rsc_abilities_list
+analytic,148,애널라이즈,Analytic,제일 마지막에 기술을 쓰면 기술의 위력이 올라간다,2,,opgg_rsc_abilities_list
+schooling,208,어군,Schooling,HP가 많을 때 무리 지어 강해진다,0,,opgg_rsc_abilities_list
+ice-scales,246,얼음인분,Ice Scales,얼음인분의 보호를 받아 특수공격으로 받는 데미지가 절반이 된다,0,,opgg_rsc_abilities_list
+air-lock,76,에어록,Air Lock,모든 날씨의 영향이 없어진다,0,,opgg_rsc_abilities_list
+queenly-majesty,214,여왕의위엄,Queenly Majesty,상대에게 위압감을 줘서 이쪽을 향한 선제 기술을 사용할 수 없게 한다,1,,opgg_rsc_abilities_list
+thermal-exchange,270,열교환,Thermal Exchange,불꽃타입 기술로 공격받으면 공격이 올라간다,0,,opgg_rsc_abilities_list
+flare-boost,138,열폭주,Flare Boost,화상 상태가 되었을 때 특수 기술의 위력이 올라간다,0,,opgg_rsc_abilities_list
+chlorophyll,34,엽록소,Chlorophyll,날씨가 맑을 때 스피드가 올라간다,7,,opgg_rsc_abilities_list
+sharpness,292,예리함,Sharpness,상대를 베는 기술의 위력이 올라간다,3,,opgg_rsc_abilities_list
+forewarn,108,예지몽,Forewarn,등장했을 때 상대가 지닌 기술을 하나만 간파한다,1,,opgg_rsc_abilities_list
+defiant,128,오기,Defiant,능력이 떨어지면 공격이 2랭크 오른다,5,,opgg_rsc_abilities_list
+aura-break,188,오라브레이크,Aura Break,오라의 효과를 역전시켜 위력을 떨어뜨린다,0,,opgg_rsc_abilities_list
+strong-jaw,173,옹골찬턱,Strong Jaw,턱이 튼튼하여 무는 기술의 위력이 올라간다,3,,opgg_rsc_abilities_list
+sturdy,5,옹골참,Sturdy,HP가 꽉 찼을 때 기술을 받아도 일격에 쓰러지지 않는다,8,,opgg_rsc_abilities_list
+dragons-maw,263,용의턱,Dragon’s Maw,드래곤타입 기술의 위력이 올라간다,0,,opgg_rsc_abilities_list
+sheer-force,125,우격다짐,Sheer Force,기술의 추가 효과가 없어지지만 그만큼 높은 위력으로 기술을 사용할 수 있다,9,,opgg_rsc_abilities_list
+long-reach,203,원격,Long Reach,모든 기술을 상대에게 접촉하지 않고 사용할 수 있다,1,,opgg_rsc_abilities_list
+emergency-exit,194,위기회피,Emergency Exit,HP가 절반이 되면 위험을 회피하기 위해 지닌 포켓몬으로 돌아간다,0,,opgg_rsc_abilities_list
+anticipation,107,위험예지,Anticipation,상대가 지닌 위험한 기술을 감지할 수 있다,2,,opgg_rsc_abilities_list
+intimidate,22,위협,Intimidate,등장 시 상대방 공격을 1랭크 하락시킨다,20,,opgg_rsc_abilities_list
+battle-bond,210,유대변화,Battle Bond,상대를 쓰러뜨리면 트레이너와의 유대감이 깊어져서 능력이 올라간다,0,,opgg_rsc_abilities_list
+limber,7,유연,Limber,유연한 몸으로 인해 마비 상태가 되지 않는다,6,,opgg_rsc_abilities_list
+aftermath,106,유폭,Aftermath,기절했을 때 접촉한 상대에게 데미지를 준다,1,,opgg_rsc_abilities_list
+vital-spirit,72,의기양양,Vital Spirit,의기양양해져서 잠듦 상태가 되지 않는다,2,,opgg_rsc_abilities_list
+hustle,55,의욕,Hustle,자신의 공격이 높아지지만 명중률이 떨어진다,1,,opgg_rsc_abilities_list
+mimicry,250,의태,Mimicry,필드의 상태에 따라 포켓몬의 타입이 바뀐다,1,,opgg_rsc_abilities_list
+marvel-scale,63,이상한비늘,Marvel Scale,상태 이상이 되면 이상한 비늘이 반응해서 방어가 올라간다,1,,opgg_rsc_abilities_list
+reckless,120,이판사판,Reckless,반동 데미지를 받는 기술의 위력이 올라간다,4,,opgg_rsc_abilities_list
+shield-dust,19,인분,Shield Dust,인분에 보호받아 기술의 추가 효과를 받지 않게 된다,1,,opgg_rsc_abilities_list
+electric-surge,226,일렉트릭메이커,Electric Surge,등장했을 때 일렉트릭필드를 사용한다,1,,opgg_rsc_abilities_list
+galvanize,206,일렉트릭스킨,Galvanize,노말타입 기술이 전기타입이 되고 위력이 올라간다,0,,opgg_rsc_abilities_list
+illusion,149,일루전,Illusion,지닌 포켓몬 중 제일 뒤에 있는 포켓몬으로 둔갑하여 상대를 속인다,2,,opgg_rsc_abilities_list
+early-bird,48,일찍기상,Early Bird,잠듦 상태가 되어도 2배 빠르게 깨어날 수 있다,2,,opgg_rsc_abilities_list
+moxie,153,자기과신,Moxie,상대를 쓰러뜨리면 자신감이 붙어서 공격이 올라간다,8,,opgg_rsc_abilities_list
+magnet-pull,42,자력,Magnet Pull,강철타입의 포켓몬을 자력으로 끌어모아 도망칠 수 없게 한다,0,,opgg_rsc_abilities_list
+natural-cure,30,자연회복,Natural Cure,지닌 포켓몬으로 돌아오면 상태 이상이 회복된다,4,,opgg_rsc_abilities_list
+drizzle,2,잔비,Drizzle,등장했을 때 날씨를 비로 만든다,2,,opgg_rsc_abilities_list
+stakeout,198,잠복,Stakeout,교체로 나온 상대에게 2배 데미지로 공격할 수 있다,0,,opgg_rsc_abilities_list
+regenerator,144,재생력,Regenerator,볼에 들어가면 전체 체력의 1/3만큼 회복한다,8,,opgg_rsc_abilities_list
+sword-of-ruin,285,재앙의검,Sword of Ruin,이 특성을 가진 포켓몬을 제외한 모든 포켓몬의 방어를 약하게 만든다,0,,opgg_rsc_abilities_list
+beads-of-ruin,287,재앙의구슬,Beads of Ruin,이 특성을 가진 포켓몬을 제외한 모든 포켓몬의 특수방어를 약하게 만든다,0,,opgg_rsc_abilities_list
+vessel-of-ruin,284,재앙의그릇,Vessel of Ruin,이 특성을 가진 포켓몬을 제외한 모든 포켓몬의 특수공격을 약하게 만든다,0,,opgg_rsc_abilities_list
+tablets-of-ruin,286,재앙의목간,Tablets of Ruin,이 특성을 가진 포켓몬을 제외한 모든 포켓몬의 공격을 약하게 만든다,0,,opgg_rsc_abilities_list
+water-absorb,11,저수,Water Absorb,물타입의 기술로 공격받으면 데미지를 받지 않고 회복한다,3,,opgg_rsc_abilities_list
+cursed-body,130,저주받은바디,Cursed Body,공격을 받으면 상대의 기술을 사슬묶기 상태로 만들 때가 있다,5,,opgg_rsc_abilities_list
+adaptability,91,적응력,Adaptability,자신과 같은 타입인 기술의 위력이 올라간다,6,,opgg_rsc_abilities_list
+electromorphosis,280,전기로바꾸기,Electromorphosis,데미지를 받으면 충전 상태가 된다,1,,opgg_rsc_abilities_list
+motor-drive,78,전기엔진,Motor Drive,전기타입의 기술로 공격받으면 데미지를 받지 않고 스피드가 올라간다,1,,opgg_rsc_abilities_list
+battle-armor,4,전투무장,Battle Armor,단단한 껍질에 보호받아 상대의 공격이 급소에 맞지 않는다,1,,opgg_rsc_abilities_list
+comatose,213,절대안깸,Comatose,항상 비몽사몽 상태로 절대 깨지 않는다,0,,opgg_rsc_abilities_list
+sticky-hold,60,점착,Sticky Hold,점성이 높은 몸에 도구가 달라붙어 있어 상대에게 도구를 뺏기지 않는다,1,,opgg_rsc_abilities_list
+inner-focus,39,정신력,Inner Focus,단련한 정신 덕분에 상대의 공격에 풀죽지 않는다,10,,opgg_rsc_abilities_list
+justified,154,정의의마음,Justified,악타입 공격을 받으면 정의감으로 공격이 올라간다,4,,opgg_rsc_abilities_list
+static,9,정전기,Static,정전기를 몸에 둘러 자신에게 접촉한 상대를 마비시킬 때가 있다,7,,opgg_rsc_abilities_list
+purifying-salt,272,정화의소금,Purifying Salt,깨끗한 소금에 의해 상태 이상이 되지 않는다,1,,opgg_rsc_abilities_list
+rain-dish,44,젖은접시,Rain Dish,비가 오는 날씨일 때 조금씩 HP를 회복한다,2,,opgg_rsc_abilities_list
+teraform-zero,306,제로포밍,Teraform Zero,테라파고스가 스텔라폼이 되었을 때 날씨와 필드의 영향을 무효로 만든다,0,,opgg_rsc_abilities_list
+shell-armor,75,조가비갑옷,Shell Armor,급소에 공격을 맞지 않는다,6,,opgg_rsc_abilities_list
+rattled,155,주눅,Rattled,"악, 고스트, 벌레타입 기술로 공격받거나 위협을 받으면 스피드가 올라간다",0,,opgg_rsc_abilities_list
+steam-engine,243,증기기관,Steam Engine,물타입이나 불꽃타입 기술로 공격받으면 스피드가 매우 크게 올라간다,0,,opgg_rsc_abilities_list
+stamina,192,지구력,Stamina,공격을 받으면 방어가 올라간다,2,,opgg_rsc_abilities_list
+orichalcum-pulse,288,진홍빛고동,Orichalcum Pulse,등장했을 때 날씨를 맑음으로 만든다,0,,opgg_rsc_abilities_list
+gale-wings,177,질풍날개,Gale Wings,HP가 꽉 찼을 때 비행타입의 기술을 먼저 쓸 수 있다,1,,opgg_rsc_abilities_list
+prankster,158,짓궂은마음,Prankster,변화 기술을 먼저 쓸 수 있다,7,,opgg_rsc_abilities_list
+eelevate,10065,천정부지,천정부지,"땅 타입 기술, 압정뿌리기, 독압정, 끈적끈적네트의 효과 대상이 되지 않고 상대를 쓰러뜨리면 가장 높은 능력치가 1랭크 상승한다",1,1,opgg_rsc_abilities_list
+unaware,109,천진,Unaware,상대의 능력 변화를 무시하고 공격할 수 있다,2,,opgg_rsc_abilities_list
+huge-power,37,천하장사,Huge Power,물리공격의 위력이 2배 증가,4,,opgg_rsc_abilities_list
+iron-barbs,160,철가시,Iron Barbs,자신에게 접촉한 상대에게 철가시로 데미지를 준다,0,,opgg_rsc_abilities_list
+iron-fist,89,철주먹,Iron Fist,펀치 기술의 위력이 상승,6,,opgg_rsc_abilities_list
+embody-aspect,303,초상투영,Embody Aspect,테라스탈 시 능력이 오르는 전용 특성,0,,opgg_rsc_abilities_list
+sap-sipper,157,초식,Sap Sipper,풀 타입 기술을 무효화하고 공격 1랭크 상승,6,,opgg_rsc_abilities_list
+hydration,93,촉촉바디,Hydration,비 오는 날씨에 상태이상 회복,2,,opgg_rsc_abilities_list
+liquid-voice,204,촉촉보이스,Liquid Voice,모든 소리 기술이 물 타입으로 변환,1,,opgg_rsc_abilities_list
+supreme-overlord,293,총대장,Supreme Overlord,기절한 동료 수에 따라 공격·특공 상승,1,,opgg_rsc_abilities_list
+volt-absorb,10,축전,Volt Absorb,전기 타입 공격 무효화 및 체력 회복,1,,opgg_rsc_abilities_list
+healer,131,치유의마음,Healer,같은 편의 상태 이상을 가끔 회복시킨다,4,,opgg_rsc_abilities_list
+tangling-hair,221,컬리헤어,Tangling Hair,공격으로 자신에게 접촉한 상대의 스피드를 떨어뜨린다,0,,opgg_rsc_abilities_list
+quark-drive,282,쿼크차지,Quark Drive,부스트에너지를 지니고 있거나 일렉트릭필드일 때 가장 높은 능력이 올라간다,0,,opgg_rsc_abilities_list
+quick-draw,259,퀵드로,Quick Draw,상대보다 먼저 행동할 수도 있다,1,,opgg_rsc_abilities_list
+clear-body,29,클리어바디,Clear Body,상대 기술이나 특성으로 능력이 떨어지지 않는다,3,,opgg_rsc_abilities_list
+flash-fire,18,타오르는불꽃,Flash Fire,"불꽃 기술 공격 무효화, 불꽃 기술 위력 1.5배 증가",9,,opgg_rsc_abilities_list
+disguise,209,탈,Disguise,1회 공격 차단,1,,opgg_rsc_abilities_list
+shed-skin,61,탈피,Shed Skin,매턴 30% 확률로 상태이상 회복,3,,opgg_rsc_abilities_list
+turboblaze,163,터보블레이즈,Turboblaze,상대 특성 무시 공격,0,,opgg_rsc_abilities_list
+teravolt,164,테라볼티지,Teravolt,상대 특성 무시 공격,0,,opgg_rsc_abilities_list
+tera-shell,305,테라셸,Tera Shell,체력 풀일 때 모든 타입 기술 효과 반감,0,,opgg_rsc_abilities_list
+tera-shift,304,테라체인지,Tera Shift,등장시 테라스탈폼 변화,0,,opgg_rsc_abilities_list
+armor-tail,296,테일아머,Armor Tail,상대 선제기 차단,1,,opgg_rsc_abilities_list
+technician,101,테크니션,Technician,위력 60 이하 기술 1.5배 증가,5,,opgg_rsc_abilities_list
+telepathy,140,텔레파시,Telepathy,아군 공격 회피,5,,opgg_rsc_abilities_list
+frisk,119,통찰,Frisk,등장시 상대 소지품 확인,11,,opgg_rsc_abilities_list
+rivalry,79,투쟁심,Rivalry,"같은 성별 위력 1.25배, 다른 성별 0.75배",3,,opgg_rsc_abilities_list
+transistor,262,트랜지스터,Transistor,전기 기술 위력 1.3배 증가,0,,opgg_rsc_abilities_list
+trace,36,트레이스,Trace,등장시 상대 특성 복사,3,,opgg_rsc_abilities_list
+mold-breaker,104,틀깨기,Mold Breaker,상대 특성 무시 공격,11,,opgg_rsc_abilities_list
+infiltrator,151,틈새포착,Infiltrator,벽/대타출동 무시 공격,9,,opgg_rsc_abilities_list
+guard-dog,275,파수견,Guard Dog,위협을 받으면 공격이 올라간다. 포켓몬을 교체시키는 기술이나 도구의 효과를 받지 않는다,0,,opgg_rsc_abilities_list
+pastel-veil,257,파스텔베일,Pastel Veil,자신과 같은 편은 독 상태가 되지 않는다,0,,opgg_rsc_abilities_list
+power-spot,249,파워스폿,Power Spot,옆에 있기만 해도 기술의 위력이 올라간다,0,,opgg_rsc_abilities_list
+fur-coat,169,퍼코트,Fur Coat,상대로부터 받는 물리 기술의 데미지가 절반이 된다,1,,opgg_rsc_abilities_list
+punk-rock,244,펑크록,Punk Rock,소리 기술의 위력이 올라간다. 상대로부터 받는 소리 기술의 데미지는 절반,0,,opgg_rsc_abilities_list
+pixilate,182,페어리스킨,Pixilate,노말타입 기술이 페어리타입이 되고 위력이 올라간다,3,,opgg_rsc_abilities_list
+fairy-aura,187,페어리오라,Fairy Aura,전원의 페어리타입 기술 위력 증가,0,,opgg_rsc_abilities_list
+opportunist,290,편승,Opportunist,상대의 능력이 올라가면 자신도 편승하여 같은 능력이 올라간다,1,,opgg_rsc_abilities_list
+poison-heal,90,포이즌힐,Poison Heal,독 상태일 때 HP를 회복한다,1,,opgg_rsc_abilities_list
+effect-spore,27,포자,Effect Spore,접촉한 상대를 독/마비/잠듦 상태로 만들 때가 있다,2,,opgg_rsc_abilities_list
+grass-pelt,179,풀모피,Grass Pelt,풀타입 기술의 데미지를 절반으로 줄인다,0,,opgg_rsc_abilities_list
+wind-power,277,풍력발전,Wind Power,바람 기술로 공격받으면 충전 상태가 된다,0,,opgg_rsc_abilities_list
+pressure,46,프레셔,Pressure,상대가 사용하는 기술의 PP를 많이 줄인다,7,,opgg_rsc_abilities_list
+friend-guard,132,프렌드가드,Friend Guard,같은 편이 받는 데미지를 줄인다,3,,opgg_rsc_abilities_list
+refrigerate,174,프리즈스킨,Refrigerate,노말타입 기술이 얼음타입이 되고 위력이 올라간다,2,,opgg_rsc_abilities_list
+prism-armor,232,프리즘아머,Prism Armor,효과가 굉장한 기술의 데미지를 줄인다,0,,opgg_rsc_abilities_list
+flower-gift,122,플라워기프트,Flower Gift,맑음일 때 자신과 같은 편의 공격과 특방이 올라간다,0,,opgg_rsc_abilities_list
+flower-veil,166,플라워베일,Flower Veil,같은 편의 풀타입 포켓몬의 능력이 떨어지지 않는다,3,,opgg_rsc_abilities_list
+plus,57,플러스,Plus,플러스/마이너스 특성 포켓몬과 함께 특공 상승,2,,opgg_rsc_abilities_list
+lightning-rod,31,피뢰침,Lightning Rod,전기타입 기술을 끌어모아 무효화하고 특공이 올라간다,5,,opgg_rsc_abilities_list
+pickup,53,픽업,Pickup,배틀 후 도구를 주울 때가 있다,6,,opgg_rsc_abilities_list
+filter,111,필터,Filter,효과가 굉장한 기술의 데미지를 줄인다,1,,opgg_rsc_abilities_list
+serene-grace,32,하늘의은총,Serene Grace,기술의 추가 효과가 나오기 쉽다,0,,opgg_rsc_abilities_list
+solid-rock,116,하드록,Solid Rock,자신이 받는 효과가 굉장한 공격의 위력을 약하게 만든다,2,,opgg_rsc_abilities_list
+hadron-engine,289,하드론엔진,Hadron Engine,등장했을 때 일렉트릭필드를 전개한다,0,,opgg_rsc_abilities_list
+spicy-spray,10064,하바네로분출,Spicy Spray,기술로 데미지를 받으면 공격한 상대에게 화상을 입힌다.,1,0,opgg_rsc_abilities_list
+white-smoke,73,하얀연기,White Smoke,상대가 능력을 떨어뜨리지 못하게 한다,1,,opgg_rsc_abilities_list
+liquid-ooze,64,해감액,Liquid Ooze,해감액을 흡수한 상대는 강렬한 악취로 데미지를 받는다,0,,opgg_rsc_abilities_list
+cute-charm,56,헤롱헤롱바디,Cute Charm,자신에게 접촉한 상대를 헤롱헤롱하게 만들 때가 있다,4,,opgg_rsc_abilities_list
+heavy-metal,134,헤비메탈,Heavy Metal,자신의 무게가 2배가 된다,1,,opgg_rsc_abilities_list
+costar,294,협연,Costar,같은 편의 능력 상승에 편승한다,0,,opgg_rsc_abilities_list
+as-one-glastrier,266,혼연일체,As One,버드렉스의 긴장감과 블리자포스의 백의울음 두 가지 특성을 겸비한다.,0,,opgg_rsc_abilities_list
+as-one-spectrier,267,혼연일체,As One,버드렉스의 긴장감과 레이스포스의 흑의울음 두 가지 특성을 겸비한다.,0,,opgg_rsc_abilities_list
+neutralizing-gas,256,화학변화가스,Neutralizing Gas,모든 포켓몬이 가진 특성의 효과가 사라진다,0,,opgg_rsc_abilities_list
+good-as-gold,283,황금몸,Good as Gold,상대의 변화 기술의 영향을 받지 않는다,1,,opgg_rsc_abilities_list
+grim-neigh,265,흑의울음,Grim Neigh,상대를 쓰러뜨리면 특수공격이 올라간다,0,,opgg_rsc_abilities_list
+earth-eater,297,흙먹기,Earth Eater,땅타입의 기술로 공격받으면 회복한다,1,,opgg_rsc_abilities_list
+suction-cups,21,흡반,Suction Cups,포켓몬을 교체시키는 기술의 효과를 발휘하지 못하게 한다,1,,opgg_rsc_abilities_list
+triage,205,힐링시프트,Triage,회복 기술을 먼저 사용할 수 있다,0,,opgg_rsc_abilities_list

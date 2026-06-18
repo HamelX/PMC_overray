@@ -1,0 +1,2 @@
+﻿pokemon_id,dex_id,pokemon_display_en,pokemon_display_ko,sprite_file_normal,sprite_path_normal,sprite_file_shiny,sprite_path_shiny,sprite_source,match_method,match_confidence,notes
+charizard,6,Charizard,리자몽,Menu CP 0006.png,sprites/champions_menu/normal/Menu CP 0006.png,Menu CP 0006 shiny.png,sprites/champions_menu/shiny/Menu CP 0006 shiny.png,bulbagarden_archives_champions_menu_sprites,dex_exact,example,This is a schema/example file. Run build_sprite_manifest_champions_menu.py to create 19_SPRITE_MANIFEST_CHAMPIONS_MENU.csv

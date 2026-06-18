@@ -1,0 +1,494 @@
+﻿move_id,move_name_en,move_name_ko,ko_status,move_type,move_type_ko,category,category_ko,power,accuracy,pp,priority,target,effect_ko,description_ko,pokemon_count,metadata_source
+accelerock,Accelerock,액셀록,official,rock,바위,physical,물리,40,100,20,1,selected-pokemon,재빠른 스피드로 상대에게 부딪쳐서 공격한다. 반드시 선제공격할 수 있다. (우선도 +1),재빠른 스피드로 상대에게 부딪쳐서 공격한다. 반드시 선제공격할 수 있다. (우선도 +1),2,opgg_metadata
+acid-armor,Acid Armor,녹기,official,poison,독,status,변화,,,,,,,,9,reference_lookup_fill
+acid-spray,Acid Spray,애시드봄,official,poison,독,special,특수,40,100,20,0,selected-pokemon,상대를 녹이는 액체를 토해내서 공격한다. 상대의 특수방어를 2랭크 떨어뜨린다.,상대를 녹이는 액체를 토해내서 공격한다. 상대의 특수방어를 2랭크 떨어뜨린다.,31,opgg_metadata
+acrobatics,Acrobatics,애크러뱃,official,flying,비행,physical,물리,55,100,16,0,selected-pokemon,경쾌하게 상대를 공격한다. 자신이 도구를 지니고 있지 않을 때 큰 데미지를 준다.,경쾌하게 상대를 공격한다. 자신이 도구를 지니고 있지 않을 때 큰 데미지를 준다.,55,opgg_metadata
+acupressure,Acupressure,경혈찌르기,official,normal,노말,status,변화,,,,,,,,7,reference_lookup_fill
+aerial-ace,Aerial Ace,제비반환,official,flying,비행,physical,물리,60,,20,0,selected-pokemon,재빠른 움직임으로 상대를 농락해 벤다. 공격은 반드시 명중한다.,재빠른 움직임으로 상대를 농락해 벤다. 공격은 반드시 명중한다.,94,opgg_metadata
+after-you,After You,당신먼저,official,normal,노말,status,변화,,,,,,,,16,reference_lookup_fill
+agility,Agility,고속이동,official,psychic,에스퍼,status,변화,,,,,,,,95,reference_lookup_fill
+air-cutter,Air Cutter,에어컷터,official,flying,비행,special,특수,60,95,20,0,all-opponents,날카로운 바람으로 상대를 베어 공격한다. 급소에 맞을 확률이 높다.,날카로운 바람으로 상대를 베어 공격한다. 급소에 맞을 확률이 높다.,26,opgg_metadata
+air-slash,Air Slash,에어슬래시,official,flying,비행,special,특수,75,95,16,0,selected-pokemon,하늘까지 베어 가르는 공기의 칼날로 공격한다. 30% 확률로 상대를 풀죽게 만든다.,하늘까지 베어 가르는 공기의 칼날로 공격한다. 30% 확률로 상대를 풀죽게 만든다.,41,opgg_metadata
+alluring-voice,Alluring Voice,매혹의보이스,official,fairy,페어리,special,특수,80.0,100.0,,,,,,33,reference_lookup_fill
+ally-switch,Ally Switch,사이드체인지,official,psychic,에스퍼,status,변화,,,15,2,user,이상한 힘으로 순간이동하여 자신과 같은 편의 위치를 바꾼다. 연속으로 쓰면 실패하기 쉽다.(우선도 +2),이상한 힘으로 순간이동하여 자신과 같은 편의 위치를 바꾼다. 연속으로 쓰면 실패하기 쉽다.(우선도 +2),32,opgg_metadata
+amnesia,Amnesia,망각술,official,psychic,에스퍼,status,변화,,,,,,,,38,reference_lookup_fill
+ancient-power,Ancient Power,원시의힘,official,rock,바위,special,특수,60,100,8,0,selected-pokemon,원시의 힘으로 공격한다. 10% 확률로 자신의 모든 능력이 1랭크 오른다.,원시의 힘으로 공격한다. 10% 확률로 자신의 모든 능력이 1랭크 오른다.,40,opgg_metadata
+apple-acid,Apple Acid,사과산,official,grass,풀,special,특수,80,100,10,0,selected-pokemon,새콤한 사과에서 만들어 낸 산성 액체로 공격한다.상대의 특수방어를 1랭크 떨어뜨린다.,새콤한 사과에서 만들어 낸 산성 액체로 공격한다.상대의 특수방어를 1랭크 떨어뜨린다.,1,opgg_metadata
+aqua-cutter,Aqua Cutter,아쿠아커터,needs_review,water,물,physical,물리,70,100,20,0,selected-pokemon,압력을 가한 물을 칼날처럼 분사해서 상대를 베어 가른다. 급소에 맞기 쉽다.,압력을 가한 물을 칼날처럼 분사해서 상대를 베어 가른다. 급소에 맞기 쉽다.,7,opgg_metadata
+aqua-jet,Aqua Jet,아쿠아제트,official,water,물,physical,물리,40,100,20,1,selected-pokemon,눈에 보이지 않는 굉장한 속도로 상대에게 돌진한다. 반드시 선제 공격을 할 수 있다. (우선도 +1),눈에 보이지 않는 굉장한 속도로 상대에게 돌진한다. 반드시 선제 공격을 할 수 있다. (우선도 +1),23,opgg_metadata
+aqua-ring,Aqua Ring,아쿠아링,official,water,물,status,변화,,,20,0,user,몸 주변을 물로 만든 베일로 덮는다. 매 턴마다 최대 HP의 1/16을 회복한다.,몸 주변을 물로 만든 베일로 덮는다. 매 턴마다 최대 HP의 1/16을 회복한다.,10,opgg_metadata
+aqua-step,Aqua Step,아쿠아스텝,needs_review,water,물,physical,물리,80,100,10,0,selected-pokemon,물 흐르듯 민첩하고 경쾌한 발재간으로 상대를 농락하여 데미지를 준다.자신의 스피드를 1랭크 올린다.,물 흐르듯 민첩하고 경쾌한 발재간으로 상대를 농락하여 데미지를 준다.자신의 스피드를 1랭크 올린다.,1,opgg_metadata
+aqua-tail,Aqua Tail,아쿠아테일,official,water,물,physical,물리,90,90,12,0,selected-pokemon,세차게 날뛰는 거친 파도와 같이 큰 꼬리를 흔들어서 공격한다.,세차게 날뛰는 거친 파도와 같이 큰 꼬리를 흔들어서 공격한다.,25,opgg_metadata
+armor-cannon,Armor Cannon,아머캐논,needs_review,fire,불꽃,special,특수,120,100,5,0,selected-pokemon,자신의 갑옷을 활활 타오르는 탄환으로 발사해서 공격한다. 자신의 방어와 특수방어가 1랭크 떨어진다.,자신의 갑옷을 활활 타오르는 탄환으로 발사해서 공격한다. 자신의 방어와 특수방어가 1랭크 떨어진다.,1,opgg_metadata
+aromatic-mist,Aromatic Mist,아로마미스트,official,fairy,페어리,status,변화,,,20,0,ally,신비한 아로마 향으로 같은 편의 특수방어를 1랭크 올린다.,신비한 아로마 향으로 같은 편의 특수방어를 1랭크 올린다.,5,opgg_metadata
+assurance,Assurance,승부굳히기,official,dark,악,physical,물리,60,100,10,0,selected-pokemon,그 턴에 상대가 이미 데미지를 입었다면 기술의 위력은 2배가 된다.,그 턴에 상대가 이미 데미지를 입었다면 기술의 위력은 2배가 된다.,70,opgg_metadata
+attract,Attract,헤롱헤롱,official,normal,노말,status,변화,,100,15,0,selected-pokemon,수컷은 암컷을 암컷은 수컷을 유혹하여 헤롱헤롱하게 만든다. 상대가 기술을 쓰기 힘들어진다.대상의 성별이 같거나 둔감 특성이면 실패한다.,수컷은 암컷을 암컷은 수컷을 유혹하여 헤롱헤롱하게 만든다. 상대가 기술을 쓰기 힘들어진다.대상의 성별이 같거나 둔감 특성이면 실패한다.,111,opgg_metadata
+aura-sphere,Aura Sphere,파동탄,official,fighting,격투,special,특수,80,,20,0,selected-pokemon,몸 속에서 파동의 힘을 끌어내 쏜다. 공격은 반드시 명중한다.,몸 속에서 파동의 힘을 끌어내 쏜다. 공격은 반드시 명중한다.,23,opgg_metadata
+aura-wheel,Aura Wheel,오라휠,official,electric,전기,physical,물리,110,100,10,0,selected-pokemon,볼주머니에 저장해 둔 에너지로 공격하고 자신의 스피드를 1랭크 올린다.모르페코의 모습에 따라 타입이 바뀐다.,볼주머니에 저장해 둔 에너지로 공격하고 자신의 스피드를 1랭크 올린다.모르페코의 모습에 따라 타입이 바뀐다.,1,opgg_metadata
+aurora-veil,Aurora Veil,오로라베일,official,ice,얼음,status,변화,,,20,0,users-field,5턴 동안 물리와 특수 기술의 데미지를 약하게 한다. 설경일 때만 쓸 수 있다.,5턴 동안 물리와 특수 기술의 데미지를 약하게 한다. 설경일 때만 쓸 수 있다.,9,opgg_metadata
+avalanche,Avalanche,눈사태,official,ice,얼음,physical,물리,60.0,100.0,,,,,,50,reference_lookup_fill
+axe-kick,Axe Kick,발꿈치찍기,manual_official_ko_fix,fighting,격투,physical,물리,120.0,90.0,,,,,,2,reference_lookup_fill
+baby-doll-eyes,Baby-Doll Eyes,초롱초롱눈동자,official,fairy,페어리,status,변화,,100,20,1,selected-pokemon,초롱초롱한 눈동자로 상대를 바라보며 공격을 1랭크 떨어뜨린다. 반드시 선제공격할 수 있다. (우선도 +1),초롱초롱한 눈동자로 상대를 바라보며 공격을 1랭크 떨어뜨린다. 반드시 선제공격할 수 있다. (우선도 +1),23,opgg_metadata
+baneful-bunker,Baneful Bunker,토치카,official,poison,독,status,변화,,,10,4,user,상대의 공격을 막음과 동시에 접촉한 상대에게 독을 퍼뜨린다. (우선도 +4),상대의 공격을 막음과 동시에 접촉한 상대에게 독을 퍼뜨린다. (우선도 +4),1,opgg_metadata
+barb-barrage,Barb Barrage,독침천발,manual_official_ko_fix,poison,독,physical,물리,60.0,100.0,,,,,,2,reference_lookup_fill
+baton-pass,Baton Pass,바톤터치,official,normal,노말,status,변화,,,40,0,user,교대 포켓몬과 교체한다. 능력 변화는 교대 포켓몬이 그대로 이어받는다.,교대 포켓몬과 교체한다. 능력 변화는 교대 포켓몬이 그대로 이어받는다.,61,opgg_metadata
+beak-blast,Beak Blast,부리캐논,official,flying,비행,physical,물리,100,100,15,-3,selected-pokemon,먼저 부리를 가열시킨 다음 (우선도 +5) 공격을 날린다. (우선도 -3)가열 중에 접촉기로 공격하면 화상을 입는다.,먼저 부리를 가열시킨 다음 (우선도 +5) 공격을 날린다. (우선도 -3)가열 중에 접촉기로 공격하면 화상을 입는다.,1,opgg_metadata
+beat-up,Beat Up,집단구타,official,dark,악,physical,물리,,100,10,0,selected-pokemon,같은 편 전원이 공격한다. 동료 포켓몬이 많을수록 기술의 공격 횟수가 증가한다.,같은 편 전원이 공격한다. 동료 포켓몬이 많을수록 기술의 공격 횟수가 증가한다.,27,opgg_metadata
+belch,Belch,트림,official,poison,독,special,특수,120,90,10,0,selected-pokemon,상대를 향해 트림을 하여 데미지를 준다. 나무열매를 먹지 않으면 쓸 수 없다.,상대를 향해 트림을 하여 데미지를 준다. 나무열매를 먹지 않으면 쓸 수 없다.,14,opgg_metadata
+belly-drum,Belly Drum,배북,official,normal,노말,status,변화,,,10,0,user,자신의 HP를 최대 HP의 절반만큼 감소시켜 자신의 공격을 최대로 올린다.,자신의 HP를 최대 HP의 절반만큼 감소시켜 자신의 공격을 최대로 올린다.,12,opgg_metadata
+bind,Bind,조이기,official,normal,노말,physical,물리,15,85,20,0,selected-pokemon,긴 몸이나 덩굴을 써서 4-5턴 동안 상대를 조여 공격한다.,긴 몸이나 덩굴을 써서 4-5턴 동안 상대를 조여 공격한다.,8,opgg_metadata
+bite,Bite,물기,official,dark,악,physical,물리,60.0,100.0,,,,,,86,reference_lookup_fill
+bitter-blade,Bitter Blade,원념의칼,needs_review,fire,불꽃,physical,물리,90,100,10,0,selected-pokemon,현세의 미련을 칼끝에 담아 베어 버린다. 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.,현세의 미련을 칼끝에 담아 베어 버린다. 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.,1,opgg_metadata
+bitter-malice,Bitter Malice,천추지한,needs_review,ghost,고스트,special,특수,75,100,10,0,selected-pokemon,등골이 서늘해지는 원념으로 공격해서 상대의 공격을 1랭크 떨어뜨린다.,등골이 서늘해지는 원념으로 공격해서 상대의 공격을 1랭크 떨어뜨린다.,1,opgg_metadata
+blast-burn,Blast Burn,블러스트번,official,fire,불꽃,special,특수,150,90,5,0,selected-pokemon,폭발하는 불꽃으로 상대를 태워서 공격한다. 사용 후 1턴간 행동할 수 없다.,폭발하는 불꽃으로 상대를 태워서 공격한다. 사용 후 1턴간 행동할 수 없다.,15,opgg_metadata
+blaze-kick,Blaze Kick,브레이즈킥,official,fire,불꽃,physical,물리,85,90,12,0,selected-pokemon,10% 확률로 상대를 화상 상태로 만든다. 급소에 맞을 확률이 높다.,10% 확률로 상대를 화상 상태로 만든다. 급소에 맞을 확률이 높다.,14,opgg_metadata
+blizzard,Blizzard,눈보라,official,ice,얼음,special,특수,110.0,70.0,,,,,,84,reference_lookup_fill
+block,Block,블록,official,normal,노말,status,변화,,,5,0,selected-pokemon,양팔을 벌려 막아서서 상대의 도주로를 가로막아 도망칠 수 없게 한다.,양팔을 벌려 막아서서 상대의 도주로를 가로막아 도망칠 수 없게 한다.,22,opgg_metadata
+body-press,Body Press,바디프레스,official,fighting,격투,physical,물리,80.0,100.0,,,,,,69,reference_lookup_fill
+body-slam,Body Slam,누르기,official,normal,노말,physical,물리,85.0,100.0,,,,,,203,reference_lookup_fill
+bone-rush,Bone Rush,본러쉬,official,ground,땅,physical,물리,25,90,10,0,selected-pokemon,단단한 뼈로 상대를 세게 때려서 공격한다. 2-5회 동안 연속으로 쓴다.,단단한 뼈로 상대를 세게 때려서 공격한다. 2-5회 동안 연속으로 쓴다.,2,opgg_metadata
+boomburst,Boomburst,폭음파,official,normal,노말,special,특수,140,100,10,0,all-other-pokemon,무시무시한 폭음의 파괴력으로 주위에 있는 모든 포켓몬을 공격한다.,무시무시한 폭음의 파괴력으로 주위에 있는 모든 포켓몬을 공격한다.,6,opgg_metadata
+bounce,Bounce,뛰어오르다,official,flying,비행,physical,물리,85.0,85.0,,,,,,37,reference_lookup_fill
+brave-bird,Brave Bird,브레이브버드,official,flying,비행,physical,물리,120,100,16,0,selected-pokemon,날개를 접어 저공비행으로 돌격한다. 자신도 대상에게 준 피해의 ⅓만큼 반동 피해를 받는다.,날개를 접어 저공비행으로 돌격한다. 자신도 대상에게 준 피해의 ⅓만큼 반동 피해를 받는다.,22,opgg_metadata
+breaking-swipe,Breaking Swipe,와이드브레이커,official,dragon,드래곤,physical,물리,60,100,15,0,all-opponents,강인한 꼬리를 세차게 휘둘러서 상대를 공격한다. 상대의 공격을 1랭크 떨어뜨린다.,강인한 꼬리를 세차게 휘둘러서 상대를 공격한다. 상대의 공격을 1랭크 떨어뜨린다.,39,opgg_metadata
+brick-break,Brick Break,깨트리다,official,fighting,격투,physical,물리,75.0,100.0,,,,,,137,reference_lookup_fill
+brutal-swing,Brutal Swing,세차게휘두르기,official,dark,악,physical,물리,60,100,20,0,all-other-pokemon,자신의 몸을 세차게 휘둘러서 상대에게 데미지를 준다.,자신의 몸을 세차게 휘둘러서 상대에게 데미지를 준다.,81,opgg_metadata
+bug-bite,Bug Bite,벌레먹음,official,bug,벌레,physical,물리,60,100,20,0,selected-pokemon,물어서 공격한다. 상대가 나무열매를 지니고 있을 때 먹어서 나무열매의 효과를 받을 수 있다.,물어서 공격한다. 상대가 나무열매를 지니고 있을 때 먹어서 나무열매의 효과를 받을 수 있다.,19,opgg_metadata
+bug-buzz,Bug Buzz,벌레의야단법석,official,bug,벌레,special,특수,90,100,12,0,selected-pokemon,진동으로 음파를 일으켜서 공격한다. 10% 확률로 상대의 특수방어를 1랭크 떨어뜨린다.,진동으로 음파를 일으켜서 공격한다. 10% 확률로 상대의 특수방어를 1랭크 떨어뜨린다.,12,opgg_metadata
+bulk-up,Bulk Up,벌크업,official,fighting,격투,status,변화,,,20,0,user,몸에 힘을 담아 근육을 두껍게 해서 자신의 공격과 방어를 1랭크 올린다.,몸에 힘을 담아 근육을 두껍게 해서 자신의 공격과 방어를 1랭크 올린다.,65,opgg_metadata
+bulldoze,Bulldoze,땅고르기,official,ground,땅,physical,물리,60.0,100.0,,,,,,144,reference_lookup_fill
+bullet-punch,Bullet Punch,불릿펀치,official,steel,강철,physical,물리,40,100,20,1,selected-pokemon,탄환처럼 빠르고 단단한 펀치를 상대에게 날린다. 반드시 선제공격을 할 수 있다. (우선도 +1),탄환처럼 빠르고 단단한 펀치를 상대에게 날린다. 반드시 선제공격을 할 수 있다. (우선도 +1),11,opgg_metadata
+bullet-seed,Bullet Seed,기관총,official,grass,풀,physical,물리,25,100,20,0,selected-pokemon,씨앗을 기세 좋게 상대에게 발사하여 공격한다. 2~5회 동안 연속으로 쓴다.,씨앗을 기세 좋게 상대에게 발사하여 공격한다. 2~5회 동안 연속으로 쓴다.,39,opgg_metadata
+burn-up,Burn Up,불사르기,official,fire,불꽃,special,특수,130,100,5,0,selected-pokemon,전신의 불꽃을 모두 태워서 큰 데미지를 준다. 사용자의 불꽃 타입이 없어진다.사용자가 이미 불꽃 타입이 아니면 실패한다.대상의 얼음을 치료한다.,전신의 불꽃을 모두 태워서 큰 데미지를 준다. 사용자의 불꽃 타입이 없어진다.사용자가 이미 불꽃 타입이 아니면 실패한다.대상의 얼음을 치료한다.,9,opgg_metadata
+burning-jealousy,Burning Jealousy,질투의불꽃,official,fire,불꽃,special,특수,70,100,5,0,all-opponents,질투의 에너지로 상대를 공격한다. 그 턴에 능력이 올라간 포켓몬을 화상 상태로 만든다.,질투의 에너지로 상대를 공격한다. 그 턴에 능력이 올라간 포켓몬을 화상 상태로 만든다.,31,opgg_metadata
+calm-mind,Calm Mind,명상,official,psychic,에스퍼,status,변화,,,,,,,,82,reference_lookup_fill
+ceaseless-edge,Ceaseless Edge,비검천중파,needs_review,dark,악,physical,물리,65,90,15,0,selected-pokemon,조개껍질 검으로 공격한다.조개껍질 파편은 압정이 되어 상대의 발밑에 흩어진다.,조개껍질 검으로 공격한다.조개껍질 파편은 압정이 되어 상대의 발밑에 흩어진다.,1,opgg_metadata
+charge,Charge,충전,official,electric,전기,status,변화,,,20,0,user,다음 턴에 쓸 전기타입 기술의 위력이 2배가 된다. 자신의 특수방어도 1랭크 올라간다.,다음 턴에 쓸 전기타입 기술의 위력이 2배가 된다. 자신의 특수방어도 1랭크 올라간다.,25,opgg_metadata
+charge-beam,Charge Beam,차지빔,official,electric,전기,special,특수,50,90,12,0,selected-pokemon,전격의 다발을 상대에게 발사한다. 전기를 모아서 70% 확률로 자신의 특수공격을 1랭크 올린다.,전격의 다발을 상대에게 발사한다. 전기를 모아서 70% 확률로 자신의 특수공격을 1랭크 올린다.,47,opgg_metadata
+charm,Charm,애교부리기,official,fairy,페어리,status,변화,,100,20,0,selected-pokemon,귀엽게 바라보고 방심을 유도하여 대상의 공격을 2랭크 떨어뜨린다.,귀엽게 바라보고 방심을 유도하여 대상의 공격을 2랭크 떨어뜨린다.,75,opgg_metadata
+chilling-water,Chilling Water,찬물끼얹기,needs_review,water,물,special,특수,50,100,20,0,selected-pokemon,상대의 기운이 빠질 정도로 차가운 물을 끼얹어서 공격한다. 상대의 공격을 1랭크 떨어뜨린다.,상대의 기운이 빠질 정도로 차가운 물을 끼얹어서 공격한다. 상대의 공격을 1랭크 떨어뜨린다.,77,opgg_metadata
+chilly-reception,Chilly Reception,썰렁개그,needs_review,ice,얼음,status,변화,0,,10,0,entire-field,자리를 얼어붙게 만드는 개그를 하고 교대 포켓몬과 교체한다. 5턴 동안 눈을 내리게 한다.,자리를 얼어붙게 만드는 개그를 하고 교대 포켓몬과 교체한다. 5턴 동안 눈을 내리게 한다.,2,opgg_metadata
+circle-throw,Circle Throw,배대뒤치기,official,fighting,격투,physical,물리,60,90,10,-6,selected-pokemon,상대를 내던져서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다. (우선도 -6),상대를 내던져서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다. (우선도 -6),11,opgg_metadata
+clanging-scales,Clanging Scales,스케일노이즈,official,dragon,드래곤,special,특수,110,100,5,0,all-opponents,전신의 비늘을 비벼서 큰 소리를 내 공격한다.공격 후 자신의 방어가 1랭크 떨어진다.,전신의 비늘을 비벼서 큰 소리를 내 공격한다.공격 후 자신의 방어가 1랭크 떨어진다.,1,opgg_metadata
+clangorous-soul,Clangorous Soul,소울비트,official,dragon,드래곤,status,변화,,100,5,0,user,"자신의 HP를 ⅓ 깎아서 공격, 방어, 특수공격, 특수방어, 스피드를 1랭크 올린다.","자신의 HP를 ⅓ 깎아서 공격, 방어, 특수공격, 특수방어, 스피드를 1랭크 올린다.",1,opgg_metadata
+clear-smog,Clear Smog,클리어스모그,official,poison,독,special,특수,50,,15,0,selected-pokemon,특수한 진흙 덩어리를 상대에게 내던져서 공격한다. 능력 변화를 원래대로 돌린다.,특수한 진흙 덩어리를 상대에게 내던져서 공격한다. 능력 변화를 원래대로 돌린다.,10,opgg_metadata
+close-combat,Close Combat,인파이트,official,fighting,격투,physical,물리,120,100,8,0,selected-pokemon,방어를 포기하고 상대 쪽으로 깊숙이 돌격한다.사용 후 사용자의 방어와 특수방어가 1랭크 떨어진다.,방어를 포기하고 상대 쪽으로 깊숙이 돌격한다.사용 후 사용자의 방어와 특수방어가 1랭크 떨어진다.,71,opgg_metadata
+coaching,Coaching,코칭,official,fighting,격투,status,변화,,,10,0,user-and-allies,적절한 지도를 통해서 같은 편 전원의 공격과 방어를 1랭크 올린다.,적절한 지도를 통해서 같은 편 전원의 공격과 방어를 1랭크 올린다.,34,opgg_metadata
+coil,Coil,똬리틀기,official,poison,독,status,변화,,,,,,,,7,reference_lookup_fill
+comeuppance,Comeuppance,앙갚음,needs_review,dark,악,physical,물리,1,100,10,0,specific-move,기술을 쓰기 전에 마지막으로 받은 기술의 데미지를 1.5배 늘려서 기술을 쓴 상대에게 돌려준다.(우선도 0),기술을 쓰기 전에 마지막으로 받은 기술의 데미지를 1.5배 늘려서 기술을 쓴 상대에게 돌려준다.(우선도 0),4,opgg_metadata
+confuse-ray,Confuse Ray,이상한빛,official,ghost,고스트,status,변화,,100,12,0,selected-pokemon,이상한 빛을 상대에게 비춰 당황하게 한다. 상대를 혼란시킨다.,이상한 빛을 상대에게 비춰 당황하게 한다. 상대를 혼란시킨다.,69,opgg_metadata
+copycat,Copycat,흉내쟁이,official,normal,노말,status,변화,,,20,0,user,직전에 나온 기술을 흉내 내어 같은 기술을 쓴다. 기술이 나오지 않았으면 실패한다.,직전에 나온 기술을 흉내 내어 같은 기술을 쓴다. 기술이 나오지 않았으면 실패한다.,29,opgg_metadata
+corrosive-gas,Corrosive Gas,부식가스,official,poison,독,status,변화,,100,40,0,all-other-pokemon,주위에 있는 모든 것을 강력한 산성 가스로 뒤덮어서 지니고 있는 도구를 녹여버린다.,주위에 있는 모든 것을 강력한 산성 가스로 뒤덮어서 지니고 있는 도구를 녹여버린다.,7,opgg_metadata
+cosmic-power,Cosmic Power,코스믹파워,official,psychic,에스퍼,status,변화,,,20,0,user,우주로부터 신비한 힘을 손에 넣음으로써 자신의 방어와 특수방어를 1랭크 올린다.,우주로부터 신비한 힘을 손에 넣음으로써 자신의 방어와 특수방어를 1랭크 올린다.,11,opgg_metadata
+cotton-guard,Cotton Guard,코튼가드,official,grass,풀,status,변화,,,12,0,user,푹신푹신한 솜털로 자신의 몸을 둘러싸서 지킨다. 자신의 방어를 3랭크 올린다.,푹신푹신한 솜털로 자신의 몸을 둘러싸서 지킨다. 자신의 방어를 3랭크 올린다.,9,opgg_metadata
+cotton-spore,Cotton Spore,목화포자,official,grass,풀,status,변화,,100.0,,,,,,5,reference_lookup_fill
+counter,Counter,카운터,official,fighting,격투,physical,물리,,100,20,-5,specific-move,상대로부터 받은 물리공격의 데미지를 2배로 만들어 그 상대에게 돌려준다. (우선도-5),상대로부터 받은 물리공격의 데미지를 2배로 만들어 그 상대에게 돌려준다. (우선도-5),57,opgg_metadata
+covet,Covet,탐내다,official,normal,노말,physical,물리,60,100,25,0,selected-pokemon,귀엽게 애교부리며 상대에게 다가가 지니고 있는 도구를 뺏는다.,귀엽게 애교부리며 상대에게 다가가 지니고 있는 도구를 뺏는다.,20,opgg_metadata
+crabhammer,Crabhammer,찝게햄머,official,water,물,physical,물리,100,90,12,0,selected-pokemon,큰 집게를 상대에게 내리쳐서 공격한다. 급소에 맞을 확률이 높다.,큰 집게를 상대에게 내리쳐서 공격한다. 급소에 맞을 확률이 높다.,4,opgg_metadata
+cross-chop,Cross Chop,크로스촙,official,fighting,격투,physical,물리,100,80,8,0,selected-pokemon,양손으로 당수를 상대에게 힘껏 쳐서 공격한다. 급소에 맞기 쉽다.,양손으로 당수를 상대에게 힘껏 쳐서 공격한다. 급소에 맞기 쉽다.,10,opgg_metadata
+cross-poison,Cross Poison,크로스포이즌,official,poison,독,physical,물리,70,100,20,0,selected-pokemon,"상대를 베어 가른다. 10% 확률로 상대를 독 상태로 만들고, 급소에 맞을 확률이 높다.","상대를 베어 가른다. 10% 확률로 상대를 독 상태로 만들고, 급소에 맞을 확률이 높다.",13,opgg_metadata
+crunch,Crunch,깨물어부수기,official,dark,악,physical,물리,80.0,100.0,,,,,,90,reference_lookup_fill
+crush-claw,Crush Claw,브레이크크루,official,normal,노말,physical,물리,75,95,10,0,selected-pokemon,단단하고 날카로운 손톱으로 베어 갈라서 공격한다. 50% 확률로 상대의 방어를 1랭크 떨어뜨린다.,단단하고 날카로운 손톱으로 베어 갈라서 공격한다. 50% 확률로 상대의 방어를 1랭크 떨어뜨린다.,8,opgg_metadata
+curse,Curse,저주,official,ghost,고스트,status,변화,,,12,0,specific-move,기술을 쓰는 포켓몬이 고스트 타입일 때와 그 이외의 타입일 때 효과가 다르다.,기술을 쓰는 포켓몬이 고스트 타입일 때와 그 이외의 타입일 때 효과가 다르다.,122,opgg_metadata
+dark-pulse,Dark Pulse,악의파동,official,dark,악,special,특수,80,100,16,0,selected-pokemon,몸에서 악의로 가득한 무서운 오라를 발한다. 20% 확률로 상대를 풀죽게 만든다.,몸에서 악의로 가득한 무서운 오라를 발한다. 20% 확률로 상대를 풀죽게 만든다.,90,opgg_metadata
+darkest-lariat,Darkest Lariat,DD래리어트,official,dark,악,physical,물리,85.0,100.0,,,,,,6,reference_lookup_fill
+dazzling-gleam,Dazzling Gleam,매지컬샤인,official,fairy,페어리,special,특수,80.0,100.0,,,,,,59,reference_lookup_fill
+decorate,Decorate,데코레이션,official,fairy,페어리,status,변화,,,,,,,,1,reference_lookup_fill
+defog,Defog,안개제거,official,flying,비행,status,변화,,,15,0,selected-pokemon,강한 바람으로 상대의 리플렉터나 빛의장막 등을 제거한다. 회피율도 1랭크 떨어뜨린다.,강한 바람으로 상대의 리플렉터나 빛의장막 등을 제거한다. 회피율도 1랭크 떨어뜨린다.,20,opgg_metadata
+destiny-bond,Destiny Bond,길동무,official,ghost,고스트,status,변화,,,,,,,,29,reference_lookup_fill
+detect,Detect,판별,official,fighting,격투,status,변화,,,5,4,user,상대의 공격을 전혀 받지 않는다. 연속으로 쓰면 실패하기 쉽다. (우선도 +4),상대의 공격을 전혀 받지 않는다. 연속으로 쓰면 실패하기 쉽다. (우선도 +4),38,opgg_metadata
+dig,Dig,구멍파기,official,ground,땅,physical,물리,80.0,100.0,,,,,,148,reference_lookup_fill
+dire-claw,Dire Claw,페이탈클로,needs_review,poison,독,physical,물리,80,100,15,0,selected-pokemon,"치명적인 손톱으로 공격한다.30% 확률로 상대를 독, 마비, 잠듦 중 하나의 상태로 만든다.","치명적인 손톱으로 공격한다.30% 확률로 상대를 독, 마비, 잠듦 중 하나의 상태로 만든다.",1,opgg_metadata
+disable,Disable,사슬묶기,official,normal,노말,status,변화,,100,20,0,selected-pokemon,상대의 움직임을 막아 바로 전에 쓴 기술을 4턴 동안 사용할 수 없게 만든다.,상대의 움직임을 막아 바로 전에 쓴 기술을 4턴 동안 사용할 수 없게 만든다.,43,opgg_metadata
+discharge,Discharge,방전,official,electric,전기,special,특수,80,100,16,0,all-other-pokemon,눈부신 전격으로 주위에 있는 모두를 공격한다. 30% 확률로 상대를 마비 상태로 만든다.,눈부신 전격으로 주위에 있는 모두를 공격한다. 30% 확률로 상대를 마비 상태로 만든다.,25,opgg_metadata
+dive,Dive,다이빙,official,water,물,physical,물리,80.0,100.0,,,,,,40,reference_lookup_fill
+double-edge,Double-Edge,이판사판태클,official,normal,노말,physical,물리,120,100,15,0,selected-pokemon,목숨을 걸고 상대에게 돌진하여 공격을 한다. 자신도 대상에게 준 피해의 ⅓만큼 반동 피해를 받는다.,목숨을 걸고 상대에게 돌진하여 공격을 한다. 자신도 대상에게 준 피해의 ⅓만큼 반동 피해를 받는다.,156,opgg_metadata
+double-hit,Double Hit,더블어택,official,normal,노말,physical,물리,35.0,90.0,,,,,,25,reference_lookup_fill
+double-team,Double Team,그림자분신,official,normal,노말,status,변화,,,,,,,,76,reference_lookup_fill
+draco-meteor,Draco Meteor,용성군,official,dragon,드래곤,special,특수,130,90,8,0,selected-pokemon,천공에서 운석을 떨어뜨린다. 사용하면 반동으로 자신의 특수공격이 2랭크 떨어진다.,천공에서 운석을 떨어뜨린다. 사용하면 반동으로 자신의 특수공격이 2랭크 떨어진다.,21,opgg_metadata
+dragon-cheer,Dragon Cheer,드래곤옐,official,dragon,드래곤,status,변화,0.0,0.0,,,,,,29,reference_lookup_fill
+dragon-claw,Dragon Claw,드래곤크루,official,dragon,드래곤,physical,물리,80.0,100.0,,,,,,41,reference_lookup_fill
+dragon-dance,Dragon Dance,용의춤,official,dragon,드래곤,status,변화,,,20,0,user,신비롭고 힘센 춤을 격렬하게 춘다. 자신의 공격과 스피드를 1랭크 올린다.,신비롭고 힘센 춤을 격렬하게 춘다. 자신의 공격과 스피드를 1랭크 올린다.,31,opgg_metadata
+dragon-darts,Dragon Darts,드래곤애로,official,dragon,드래곤,physical,물리,50.0,100.0,,,,,,1,reference_lookup_fill
+dragon-pulse,Dragon Pulse,용의파동,official,dragon,드래곤,special,특수,85,100,12,0,selected-pokemon,큰 입으로 충격파를 일으켜서 상대를 공격한다.,큰 입으로 충격파를 일으켜서 상대를 공격한다.,60,opgg_metadata
+dragon-rush,Dragon Rush,드래곤다이브,official,dragon,드래곤,physical,물리,100.0,75.0,,,,,,24,reference_lookup_fill
+dragon-tail,Dragon Tail,드래곤테일,official,dragon,드래곤,physical,물리,60.0,90.0,,,,,,45,reference_lookup_fill
+drain-punch,Drain Punch,드레인펀치,official,fighting,격투,physical,물리,75.0,100.0,,,,,,65,reference_lookup_fill
+draining-kiss,Draining Kiss,드레인키스,official,fairy,페어리,special,특수,50.0,100.0,,,,,,42,reference_lookup_fill
+drill-peck,Drill Peck,회전부리,official,flying,비행,physical,물리,80,100,20,0,selected-pokemon,회전하면서 뾰족한 부리를 상대에게 꿰찔러 공격한다.,회전하면서 뾰족한 부리를 상대에게 꿰찔러 공격한다.,6,opgg_metadata
+drill-run,Drill Run,드릴라이너,official,ground,땅,physical,물리,80.0,95.0,,,,,,18,reference_lookup_fill
+dual-wingbeat,Dual Wingbeat,더블윙,official,flying,비행,physical,물리,40.0,90.0,,,,,,33,reference_lookup_fill
+dynamic-punch,Dynamic Punch,폭발펀치,official,fighting,격투,physical,물리,100,50,5,0,selected-pokemon,혼신의 힘으로 펀치를 날려서 공격한다. 상대를 반드시 혼란시킨다.,혼신의 힘으로 펀치를 날려서 공격한다. 상대를 반드시 혼란시킨다.,28,opgg_metadata
+earth-power,Earth Power,대지의힘,official,ground,땅,special,특수,90.0,100.0,,,,,,60,reference_lookup_fill
+earthquake,Earthquake,지진,official,ground,땅,physical,물리,100,100,12,0,all-other-pokemon,지진의 충격으로 자신의 주위에 있는 포켓몬을 공격한다.구멍파기 중인 대상에게는 대미지가 2배다.,지진의 충격으로 자신의 주위에 있는 포켓몬을 공격한다.구멍파기 중인 대상에게는 대미지가 2배다.,128,opgg_metadata
+eerie-impulse,Eerie Impulse,괴전파,official,electric,전기,status,변화,,100.0,,,,,,25,reference_lookup_fill
+eerie-spell,Eerie Spell,섬뜩한주문,official,psychic,에스퍼,special,특수,80,100,5,0,selected-pokemon,강력한 사이코 파워로 공격한다. 상대가 마지막으로 사용한 기술의 PP를 3만큼 줄인다.,강력한 사이코 파워로 공격한다. 상대가 마지막으로 사용한 기술의 PP를 3만큼 줄인다.,1,opgg_metadata
+electric-terrain,Electric Terrain,일렉트릭필드,official,electric,전기,status,변화,,,10,0,entire-field,5턴 동안 일렉트릭필드로 만든다. 땅에 있는 포켓몬은 잠들지 않는다. 전기타입의 위력이 올라간다.,5턴 동안 일렉트릭필드로 만든다. 땅에 있는 포켓몬은 잠들지 않는다. 전기타입의 위력이 올라간다.,24,opgg_metadata
+electrify,Electrify,송전,official,electric,전기,status,변화,,,20,0,selected-pokemon,상대가 기술을 쓰기 전에 송전하면 그 턴에 상대가 사용하는 기술은 전기타입이 된다.,상대가 기술을 쓰기 전에 송전하면 그 턴에 상대가 사용하는 기술은 전기타입이 된다.,1,opgg_metadata
+electro-ball,Electro Ball,일렉트릭볼,official,electric,전기,special,특수,,100,12,0,selected-pokemon,전기 덩어리를 상대에게 부딪쳐서 공격한다. 상대보다 스피드가 빠를수록 위력이 올라간다.,전기 덩어리를 상대에게 부딪쳐서 공격한다. 상대보다 스피드가 빠를수록 위력이 올라간다.,25,opgg_metadata
+electro-shot,Electro Shot,일렉트로빔,official,electric,전기,special,특수,130,100,10,0,selected-pokemon,1턴째에 전기를 모아서 특수공격을 1랭크 올리고 2턴째에 전기를 발사한다.비가 올 때는 1턴 만에 전기를 발사한다.,1턴째에 전기를 모아서 특수공격을 1랭크 올리고 2턴째에 전기를 발사한다.비가 올 때는 1턴 만에 전기를 발사한다.,1,opgg_metadata
+electroweb,Electroweb,일렉트릭네트,official,electric,전기,special,특수,55,95,15,0,all-opponents,전기 네트로 상대를 붙잡아서 공격한다. 상대의 스피드를 1랭크 떨어뜨린다.,전기 네트로 상대를 붙잡아서 공격한다. 상대의 스피드를 1랭크 떨어뜨린다.,27,opgg_metadata
+encore,Encore,앵콜,official,normal,노말,status,변화,,100,8,0,selected-pokemon,상대에게 앙코르를 외쳐서 기술을 3번 연속으로 쓰게 한다.,상대에게 앙코르를 외쳐서 기술을 3번 연속으로 쓰게 한다.,64,opgg_metadata
+endeavor,Endeavor,죽기살기,official,normal,노말,physical,물리,,100,5,0,selected-pokemon,상대의 HP가 자신의 HP와 같아지도록 데미지를 준다.,상대의 HP가 자신의 HP와 같아지도록 데미지를 준다.,100,opgg_metadata
+endure,Endure,버티기,official,normal,노말,status,변화,,,10,4,user,공격을 받아도 HP를 반드시 1만큼은 남긴다. 연속으로 쓰면 실패하기 쉽다. (우선도+4),공격을 받아도 HP를 반드시 1만큼은 남긴다. 연속으로 쓰면 실패하기 쉽다. (우선도+4),312,opgg_metadata
+energy-ball,Energy Ball,에너지볼,official,grass,풀,special,특수,90,100,12,0,selected-pokemon,자연으로부터 모은 생명의 힘을 발사한다.10% 확률로 상대의 특수방어를 1랭크 떨어뜨린다.,자연으로부터 모은 생명의 힘을 발사한다.10% 확률로 상대의 특수방어를 1랭크 떨어뜨린다.,80,opgg_metadata
+entrainment,Entrainment,동료만들기,official,normal,노말,status,변화,,100.0,,,,,,11,reference_lookup_fill
+eruption,Eruption,분화,official,fire,불꽃,special,특수,150,100,5,0,all-opponents,분노를 폭발시켜 공격한다. 자신의 HP가 적을수록 기술의 위력이 떨어진다.,분노를 폭발시켜 공격한다. 자신의 HP가 적을수록 기술의 위력이 떨어진다.,5,opgg_metadata
+expanding-force,Expanding Force,와이드포스,official,psychic,에스퍼,special,특수,80,100,10,0,selected-pokemon,사이코 파워로 상대를 공격한다. 사이코필드일 때는 위력이 120으로 오르며 모든 상대에게 데미지를 준다.,사이코 파워로 상대를 공격한다. 사이코필드일 때는 위력이 120으로 오르며 모든 상대에게 데미지를 준다.,37,opgg_metadata
+explosion,Explosion,대폭발,official,normal,노말,physical,물리,250.0,100.0,,,,,,15,reference_lookup_fill
+extrasensory,Extrasensory,신통력,official,psychic,에스퍼,special,특수,80,100,20,0,selected-pokemon,보이지 않는 이상한 힘을 보내어 공격한다. 10% 확률로 상대를 풀죽게 만든다.,보이지 않는 이상한 힘을 보내어 공격한다. 10% 확률로 상대를 풀죽게 만든다.,15,opgg_metadata
+extreme-speed,Extreme Speed,신속,official,normal,노말,physical,물리,80,100,8,2,selected-pokemon,눈에 보이지 않는 굉장한 속도로 상대에게 돌진하여 공격한다.상대방보다 먼저 공격한다. (우선도 +2),눈에 보이지 않는 굉장한 속도로 상대에게 돌진하여 공격한다.상대방보다 먼저 공격한다. (우선도 +2),6,opgg_metadata
+facade,Facade,객기,official,normal,노말,physical,물리,70.0,100.0,,,,,,311,reference_lookup_fill
+fairy-lock,Fairy Lock,페어리록,official,fairy,페어리,status,변화,,,10,0,entire-field,록을 걸어 다음 턴의 모든 포켓몬을 도망가지 못하게 한다.,록을 걸어 다음 턴의 모든 포켓몬을 도망가지 못하게 한다.,1,opgg_metadata
+fake-out,Fake Out,속이다,official,normal,노말,physical,물리,40,100,12,3,selected-pokemon,선제공격으로 상대를 풀죽게 한다. 배틀에 나가서 바로 쓰지 않으면 성공할 수 없다. (우선도 +3),선제공격으로 상대를 풀죽게 한다. 배틀에 나가서 바로 쓰지 않으면 성공할 수 없다. (우선도 +3),33,opgg_metadata
+fake-tears,Fake Tears,거짓울음,official,dark,악,status,변화,,100.0,,,,,,60,reference_lookup_fill
+feather-dance,Feather Dance,깃털댄스,official,flying,비행,status,변화,,100.0,,,,,,21,reference_lookup_fill
+feint,Feint,페인트,official,normal,노말,physical,물리,30,100,10,2,selected-pokemon,방어나 판별을 하고 있는 상대에게 공격할 수 있다. 방어 효과를 해제시킨다. (우선도+2),방어나 판별을 하고 있는 상대에게 공격할 수 있다. 방어 효과를 해제시킨다. (우선도+2),45,opgg_metadata
+fell-stinger,Fell Stinger,마지막일침,official,bug,벌레,physical,물리,50.0,100.0,,,,,,5,reference_lookup_fill
+fickle-beam,Fickle Beam,변덕레이저,official,dragon,드래곤,special,특수,80,100,5,0,selected-pokemon,광선을 발사해서 공격한다. 30%의 확률로 다른 머리도 협력해서 레이저를 발사하여 위력이 2배가 된다.,광선을 발사해서 공격한다. 30%의 확률로 다른 머리도 협력해서 레이저를 발사하여 위력이 2배가 된다.,1,opgg_metadata
+fiery-dance,Fiery Dance,불꽃춤,official,fire,불꽃,special,특수,80,100,10,0,selected-pokemon,불꽃을 두른 날개를 쳐서 공격한다. 50% 확률로 자신의 특수공격이 1랭크 올라간다.,불꽃을 두른 날개를 쳐서 공격한다. 50% 확률로 자신의 특수공격이 1랭크 올라간다.,1,opgg_metadata
+final-gambit,Final Gambit,목숨걸기,official,fighting,격투,special,특수,,100.0,,,,,,5,reference_lookup_fill
+fire-blast,Fire Blast,불대문자,official,fire,불꽃,special,특수,110,85,8,0,selected-pokemon,큰대자의 불꽃으로 상대를 불태운다. 10%의 확률로 상대를 화상 상태로 만든다.,큰대자의 불꽃으로 상대를 불태운다. 10%의 확률로 상대를 화상 상태로 만든다.,84,opgg_metadata
+fire-fang,Fire Fang,불꽃엄니,official,fire,불꽃,physical,물리,65,95,16,0,selected-pokemon,불꽃을 두른 이빨로 문다. 10% 확률로 상대를 풀죽게 하거나 화상 상태로 만든다.,불꽃을 두른 이빨로 문다. 10% 확률로 상대를 풀죽게 하거나 화상 상태로 만든다.,46,opgg_metadata
+fire-lash,Fire Lash,불꽃채찍,official,fire,불꽃,physical,물리,80,100,15,0,selected-pokemon,불타는 채찍으로 상대를 친다. 공격을 받은 상대는 방어가 1랭크 떨어진다.,불타는 채찍으로 상대를 친다. 공격을 받은 상대는 방어가 1랭크 떨어진다.,1,opgg_metadata
+fire-punch,Fire Punch,불꽃펀치,official,fire,불꽃,physical,물리,75,100,16,0,selected-pokemon,불꽃을 담은 펀치로 상대를 공격한다. 10% 확률로 상대를 화상 상태로 만든다.,불꽃을 담은 펀치로 상대를 공격한다. 10% 확률로 상대를 화상 상태로 만든다.,71,opgg_metadata
+fire-spin,Fire Spin,회오리불꽃,official,fire,불꽃,special,특수,35,85,16,0,selected-pokemon,세차게 소용돌이치는 불꽃 속에 4~5턴 동안 상대를 가두어 공격한다.,세차게 소용돌이치는 불꽃 속에 4~5턴 동안 상대를 가두어 공격한다.,41,opgg_metadata
+first-impression,First Impression,만나자마자,official,bug,벌레,physical,물리,90.0,100.0,,,,,,3,reference_lookup_fill
+fissure,Fissure,땅가르기,official,ground,땅,physical,물리,,30.0,,,,,,17,reference_lookup_fill
+flail,Flail,바둥바둥,official,normal,노말,physical,물리,,100.0,,,,,,52,reference_lookup_fill
+flame-charge,Flame Charge,니트로차지,official,fire,불꽃,physical,물리,50.0,100.0,,,,,,36,reference_lookup_fill
+flamethrower,Flamethrower,화염방사,official,fire,불꽃,special,특수,90,100,16,0,selected-pokemon,세찬 불꽃을 상대에게 발사해서 공격한다. 10% 확률로 상대를 화상 상태로 만든다.,세찬 불꽃을 상대에게 발사해서 공격한다. 10% 확률로 상대를 화상 상태로 만든다.,96,opgg_metadata
+flare-blitz,Flare Blitz,플레어드라이브,official,fire,불꽃,physical,물리,120,100,16,0,selected-pokemon,불꽃을 두르고 돌진한다. 자신도 대상에게 준 피해의 ⅓만큼 반동 피해를 받는다. 10%의 확률로 상대를 화상 상태로 만든다.,불꽃을 두르고 돌진한다. 자신도 대상에게 준 피해의 ⅓만큼 반동 피해를 받는다. 10%의 확률로 상대를 화상 상태로 만든다.,37,opgg_metadata
+flash-cannon,Flash Cannon,러스터캐논,official,steel,강철,special,특수,80.0,100.0,,,,,,54,reference_lookup_fill
+flatter,Flatter,부추기기,official,dark,악,status,변화,,100,15,0,selected-pokemon,상대를 부추겨서 혼란시킨다. 동시에 상대의 특수공격도 1랭크 올라가 버린다.,상대를 부추겨서 혼란시킨다. 동시에 상대의 특수공격도 1랭크 올라가 버린다.,12,opgg_metadata
+fling,Fling,내던지기,official,dark,악,physical,물리,,100.0,,,,,,148,reference_lookup_fill
+flip-turn,Flip Turn,퀵턴,official,water,물,physical,물리,60,100,20,0,selected-pokemon,공격한 뒤 굉장한 스피드로 돌아와서 교대 포켓몬과 교체한다. (우선도 0),공격한 뒤 굉장한 스피드로 돌아와서 교대 포켓몬과 교체한다. (우선도 0),27,opgg_metadata
+flower-trick,Flower Trick,트릭플라워,needs_review,grass,풀,physical,물리,70,,10,0,selected-pokemon,숨겨진 장치가 있는 꽃다발을 상대에게 던져서 공격한다.반드시 명중하며 급소에 맞는다.,숨겨진 장치가 있는 꽃다발을 상대에게 던져서 공격한다.반드시 명중하며 급소에 맞는다.,1,opgg_metadata
+fly,Fly,공중날기,official,flying,비행,physical,물리,90.0,95.0,,,,,,31,reference_lookup_fill
+flying-press,Flying Press,플라잉프레스,official,fighting,격투,physical,물리,100,95,10,0,selected-pokemon,공중에서 상대에게 다이브한다. 대상이 작아지기를 사용했다면 필중하며 위력이 2배다. 이 기술은 격투타입임과 동시에 비행타입이기도 하다.,공중에서 상대에게 다이브한다. 대상이 작아지기를 사용했다면 필중하며 위력이 2배다. 이 기술은 격투타입임과 동시에 비행타입이기도 하다.,2,opgg_metadata
+focus-blast,Focus Blast,기합구슬,official,fighting,격투,special,특수,120.0,70.0,,,,,,131,reference_lookup_fill
+focus-energy,Focus Energy,기충전,official,normal,노말,status,변화,,,,,,,,55,reference_lookup_fill
+focus-punch,Focus Punch,힘껏펀치,official,fighting,격투,physical,물리,150,100,20,-3,selected-pokemon,정신력을 높여(우선도+5) 펀치를 날린다.(우선도-3) 기술을 쓰기 전에 공격을 받으면 실패한다.,정신력을 높여(우선도+5) 펀치를 날린다.(우선도-3) 기술을 쓰기 전에 공격을 받으면 실패한다.,90,opgg_metadata
+follow-me,Follow Me,날따름,official,normal,노말,status,변화,,,,,,,,4,reference_lookup_fill
+forests-curse,Forest’s Curse,숲의저주,official,grass,풀,status,변화,,100,20,0,selected-pokemon,상대에게 숲의 저주를 건다. 저주에 걸린 상대는 타입에 풀타입이 추가된다.,상대에게 숲의 저주를 건다. 저주에 걸린 상대는 타입에 풀타입이 추가된다.,1,opgg_metadata
+foul-play,Foul Play,속임수,official,dark,악,physical,물리,95,100,16,0,selected-pokemon,상대의 힘을 이용한다. 싸우고 있는 상대의 공격이 높을수록 데미지가 올라간다.,상대의 힘을 이용한다. 싸우고 있는 상대의 공격이 높을수록 데미지가 올라간다.,71,opgg_metadata
+freeze-dry,Freeze-Dry,프리즈드라이,official,ice,얼음,special,특수,70,100,20,0,selected-pokemon,상대를 급격히 차갑게 하여 물타입 포켓몬에게도 효과가 굉장해진다.,상대를 급격히 차갑게 하여 물타입 포켓몬에게도 효과가 굉장해진다.,8,opgg_metadata
+frenzy-plant,Frenzy Plant,하드플랜트,official,grass,풀,special,특수,150,90,5,0,selected-pokemon,큰 나무로 상대를 힘껏 쳐서 공격한다. 사용 후 1턴간 행동할 수 없다.,큰 나무로 상대를 힘껏 쳐서 공격한다. 사용 후 1턴간 행동할 수 없다.,13,opgg_metadata
+frost-breath,Frost Breath,얼음숨결,official,ice,얼음,special,특수,60,90,10,0,selected-pokemon,차가운 숨결을 상대에게 내뿜어 공격한다. 반드시 급소에 맞는다.,차가운 숨결을 상대에게 내뿜어 공격한다. 반드시 급소에 맞는다.,10,opgg_metadata
+future-sight,Future Sight,미래예지,official,psychic,에스퍼,special,특수,120.0,100.0,,,,,,34,reference_lookup_fill
+gastro-acid,Gastro Acid,위액,official,poison,독,status,변화,,100,10,0,selected-pokemon,상대의 몸에 위액을 내뱉는다. 달라붙은 위액은 상대의 특성 효과를 지운다.,상대의 몸에 위액을 내뱉는다. 달라붙은 위액은 상대의 특성 효과를 지운다.,9,opgg_metadata
+giga-drain,Giga Drain,기가드레인,official,grass,풀,special,특수,75.0,100.0,,,,,,60,reference_lookup_fill
+giga-impact,Giga Impact,기가임팩트,official,normal,노말,physical,물리,150.0,90.0,,,,,,295,reference_lookup_fill
+gigaton-hammer,Gigaton Hammer,데카해머,manual_official_ko_fix,steel,강철,physical,물리,160.0,100.0,,,,,,1,reference_lookup_fill
+glare,Glare,뱀눈초리,official,normal,노말,status,변화,,100,30,0,selected-pokemon,배의 무늬로 겁을 주어 상대를 마비 상태로 만든다.,배의 무늬로 겁을 주어 상대를 마비 상태로 만든다.,6,opgg_metadata
+grass-knot,Grass Knot,풀묶기,official,grass,풀,special,특수,,100,20,0,selected-pokemon,풀을 휘감아서 상대를 쓰러뜨린다. 상대가 무거울수록 위력이 올라간다.,풀을 휘감아서 상대를 쓰러뜨린다. 상대가 무거울수록 위력이 올라간다.,118,opgg_metadata
+grassy-glide,Grassy Glide,그래스슬라이더,official,grass,풀,physical,물리,55.0,100.0,,,,,,35,reference_lookup_fill
+grassy-terrain,Grassy Terrain,그래스필드,official,grass,풀,status,변화,,,,,,,,30,reference_lookup_fill
+grav-apple,Grav Apple,G의힘,official,grass,풀,physical,물리,80.0,100.0,,,,,,1,reference_lookup_fill
+gravity,Gravity,중력,official,psychic,에스퍼,status,변화,,,5,0,entire-field,5턴 동안 부유나 비행타입에 땅타입의 기술이 맞게 된다. 공중으로 나는 기술도 사용할 수 없다.,5턴 동안 부유나 비행타입에 땅타입의 기술이 맞게 된다. 공중으로 나는 기술도 사용할 수 없다.,30,opgg_metadata
+growth,Growth,성장,official,normal,노말,status,변화,,,20,0,user,몸을 일시에 크게 성장시켜 자신의 공격과 특수공격을 1랭크 올린다.쾌청 상태일 때는 2랭크 올라간다.,몸을 일시에 크게 성장시켜 자신의 공격과 특수공격을 1랭크 올린다.쾌청 상태일 때는 2랭크 올라간다.,22,opgg_metadata
+guard-split,Guard Split,가드셰어,official,psychic,에스퍼,status,변화,,,,,,,,6,reference_lookup_fill
+guard-swap,Guard Swap,가드스웹,official,psychic,에스퍼,status,변화,,,,,,,,19,reference_lookup_fill
+guillotine,Guillotine,가위자르기,official,normal,노말,physical,물리,,30.0,,,,,,3,reference_lookup_fill
+gunk-shot,Gunk Shot,더스트슈트,official,poison,독,physical,물리,120.0,80.0,,,,,,39,reference_lookup_fill
+gyro-ball,Gyro Ball,자이로볼,official,steel,강철,physical,물리,,100,8,0,selected-pokemon,몸을 고속으로 회전시켜 몸통박치기한다. 상대보다 스피드가 낮을수록 위력은 올라간다.,몸을 고속으로 회전시켜 몸통박치기한다. 상대보다 스피드가 낮을수록 위력은 올라간다.,41,opgg_metadata
+hammer-arm,Hammer Arm,암해머,official,fighting,격투,physical,물리,100,90,12,0,selected-pokemon,강하고 무거운 주먹을 휘둘러 데미지를 준다.명중 후 사용자의 스피드가 1랭크 하락한다.,강하고 무거운 주먹을 휘둘러 데미지를 준다.명중 후 사용자의 스피드가 1랭크 하락한다.,21,opgg_metadata
+hard-press,Hard Press,하드프레스,official,steel,강철,physical,물리,0,100,10,0,selected-pokemon,팔이나 집게로 상대를 압박한다. 상대의 HP가 남아 있을수록 위력이 올라간다.,팔이나 집게로 상대를 압박한다. 상대의 HP가 남아 있을수록 위력이 올라간다.,31,opgg_metadata
+haze,Haze,흑안개,official,ice,얼음,status,변화,,,30,0,entire-field,흑안개를 뿜어 배틀에 참가 중인 포켓몬 전원의 능력 변화를 원래대로 돌린다.,흑안개를 뿜어 배틀에 참가 중인 포켓몬 전원의 능력 변화를 원래대로 돌린다.,35,opgg_metadata
+head-smash,Head Smash,양날박치기,official,rock,바위,physical,물리,150,80,5,0,selected-pokemon,목숨을 걸고 풀파워로 박치기를 한다. 자신도 대상에게 준 피해의 ½만큼 반동 피해를 받는다.,목숨을 걸고 풀파워로 박치기를 한다. 자신도 대상에게 준 피해의 ½만큼 반동 피해를 받는다.,15,opgg_metadata
+headlong-rush,Headlong Rush,들이받기,manual_official_ko_fix,ground,땅,physical,물리,120.0,100.0,,,,,,4,reference_lookup_fill
+heal-bell,Heal Bell,치료방울,official,normal,노말,status,변화,,,8,0,user-and-allies,기분 좋은 방울 소리를 들려주어 같은 편 전원의 상태 이상을 회복한다.,기분 좋은 방울 소리를 들려주어 같은 편 전원의 상태 이상을 회복한다.,2,opgg_metadata
+heal-pulse,Heal Pulse,치유파동,official,psychic,에스퍼,status,변화,,,12,0,selected-pokemon,치유파동을 날려서 최대 HP의 절반만큼 상대의 HP를 회복한다.,치유파동을 날려서 최대 HP의 절반만큼 상대의 HP를 회복한다.,22,opgg_metadata
+healing-wish,Healing Wish,치유소원,official,psychic,에스퍼,status,변화,,,10,0,user,자신은 기절하지만 교대하여 나오는 포켓몬의 상태 이상과 HP를 회복한다.,자신은 기절하지만 교대하여 나오는 포켓몬의 상태 이상과 HP를 회복한다.,12,opgg_metadata
+heat-crash,Heat Crash,히트스탬프,official,fire,불꽃,physical,물리,,100,10,0,selected-pokemon,불타는 몸으로 상대에게 부딪쳐서 공격한다. 자신이 상대보다 무거울수록 위력이 올라간다.,불타는 몸으로 상대에게 부딪쳐서 공격한다. 자신이 상대보다 무거울수록 위력이 올라간다.,19,opgg_metadata
+heat-wave,Heat Wave,열풍,official,fire,불꽃,special,특수,95,90,12,0,all-opponents,뜨거운 숨결을 상대에게 내뿜어 공격한다. 10% 확률로 상대를 화상 상태로 만든다.,뜨거운 숨결을 상대에게 내뿜어 공격한다. 10% 확률로 상대를 화상 상태로 만든다.,51,opgg_metadata
+heavy-slam,Heavy Slam,헤비봄버,official,steel,강철,physical,물리,,100,12,0,selected-pokemon,무거운 몸으로 상대에게 부딪쳐 공격한다. 자신이 상대보다 무거울수록 위력이 올라간다.,무거운 몸으로 상대에게 부딪쳐 공격한다. 자신이 상대보다 무거울수록 위력이 올라간다.,38,opgg_metadata
+helping-hand,Helping Hand,도우미,official,normal,노말,status,변화,,,,,,,,212,reference_lookup_fill
+hex,Hex,병상첨병,official,ghost,고스트,special,특수,65,100,12,0,selected-pokemon,엎친 데 덮친 격으로 공격한다. 상태 이상인 상대에게 큰 데미지를 준다.,엎친 데 덮친 격으로 공격한다. 상태 이상인 상대에게 큰 데미지를 준다.,60,opgg_metadata
+high-horsepower,High Horsepower,10만마력,official,ground,땅,physical,물리,95.0,95.0,,,,,,47,reference_lookup_fill
+high-jump-kick,High Jump Kick,무릎차기,official,fighting,격투,physical,물리,130.0,90.0,,,,,,14,reference_lookup_fill
+horn-drill,Horn Drill,뿔드릴,official,normal,노말,physical,물리,,30,5,0,selected-pokemon,회전하는 뿔을 상대에게 꿰찔러서 공격한다. 맞으면 일격에 기절한다.,회전하는 뿔을 상대에게 꿰찔러서 공격한다. 맞으면 일격에 기절한다.,4,opgg_metadata
+horn-leech,Horn Leech,우드호른,official,grass,풀,physical,물리,75,100,10,0,selected-pokemon,뿔을 꿰찔러서 상대의 양분을 흡수한다.대상에게 준 대미지의 ½만큼 체력을 회복한다.,뿔을 꿰찔러서 상대의 양분을 흡수한다.대상에게 준 대미지의 ½만큼 체력을 회복한다.,1,opgg_metadata
+howl,Howl,멀리짖음,official,normal,노말,status,변화,,,,,,,,20,reference_lookup_fill
+hurricane,Hurricane,폭풍,official,flying,비행,special,특수,110,70,12,0,selected-pokemon,강렬한 바람으로 상대를 둘러싸서 공격한다. 30% 확률로 상대를 혼란 상태로 만든다.,강렬한 바람으로 상대를 둘러싸서 공격한다. 30% 확률로 상대를 혼란 상태로 만든다.,32,opgg_metadata
+hydro-cannon,Hydro Cannon,하이드로캐논,official,water,물,special,특수,150,90,5,0,selected-pokemon,물의 대포를 상대에게 발사하여 공격한다. 사용 후 1턴간 행동할 수 없다.,물의 대포를 상대에게 발사하여 공격한다. 사용 후 1턴간 행동할 수 없다.,13,opgg_metadata
+hydro-pump,Hydro Pump,하이드로펌프,official,water,물,special,특수,110,80,8,0,selected-pokemon,대량의 물을 세찬 기세로 상대에게 발사하여 공격한다.,대량의 물을 세찬 기세로 상대에게 발사하여 공격한다.,60,opgg_metadata
+hyper-beam,Hyper Beam,파괴광선,official,normal,노말,special,특수,150,90,8,0,selected-pokemon,강한 광선을 상대에게 발사하여 공격한다. 다음 턴은 움직일 수 없다.,강한 광선을 상대에게 발사하여 공격한다. 다음 턴은 움직일 수 없다.,293,opgg_metadata
+hyper-voice,Hyper Voice,하이퍼보이스,official,normal,노말,special,특수,90,100,12,0,all-opponents,시끄럽게 울리는 큰 진동을 상대에게 전달하여 공격한다.,시끄럽게 울리는 큰 진동을 상대에게 전달하여 공격한다.,72,opgg_metadata
+hypnosis,Hypnosis,최면술,official,psychic,에스퍼,status,변화,,60,20,0,selected-pokemon,졸음을 유도하는 암시를 걸어서 상대를 잠듦 상태로 만든다.,졸음을 유도하는 암시를 걸어서 상대를 잠듦 상태로 만든다.,26,opgg_metadata
+ice-beam,Ice Beam,냉동빔,official,ice,얼음,special,특수,90.0,100.0,,,,,,89,reference_lookup_fill
+ice-fang,Ice Fang,얼음엄니,official,ice,얼음,physical,물리,65,95,16,0,selected-pokemon,냉기를 품은 이빨로 문다. 10% 확률로 상대를 풀죽게 하거나 얼음 상태로 만든다.,냉기를 품은 이빨로 문다. 10% 확률로 상대를 풀죽게 하거나 얼음 상태로 만든다.,39,opgg_metadata
+ice-hammer,Ice Hammer,아이스해머,official,ice,얼음,physical,물리,100,90,10,0,selected-pokemon,강하고 무거운 주먹을 휘둘러 데미지를 준다. 자신의 스피드가 1랭크 떨어진다.,강하고 무거운 주먹을 휘둘러 데미지를 준다. 자신의 스피드가 1랭크 떨어진다.,5,opgg_metadata
+ice-punch,Ice Punch,냉동펀치,official,ice,얼음,physical,물리,75.0,100.0,,,,,,77,reference_lookup_fill
+ice-shard,Ice Shard,얼음뭉치,official,ice,얼음,physical,물리,40,100,20,1,selected-pokemon,얼음 덩어리를 순식간에 만들어 재빠르게 쏜다. 반드시 선제공격할 수 있다. (우선도 +1),얼음 덩어리를 순식간에 만들어 재빠르게 쏜다. 반드시 선제공격할 수 있다. (우선도 +1),12,opgg_metadata
+ice-spinner,Ice Spinner,아이스스피너,needs_review,ice,얼음,physical,물리,80,100,16,0,selected-pokemon,발에 얇은 얼음을 두르고 빙글빙글 회전하며 부딪친다. 회전 운동에 의해 필드가 파괴된다.,발에 얇은 얼음을 두르고 빙글빙글 회전하며 부딪친다. 회전 운동에 의해 필드가 파괴된다.,26,opgg_metadata
+icicle-crash,Icicle Crash,고드름떨구기,official,ice,얼음,physical,물리,85.0,90.0,,,,,,9,reference_lookup_fill
+icicle-spear,Icicle Spear,고드름침,official,ice,얼음,physical,물리,25.0,100.0,,,,,,18,reference_lookup_fill
+icy-wind,Icy Wind,얼다바람,official,ice,얼음,special,특수,55,95,16,0,all-opponents,차가운 냉기를 상대에게 내뿜어 공격한다. 상대의 스피드를 1랭크 떨어뜨린다.,차가운 냉기를 상대에게 내뿜어 공격한다. 상대의 스피드를 1랭크 떨어뜨린다.,103,opgg_metadata
+imprison,Imprison,봉인,official,psychic,에스퍼,status,변화,,,12,0,user,상대가 자신과 같은 기술을 배웠다면 상대만 그 기술을 사용할 수 없게 한다.,상대가 자신과 같은 기술을 배웠다면 상대만 그 기술을 사용할 수 없게 한다.,61,opgg_metadata
+infernal-parade,Infernal Parade,백귀야행,needs_review,ghost,고스트,special,특수,60,100,15,0,selected-pokemon,무수히 많은 불덩이로 공격한다.30% 확률로 상대를 화상 상태로 만든다.상대가 상태이상인 경우 위력이 2배가 된다.,무수히 많은 불덩이로 공격한다.30% 확률로 상대를 화상 상태로 만든다.상대가 상태이상인 경우 위력이 2배가 된다.,1,opgg_metadata
+inferno,Inferno,연옥,official,fire,불꽃,special,특수,100,50,8,0,selected-pokemon,격렬한 불꽃으로 상대를 둘러싸 공격한다. 화상 상태로 만든다.,격렬한 불꽃으로 상대를 둘러싸 공격한다. 화상 상태로 만든다.,11,opgg_metadata
+infestation,Infestation,엉겨붙기,official,bug,벌레,special,특수,20,100,20,0,selected-pokemon,4-5턴 동안 상대에게 엉겨 붙어서 공격한다. 그동안 상대는 도망갈 수 없다.,4-5턴 동안 상대에게 엉겨 붙어서 공격한다. 그동안 상대는 도망갈 수 없다.,9,opgg_metadata
+ingrain,Ingrain,뿌리박기,official,grass,풀,status,변화,,,20,0,user,대지에 뿌리를 박아 매 턴마다 자신의 HP를 회복한다. 뿌리 박고 있으므로 교체할 수 없다.,대지에 뿌리를 박아 매 턴마다 자신의 HP를 회복한다. 뿌리 박고 있으므로 교체할 수 없다.,14,opgg_metadata
+instruct,Instruct,지휘,official,psychic,에스퍼,status,변화,,,15,0,selected-pokemon,상대에게 지시하여 상대가 쓴 기술을 다시 한번 쓰게 할 수 있다.,상대에게 지시하여 상대가 쓴 기술을 다시 한번 쓰게 할 수 있다.,1,opgg_metadata
+iron-defense,Iron Defense,철벽,official,steel,강철,status,변화,,,16,0,user,피부를 쇠처럼 단단하게 함으로써 자신의 방어를 2랭크 올린다.,피부를 쇠처럼 단단하게 함으로써 자신의 방어를 2랭크 올린다.,83,opgg_metadata
+iron-head,Iron Head,아이언헤드,official,steel,강철,physical,물리,80,100,16,0,selected-pokemon,강철과 같은 단단한 머리로 공격한다. 20%의 확률로 상대를 풀죽게 만든다.,강철과 같은 단단한 머리로 공격한다. 20%의 확률로 상대를 풀죽게 만든다.,88,opgg_metadata
+iron-tail,Iron Tail,아이언테일,official,steel,강철,physical,물리,100,75,16,0,selected-pokemon,단단한 꼬리로 상대를 힘껏 쳐서 공격한다. 30%의 확률로 상대의 방어를 떨어뜨린다.,단단한 꼬리로 상대를 힘껏 쳐서 공격한다. 30%의 확률로 상대의 방어를 떨어뜨린다.,123,opgg_metadata
+jet-punch,Jet Punch,제트펀치,needs_review,water,물,physical,물리,60,100,15,1,selected-pokemon,거센 물살을 주먹에 둘러 눈에 보이지 않는 속도로 펀치를 날린다. 반드시 선제공격할 수 있다. (우선도 +1),거센 물살을 주먹에 둘러 눈에 보이지 않는 속도로 펀치를 날린다. 반드시 선제공격할 수 있다. (우선도 +1),1,opgg_metadata
+kings-shield,King’s Shield,킹실드,official,steel,강철,status,변화,,,10,4,user,상대의 공격을 막음과 동시에 방어 태세를 갖춘다. 접촉한 상대의 공격을 1랭크 떨어뜨린다. (우선도 +4),상대의 공격을 막음과 동시에 방어 태세를 갖춘다. 접촉한 상대의 공격을 1랭크 떨어뜨린다. (우선도 +4),1,opgg_metadata
+knock-off,Knock Off,탁쳐서떨구기,official,dark,악,physical,물리,65,100,20,0,selected-pokemon,상대의 지닌 물건을 탁 쳐서 떨어뜨려 배틀이 끝날 때까지 사용할 수 없게 한다. 물건을 가진 상대에게는 데미지를 더 준다.,상대의 지닌 물건을 탁 쳐서 떨어뜨려 배틀이 끝날 때까지 사용할 수 없게 한다. 물건을 가진 상대에게는 데미지를 더 준다.,95,opgg_metadata
+kowtow-cleave,Kowtow Cleave,도각참,manual_official_ko_fix,dark,악,physical,물리,85.0,,,,,,,1,reference_lookup_fill
+lash-out,Lash Out,분풀이,official,dark,악,physical,물리,75,100,5,0,selected-pokemon,상대에 대한 울분이 담긴 공격을 한다. 그 턴에 능력이 떨어져 있으면 기술의 위력이 2배가 된다.,상대에 대한 울분이 담긴 공격을 한다. 그 턴에 능력이 떨어져 있으면 기술의 위력이 2배가 된다.,57,opgg_metadata
+last-resort,Last Resort,뒀다쓰기,official,normal,노말,physical,물리,140,100,5,0,selected-pokemon,배틀 중에 기억하고 있는 기술을 모두 사용하면 그때부터 쓸 수 있는 비장의 기술.,배틀 중에 기억하고 있는 기술을 모두 사용하면 그때부터 쓸 수 있는 비장의 기술.,29,opgg_metadata
+last-respects,Last Respects,성묘,needs_review,ghost,고스트,physical,물리,50,100,10,0,selected-pokemon,동료의 한을 풀어 주기 위해 공격한다. 쓰러진 같은 편 포켓몬이 많을수록 기술의 위력이 올라간다.,동료의 한을 풀어 주기 위해 공격한다. 쓰러진 같은 편 포켓몬이 많을수록 기술의 위력이 올라간다.,3,opgg_metadata
+lava-plume,Lava Plume,분연,official,fire,불꽃,special,특수,80,100,15,0,all-other-pokemon,새빨간 불꽃으로 주위에 있는 모두를 공격한다. 30% 확률로 상대를 화상 상태로 만들 때가 있다.,새빨간 불꽃으로 주위에 있는 모두를 공격한다. 30% 확률로 상대를 화상 상태로 만들 때가 있다.,8,opgg_metadata
+leaf-blade,Leaf Blade,리프블레이드,official,grass,풀,physical,물리,90.0,100.0,,,,,,12,reference_lookup_fill
+leaf-storm,Leaf Storm,리프스톰,official,grass,풀,special,특수,130.0,90.0,,,,,,31,reference_lookup_fill
+leech-life,Leech Life,흡혈,official,bug,벌레,physical,물리,80,100,12,0,selected-pokemon,피를 빨아서 상대를 공격한다. 준 데미지의 ½을 HP로 회복한다.,피를 빨아서 상대를 공격한다. 준 데미지의 ½을 HP로 회복한다.,13,opgg_metadata
+leech-seed,Leech Seed,씨뿌리기,official,grass,풀,status,변화,,90,12,0,selected-pokemon,"대상을 ""씨뿌리기"" 상태로 만든다. 사용한 쪽의 포켓몬은 이 상태에 걸린 포켓몬의 HP를 매 턴이 끝날 때마다 최대 HP의 ⅛만큼 빼앗아 회복한다.","대상을 ""씨뿌리기"" 상태로 만든다. 사용한 쪽의 포켓몬은 이 상태에 걸린 포켓몬의 HP를 매 턴이 끝날 때마다 최대 HP의 ⅛만큼 빼앗아 회복한다.",28,opgg_metadata
+life-dew,Life Dew,생명의물방울,official,water,물,status,변화,,,12,0,user-and-allies,신비한 물을 흩뿌려서 자신과 배틀에 나와 있는 같은 편의 HP를 회복한다.,신비한 물을 흩뿌려서 자신과 배틀에 나와 있는 같은 편의 HP를 회복한다.,19,opgg_metadata
+light-of-ruin,Light of Ruin,파멸의빛,official,fairy,페어리,special,특수,140,90,5,0,selected-pokemon,영원의 꽃의 파워를 빌려서 강력한 광선을 쏜다. 자신도 상대에게 준 데미지의 ½만큼 반동 피해를 받는다.,영원의 꽃의 파워를 빌려서 강력한 광선을 쏜다. 자신도 상대에게 준 데미지의 ½만큼 반동 피해를 받는다.,2,opgg_metadata
+light-screen,Light Screen,빛의장막,official,psychic,에스퍼,status,변화,,,20,0,users-field,5턴 동안 이상한 장막을 쳐서 상대로부터 받는 특수공격의 데미지를 약하게 한다.,5턴 동안 이상한 장막을 쳐서 상대로부터 받는 특수공격의 데미지를 약하게 한다.,122,opgg_metadata
+liquidation,Liquidation,아쿠아브레이크,official,water,물,physical,물리,85,100,12,0,selected-pokemon,물의 힘으로 상대에게 부딪쳐서 공격한다. 20% 확률로 상대의 방어를 1랭크 떨어뜨린다.,물의 힘으로 상대에게 부딪쳐서 공격한다. 20% 확률로 상대의 방어를 1랭크 떨어뜨린다.,48,opgg_metadata
+lock-on,Lock-On,록온,official,normal,노말,status,변화,,,,,,,,1,reference_lookup_fill
+low-kick,Low Kick,안다리걸기,official,fighting,격투,physical,물리,,100,20,0,selected-pokemon,발을 강하게 걸고 상대를 넘어뜨려 공격한다. 상대가 무거울수록 위력이 올라간다.,발을 강하게 걸고 상대를 넘어뜨려 공격한다. 상대가 무거울수록 위력이 올라간다.,88,opgg_metadata
+low-sweep,Low Sweep,로킥,official,fighting,격투,physical,물리,65.0,100.0,,,,,,58,reference_lookup_fill
+lumina-crash,Lumina Crash,루미나콜리전,manual_official_ko_fix,psychic,에스퍼,special,특수,80.0,100.0,,,,,,1,reference_lookup_fill
+lunge,Lunge,덤벼들기,official,bug,벌레,physical,물리,80.0,100.0,,,,,,26,reference_lookup_fill
+mach-punch,Mach Punch,마하펀치,official,fighting,격투,physical,물리,40.0,100.0,,,,,,6,reference_lookup_fill
+magic-powder,Magic Powder,마법가루,official,psychic,에스퍼,status,변화,,100.0,,,,,,1,reference_lookup_fill
+magic-room,Magic Room,매직룸,official,psychic,에스퍼,status,변화,,,,,,,,22,reference_lookup_fill
+magnet-rise,Magnet Rise,전자부유,official,electric,전기,status,변화,,,12,0,user,전기로 만든 자력의 힘으로 허공에 뜬다. 5턴 동안 부유할 수 있다.,전기로 만든 자력의 힘으로 허공에 뜬다. 5턴 동안 부유할 수 있다.,11,opgg_metadata
+magnetic-flux,Magnetic Flux,자기장조작,official,electric,전기,status,변화,,,20,0,user-and-allies,"자기장 조작으로 인해 특성 플러스와 마이너스의 방어, 특수방어가 1랭크 오른다.","자기장 조작으로 인해 특성 플러스와 마이너스의 방어, 특수방어가 1랭크 오른다.",2,opgg_metadata
+make-it-rain,Make It Rain,골드러시,manual_official_ko_fix,steel,강철,special,특수,120.0,100.0,,,,,,1,reference_lookup_fill
+matcha-gotcha,Matcha Gotcha,휘적휘적포,needs_review,grass,풀,special,특수,80,90,15,0,selected-pokemon,휘저은 차를 대포처럼 발사해 준 데미지의 절반을 HP로 회복한다. 20% 확률로 상대를 화상 상태로 만든다.,휘저은 차를 대포처럼 발사해 준 데미지의 절반을 HP로 회복한다. 20% 확률로 상대를 화상 상태로 만든다.,1,opgg_metadata
+mean-look,Mean Look,검은눈빛,official,normal,노말,status,변화,,,,,,,,21,reference_lookup_fill
+mega-kick,Mega Kick,메가톤킥,official,normal,노말,physical,물리,120.0,75.0,,,,,,78,reference_lookup_fill
+megahorn,Megahorn,메가폰,official,bug,벌레,physical,물리,120.0,85.0,,,,,,19,reference_lookup_fill
+memento,Memento,추억의선물,official,dark,악,status,변화,,100,10,0,selected-pokemon,자신은 기절하게 되지만 그 대신 상대의 공격과 특수공격을 2랭크 떨어뜨린다.,자신은 기절하게 되지만 그 대신 상대의 공격과 특수공격을 2랭크 떨어뜨린다.,18,opgg_metadata
+metal-burst,Metal Burst,메탈버스트,official,steel,강철,physical,물리,,100.0,,,,,,10,reference_lookup_fill
+metal-sound,Metal Sound,금속음,official,steel,강철,status,변화,,85.0,,,,,,23,reference_lookup_fill
+meteor-beam,Meteor Beam,메테오빔,official,rock,바위,special,특수,120.0,90.0,,,,,,27,reference_lookup_fill
+meteor-mash,Meteor Mash,코멧펀치,official,steel,강철,physical,물리,90,90,12,0,selected-pokemon,혜성과 같은 펀치를 날려서 공격한다. 20%의 확률로 자신의 공격이 올라간다.,혜성과 같은 펀치를 날려서 공격한다. 20%의 확률로 자신의 공격이 올라간다.,6,opgg_metadata
+minimize,Minimize,작아지기,official,normal,노말,status,변화,,,12,0,user,몸을 축소하여 작게 보임으로써 회피율을 2랭크 올린다.,몸을 축소하여 작게 보임으로써 회피율을 2랭크 올린다.,7,opgg_metadata
+mirror-coat,Mirror Coat,미러코트,official,psychic,에스퍼,special,특수,,100.0,,,,,,17,reference_lookup_fill
+misty-explosion,Misty Explosion,미스트버스트,official,fairy,페어리,special,특수,100.0,100.0,,,,,,13,reference_lookup_fill
+misty-terrain,Misty Terrain,미스트필드,official,fairy,페어리,status,변화,,,,,,,,29,reference_lookup_fill
+moonblast,Moonblast,문포스,official,fairy,페어리,special,특수,95.0,100.0,,,,,,21,reference_lookup_fill
+moonlight,Moonlight,달의불빛,official,fairy,페어리,status,변화,,,,,,,,7,reference_lookup_fill
+morning-sun,Morning Sun,아침햇살,official,normal,노말,status,변화,,,8,0,user,사용자의 HP를 회복한다. 날씨에 따라 회복량이 변한다.,사용자의 HP를 회복한다. 날씨에 따라 회복량이 변한다.,5,opgg_metadata
+mortal-spin,Mortal Spin,킬러스핀,needs_review,poison,독,physical,물리,30,100,15,0,all-opponents,"회전해서 상대를 공격한다. 조이기, 김밥말이, 씨뿌리기 등의 효과를 날려 버린다. 상대를 독 상태로 만든다.","회전해서 상대를 공격한다. 조이기, 김밥말이, 씨뿌리기 등의 효과를 날려 버린다. 상대를 독 상태로 만든다.",2,opgg_metadata
+mountain-gale,Mountain Gale,빙산바람,needs_review,ice,얼음,physical,물리,100,85,10,0,selected-pokemon,빙산처럼 커다란 얼음덩어리를 부딪쳐서 공격한다.30%의 확률로 상대를 풀죽게 만든다.,빙산처럼 커다란 얼음덩어리를 부딪쳐서 공격한다.30%의 확률로 상대를 풀죽게 만든다.,1,opgg_metadata
+mud-shot,Mud Shot,머드숏,official,ground,땅,special,특수,55.0,95.0,,,,,,73,reference_lookup_fill
+mud-slap,Mud-Slap,진흙뿌리기,official,ground,땅,special,특수,20,100,12,0,selected-pokemon,상대의 얼굴 등에 진흙을 내던져서 공격한다. 명중률을 1랭크 떨어뜨린다.,상대의 얼굴 등에 진흙을 내던져서 공격한다. 명중률을 1랭크 떨어뜨린다.,94,opgg_metadata
+muddy-water,Muddy Water,탁류,official,water,물,special,특수,90,85,12,0,all-opponents,탁해진 물을 상대에게 발사하여 공격한다. 30% 확률로 상대의 명중률을 1랭크 떨어뜨린다.,탁해진 물을 상대에게 발사하여 공격한다. 30% 확률로 상대의 명중률을 1랭크 떨어뜨린다.,34,opgg_metadata
+mystical-fire,Mystical Fire,매지컬플레임,official,fire,불꽃,special,특수,75.0,100.0,,,,,,21,reference_lookup_fill
+nasty-plot,Nasty Plot,나쁜음모,official,dark,악,status,변화,,,,,,,,74,reference_lookup_fill
+night-daze,Night Daze,나이트버스트,official,dark,악,special,특수,85.0,95.0,,,,,,1,reference_lookup_fill
+night-shade,Night Shade,나이트헤드,official,ghost,고스트,special,특수,,100.0,,,,,,54,reference_lookup_fill
+night-slash,Night Slash,깜짝베기,official,dark,악,physical,물리,70.0,100.0,,,,,,43,reference_lookup_fill
+no-retreat,No Retreat,배수의진,official,fighting,격투,status,변화,,,5,0,user,자신의 모든 능력이 올라가지만 교체하거나 도망칠 수 없게 된다.,자신의 모든 능력이 올라가지만 교체하거나 도망칠 수 없게 된다.,2,opgg_metadata
+noble-roar,Noble Roar,부르짖기,official,normal,노말,status,변화,,100,30,0,selected-pokemon,우렁차게 부르짖어서 상대를 위협하여 상대의 공격과 특수공격을 1랭크 떨어뜨린다.,우렁차게 부르짖어서 상대를 위협하여 상대의 공격과 특수공격을 1랭크 떨어뜨린다.,4,opgg_metadata
+nuzzle,Nuzzle,볼부비부비,official,electric,전기,physical,물리,20,100,20,0,selected-pokemon,전기가 흐르는 볼을 비벼서 공격한다. 상대를 마비 상태로 만든다.,전기가 흐르는 볼을 비벼서 공격한다. 상대를 마비 상태로 만든다.,8,opgg_metadata
+outrage,Outrage,역린,official,dragon,드래곤,physical,물리,120,100,12,0,random-opponent,2~3턴 동안 마구 난동 부려서 공격한다. 난동 부린 뒤에는 혼란에 빠진다.,2~3턴 동안 마구 난동 부려서 공격한다. 난동 부린 뒤에는 혼란에 빠진다.,77,opgg_metadata
+overheat,Overheat,오버히트,official,fire,불꽃,special,특수,130,90,8,0,selected-pokemon,풀 파워로 상대를 공격한다. 쓰면 반동으로 자신의 특수공격이 2랭크 떨어진다.,풀 파워로 상대를 공격한다. 쓰면 반동으로 자신의 특수공격이 2랭크 떨어진다.,42,opgg_metadata
+pain-split,Pain Split,아픔나누기,official,normal,노말,status,변화,,,20,0,selected-pokemon,자신의 HP와 상대의 HP를 합친 것을 자신과 상대가 사이좋게 나눈다.,자신의 HP와 상대의 HP를 합친 것을 자신과 상대가 사이좋게 나눈다.,56,opgg_metadata
+parabolic-charge,Parabolic Charge,파라볼라차지,official,electric,전기,special,특수,65,100,20,0,all-other-pokemon,주위에 있는 모든 포켓몬에게 데미지를 준다. 준 데미지의 절반을 자신이 회복한다.,주위에 있는 모든 포켓몬에게 데미지를 준다. 준 데미지의 절반을 자신이 회복한다.,5,opgg_metadata
+parting-shot,Parting Shot,막말내뱉기,official,dark,악,status,변화,,100.0,,,,,,4,reference_lookup_fill
+payback,Payback,보복,official,dark,악,physical,물리,50,100,10,0,selected-pokemon,모아서 공격한다. 상대보다 뒤에 공격할 수 있으면 기술의 위력은 2배가 된다.,모아서 공격한다. 상대보다 뒤에 공격할 수 있으면 기술의 위력은 2배가 된다.,103,opgg_metadata
+perish-song,Perish Song,멸망의노래,official,normal,노말,status,변화,,,,,,,,9,reference_lookup_fill
+petal-blizzard,Petal Blizzard,꽃보라,official,grass,풀,physical,물리,90.0,100.0,,,,,,13,reference_lookup_fill
+petal-dance,Petal Dance,꽃잎댄스,official,grass,풀,special,특수,120.0,100.0,,,,,,10,reference_lookup_fill
+phantom-force,Phantom Force,고스트다이브,official,ghost,고스트,physical,물리,90.0,100.0,,,,,,31,reference_lookup_fill
+pin-missile,Pin Missile,바늘미사일,official,bug,벌레,physical,물리,25.0,95.0,,,,,,16,reference_lookup_fill
+play-rough,Play Rough,치근거리기,official,fairy,페어리,physical,물리,90,90,12,0,selected-pokemon,상대에게 치근거리며 공격한다. 10% 확률로 상대의 공격을 떨어뜨린다.,상대에게 치근거리며 공격한다. 10% 확률로 상대의 공격을 떨어뜨린다.,50,opgg_metadata
+pluck,Pluck,쪼아대기,official,flying,비행,physical,물리,60,100,20,0,selected-pokemon,부리로 공격한다. 상대가 나무열매를 지니고 있을 때 쪼아서 나무열매의 효과를 받을 수 있다.,부리로 공격한다. 상대가 나무열매를 지니고 있을 때 쪼아서 나무열매의 효과를 받을 수 있다.,12,opgg_metadata
+poison-fang,Poison Fang,독엄니,official,poison,독,physical,물리,50.0,100.0,,,,,,7,reference_lookup_fill
+poison-jab,Poison Jab,독찌르기,official,poison,독,physical,물리,80.0,100.0,,,,,,72,reference_lookup_fill
+poison-powder,Poison Powder,독가루,official,poison,독,status,변화,,75.0,,,,,,10,reference_lookup_fill
+pollen-puff,Pollen Puff,꽃가루경단,official,bug,벌레,special,특수,90.0,100.0,,,,,,12,reference_lookup_fill
+poltergeist,Poltergeist,폴터가이스트,official,ghost,고스트,physical,물리,110,90,5,0,selected-pokemon,상대가 지닌 물건을 조종해서 공격한다. 상대가 도구를 지니고 있지 않으면 실패한다.,상대가 지닌 물건을 조종해서 공격한다. 상대가 도구를 지니고 있지 않으면 실패한다.,36,opgg_metadata
+population-bomb,Population Bomb,찍찍베기,needs_review,normal,노말,physical,물리,20,90,10,0,selected-pokemon,여기저기서 동료들을 모아서 화려한 콤비네이션으로 공격한다. 1~10회 연속으로 공격한다.,여기저기서 동료들을 모아서 화려한 콤비네이션으로 공격한다. 1~10회 연속으로 공격한다.,2,opgg_metadata
+pounce,Pounce,덤벼들기,manual_official_ko_fix,bug,벌레,physical,물리,50.0,100.0,,,,,,33,reference_lookup_fill
+power-gem,Power Gem,파워젬,official,rock,바위,special,특수,80,100,20,0,selected-pokemon,보석처럼 반짝이는 빛을 발사하여 상대를 공격한다.,보석처럼 반짝이는 빛을 발사하여 상대를 공격한다.,21,opgg_metadata
+power-split,Power Split,파워셰어,official,psychic,에스퍼,status,변화,,,10,0,selected-pokemon,초능력으로 자신과 상대의 공격과 특수공격을 더해서 반으로 나눈다.,초능력으로 자신과 상대의 공격과 특수공격을 더해서 반으로 나눈다.,5,opgg_metadata
+power-swap,Power Swap,파워스웹,official,psychic,에스퍼,status,변화,,,10,0,selected-pokemon,초능력으로 자신과 상대의 공격과 특수공격의 능력 변화를 교체한다.,초능력으로 자신과 상대의 공격과 특수공격의 능력 변화를 교체한다.,19,opgg_metadata
+power-trick,Power Trick,파워트릭,official,psychic,에스퍼,status,변화,,,10,0,user,초능력으로 자신의 공격과 방어의 힘을 교환한다.,초능력으로 자신의 공격과 방어의 힘을 교환한다.,4,opgg_metadata
+power-trip,Power Trip,기어오르기,official,dark,악,physical,물리,20.0,100.0,,,,,,6,reference_lookup_fill
+power-whip,Power Whip,파워휩,official,grass,풀,physical,물리,120,85,12,0,selected-pokemon,덩굴이나 촉수를 세차게 흔들어 상대를 힘껏 쳐서 공격한다.,덩굴이나 촉수를 세차게 흔들어 상대를 힘껏 쳐서 공격한다.,17,opgg_metadata
+protect,Protect,방어,official,normal,노말,status,변화,,,12,4,user,상대의 공격을 전혀 받지 않는다. 연속으로 쓰면 실패하기 쉽다. (우선도 +4),상대의 공격을 전혀 받지 않는다. 연속으로 쓰면 실패하기 쉽다. (우선도 +4),314,opgg_metadata
+psych-up,Psych Up,자기암시,official,normal,노말,status,변화,,,10,0,selected-pokemon,자신에게 암시를 걸어서 능력 변화 상태를 상대와 같게 만든다.,자신에게 암시를 걸어서 능력 변화 상태를 상대와 같게 만든다.,73,opgg_metadata
+psychic,Psychic,사이코키네시스,official,psychic,에스퍼,special,특수,90,100,12,0,selected-pokemon,강한 염동력을 상대에게 보내어 공격한다. 10% 확률로 상대의 특수방어를 1랭크 떨어뜨린다.,강한 염동력을 상대에게 보내어 공격한다. 10% 확률로 상대의 특수방어를 1랭크 떨어뜨린다.,86,opgg_metadata
+psychic-fangs,Psychic Fangs,사이코팽,official,psychic,에스퍼,physical,물리,85,100,10,0,selected-pokemon,사이코 파워로 물어서 상대를 공격한다. 빛의장막이나 리플렉터도 파괴할 수 있다.,사이코 파워로 물어서 상대를 공격한다. 빛의장막이나 리플렉터도 파괴할 수 있다.,39,opgg_metadata
+psychic-noise,Psychic Noise,사이코노이즈,official,psychic,에스퍼,special,특수,75,100,10,0,selected-pokemon,불쾌한 음파를 상대에게 날려서 공격한다. 2턴 동안 상대는 기술이나 특성 또는 지니고 있는 도구로 HP를 회복할 수 없게 된다.,불쾌한 음파를 상대에게 날려서 공격한다. 2턴 동안 상대는 기술이나 특성 또는 지니고 있는 도구로 HP를 회복할 수 없게 된다.,30,opgg_metadata
+psychic-terrain,Psychic Terrain,사이코필드,official,psychic,에스퍼,status,변화,,,12,0,entire-field,5턴 동안 발 밑을 사이코필드로 만든다. 땅에 있으면 선제공격을 받지 않는다.,5턴 동안 발 밑을 사이코필드로 만든다. 땅에 있으면 선제공격을 받지 않는다.,28,opgg_metadata
+psycho-cut,Psycho Cut,사이코커터,official,psychic,에스퍼,physical,물리,70,100,20,0,selected-pokemon,실체화시킨 마음의 칼날로 상대를 베어 가른다. 급소에 맞을 확률이 높다.,실체화시킨 마음의 칼날로 상대를 베어 가른다. 급소에 맞을 확률이 높다.,22,opgg_metadata
+psyshield-bash,Psyshield Bash,배리어러시,needs_review,psychic,에스퍼,physical,물리,70,90,10,0,selected-pokemon,사념의 에너지를 두른 채로 상대에게 부딪친다. 자신의 방어를 1랭크 올린다.,사념의 에너지를 두른 채로 상대에게 부딪친다. 자신의 방어를 1랭크 올린다.,1,opgg_metadata
+psyshock,Psyshock,사이코쇼크,official,psychic,에스퍼,special,특수,80,100,12,0,selected-pokemon,이상한 염력파를 실체화하여 상대를 공격한다. 물리적인 데미지를 준다.,이상한 염력파를 실체화하여 상대를 공격한다. 물리적인 데미지를 준다.,51,opgg_metadata
+quash,Quash,순서미루기,official,dark,악,status,변화,,100,16,0,selected-pokemon,상대를 억눌러서 행동의 순서를 마지막으로 만든다.,상대를 억눌러서 행동의 순서를 마지막으로 만든다.,7,opgg_metadata
+quick-attack,Quick Attack,전광석화,official,normal,노말,physical,물리,40,100,20,1,selected-pokemon,눈에 보이지 않는 굉장한 속도로 상대에게 돌진한다. 반드시 선제공격할 수 있다. (우선도 +1),눈에 보이지 않는 굉장한 속도로 상대에게 돌진한다. 반드시 선제공격할 수 있다. (우선도 +1),58,opgg_metadata
+quick-guard,Quick Guard,퍼스트가드,official,fighting,격투,status,변화,,,15,3,users-field,아군 전원을 상대의 선제공격으로부터 보호한다.(우선도 +3),아군 전원을 상대의 선제공격으로부터 보호한다.(우선도 +3),29,opgg_metadata
+quiver-dance,Quiver Dance,나비춤,official,bug,벌레,status,변화,,,,,,,,2,reference_lookup_fill
+rage-fist,Rage Fist,분노의주먹,needs_review,ghost,고스트,physical,물리,50,100,10,0,selected-pokemon,분노를 에너지로 바꿔서 공격한다. 받은 공격의 횟수가 많을수록 기술의 위력이 올라간다.,분노를 에너지로 바꿔서 공격한다. 받은 공격의 횟수가 많을수록 기술의 위력이 올라간다.,1,opgg_metadata
+rage-powder,Rage Powder,분노가루,official,bug,벌레,status,변화,,,20,2,user,상대를 자극하는 가루를 자신에게 뿌려서 주의를 끈다. 상대의 공격은 모두 자신에게 향한다. (우선도+2),상대를 자극하는 가루를 자신에게 뿌려서 주의를 끈다. 상대의 공격은 모두 자신에게 향한다. (우선도+2),6,opgg_metadata
+raging-bull,Raging Bull,레이징불,manual_official_ko_fix,normal,노말,physical,물리,90.0,100.0,,,,,,4,reference_lookup_fill
+raging-fury,Raging Fury,대격분,manual_official_ko_fix,fire,불꽃,physical,물리,120.0,100.0,,,,,,3,reference_lookup_fill
+rain-dance,Rain Dance,비바라기,official,water,물,status,변화,,,8,0,entire-field,5턴 동안 비를 내리게 해서 물타입 기술의 위력을 올린다.,5턴 동안 비를 내리게 해서 물타입 기술의 위력을 올린다.,235,opgg_metadata
+rapid-spin,Rapid Spin,고속스핀,official,normal,노말,physical,물리,50.0,100.0,,,,,,14,reference_lookup_fill
+razor-shell,Razor Shell,셸블레이드,official,water,물,physical,물리,75,95,10,0,selected-pokemon,날카로운 조개껍질로 베어 공격한다. 50% 확률로 상대의 방어를 1랭크 떨어뜨린다.,날카로운 조개껍질로 베어 공격한다. 50% 확률로 상대의 방어를 1랭크 떨어뜨린다.,9,opgg_metadata
+recover,Recover,HP회복,official,normal,노말,status,변화,,,,,,,,20,reference_lookup_fill
+recycle,Recycle,리사이클,official,normal,노말,status,변화,,,,,,,,12,reference_lookup_fill
+reflect,Reflect,리플렉터,official,psychic,에스퍼,status,변화,,,,,,,,94,reference_lookup_fill
+reflect-type,Reflect Type,미러타입,official,normal,노말,status,변화,,,,,,,,4,reference_lookup_fill
+rest,Rest,잠자기,official,psychic,에스퍼,status,변화,,,8,0,user,2턴 동안 계속 잠잔다. 자신의 HP와 상태 이상을 모두 회복한다.,2턴 동안 계속 잠잔다. 자신의 HP와 상태 이상을 모두 회복한다.,314,opgg_metadata
+reversal,Reversal,기사회생,official,fighting,격투,physical,물리,,100.0,,,,,,80,reference_lookup_fill
+rising-voltage,Rising Voltage,라이징볼트,official,electric,전기,special,특수,70.0,100.0,,,,,,23,reference_lookup_fill
+roar,Roar,울부짖기,official,normal,노말,status,변화,,,20,-6,selected-pokemon,상대를 도망가게 해서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다. (우선도-6),상대를 도망가게 해서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다. (우선도-6),92,opgg_metadata
+rock-blast,Rock Blast,락블레스트,official,rock,바위,physical,물리,25.0,90.0,,,,,,39,reference_lookup_fill
+rock-polish,Rock Polish,록커트,official,rock,바위,status,변화,,,,,,,,11,reference_lookup_fill
+rock-slide,Rock Slide,스톤샤워,official,rock,바위,physical,물리,75,90,12,0,all-opponents,큰 바위를 세차게 부딪쳐서 공격한다. 30% 확률로 상대를 풀죽게 만든다.,큰 바위를 세차게 부딪쳐서 공격한다. 30% 확률로 상대를 풀죽게 만든다.,146,opgg_metadata
+rock-tomb,Rock Tomb,암석봉인,official,rock,바위,physical,물리,60,95,16,0,selected-pokemon,암석을 내던져서 공격한다. 상대의 움직임을 봉인함으로 스피드를 1랭크 떨어뜨린다.,암석을 내던져서 공격한다. 상대의 움직임을 봉인함으로 스피드를 1랭크 떨어뜨린다.,139,opgg_metadata
+rock-wrecker,Rock Wrecker,암석포,official,rock,바위,physical,물리,150,90,5,0,selected-pokemon,거대한 바위를 상대에게 발사하여 공격한다. 다음 턴은 움직일 수 없게 된다.,거대한 바위를 상대에게 발사하여 공격한다. 다음 턴은 움직일 수 없게 된다.,1,opgg_metadata
+role-play,Role Play,역할,official,psychic,에스퍼,status,변화,,,10,0,selected-pokemon,상대의 역할을 하여 자신도 상대와 같은 특성으로 변화한다.,상대의 역할을 하여 자신도 상대와 같은 특성으로 변화한다.,18,opgg_metadata
+roost,Roost,날개쉬기,official,flying,비행,status,변화,,,,,,,,33,reference_lookup_fill
+round,Round,돌림노래,official,normal,노말,special,특수,60.0,100.0,,,,,,280,reference_lookup_fill
+sacred-sword,Sacred Sword,성스러운칼,official,fighting,격투,physical,물리,90,100,15,0,selected-pokemon,칼로 베어 공격한다. 상대의 능력 변화에 관계없이 데미지를 준다.,칼로 베어 공격한다. 상대의 능력 변화에 관계없이 데미지를 준다.,5,opgg_metadata
+safeguard,Safeguard,신비의부적,official,normal,노말,status,변화,,,20,0,users-field,5턴 동안 이상한 힘의 보호를 받아 상태 이상이 되지 않는다.,5턴 동안 이상한 힘의 보호를 받아 상태 이상이 되지 않는다.,76,opgg_metadata
+salt-cure,Salt Cure,소금절이,needs_review,rock,바위,physical,물리,40,100,15,0,selected-pokemon,상대를 소금절이 상태로 만들어 매 턴 최대 체력의 1/16의 데미지를 준다. 강철타입이나 물타입에게는 매 턴 최대 체력의 1/8의 데미지를 준다.,상대를 소금절이 상태로 만들어 매 턴 최대 체력의 1/16의 데미지를 준다. 강철타입이나 물타입에게는 매 턴 최대 체력의 1/8의 데미지를 준다.,1,opgg_metadata
+sand-tomb,Sand Tomb,모래지옥,official,ground,땅,physical,물리,35.0,85.0,,,,,,28,reference_lookup_fill
+sandstorm,Sandstorm,모래바람,official,rock,바위,status,변화,,,,,,,,82,reference_lookup_fill
+scald,Scald,열탕,official,water,물,special,특수,80,100,16,0,selected-pokemon,뜨겁게 끓어오르는 물을 상대에게 발사해서 공격한다. 30% 확률로 상대를 화상 상태로 만든다.,뜨겁게 끓어오르는 물을 상대에게 발사해서 공격한다. 30% 확률로 상대를 화상 상태로 만든다.,26,opgg_metadata
+scale-shot,Scale Shot,스케일샷,official,dragon,드래곤,physical,물리,25,90,20,0,selected-pokemon,비늘을 쏘아서 공격한다. 2~5회 동안 연속으로 쓴다.스피드가 1랭크 올라가지만 방어가 1랭크 떨어진다.,비늘을 쏘아서 공격한다. 2~5회 동안 연속으로 쓴다.스피드가 1랭크 올라가지만 방어가 1랭크 떨어진다.,34,opgg_metadata
+scary-face,Scary Face,겁나는얼굴,official,normal,노말,status,변화,,100.0,,,,,,146,reference_lookup_fill
+scorching-sands,Scorching Sands,열사의대지,official,ground,땅,special,특수,70,100,10,0,selected-pokemon,뜨겁게 달궈진 모래를 상대에게 부딪쳐서 공격한다. 30% 확률로 상대를 화상 상태로 만든다.,뜨겁게 달궈진 모래를 상대에게 부딪쳐서 공격한다. 30% 확률로 상대를 화상 상태로 만든다.,43,opgg_metadata
+screech,Screech,싫은소리,official,normal,노말,status,변화,,85,20,0,selected-pokemon,그만 귀를 막아버리고 싶은 싫은 소리를 내어 상대의 방어를 2랭크 떨어뜨린다.,그만 귀를 막아버리고 싶은 싫은 소리를 내어 상대의 방어를 2랭크 떨어뜨린다.,58,opgg_metadata
+seed-bomb,Seed Bomb,씨폭탄,official,grass,풀,physical,물리,80,100,16,0,selected-pokemon,단단한 껍질을 가지고 있는 큰 씨앗을 위에서 힘껏 내던져 상대를 공격한다.,단단한 껍질을 가지고 있는 큰 씨앗을 위에서 힘껏 내던져 상대를 공격한다.,55,opgg_metadata
+seismic-toss,Seismic Toss,지구던지기,official,fighting,격투,physical,물리,,100,20,0,selected-pokemon,인력을 사용해 내던진다. 자신의 레벨과 똑같은 데미지를 상대에게 준다.,인력을 사용해 내던진다. 자신의 레벨과 똑같은 데미지를 상대에게 준다.,17,opgg_metadata
+self-destruct,Self-Destruct,자폭,official,normal,노말,physical,물리,200,100,8,0,all-other-pokemon,폭발을 일으켜서 자신의 주위에 있는 포켓몬을 공격한다. 쓰고 나서 기절하게 된다.,폭발을 일으켜서 자신의 주위에 있는 포켓몬을 공격한다. 쓰고 나서 기절하게 된다.,31,opgg_metadata
+shadow-ball,Shadow Ball,섀도볼,official,ghost,고스트,special,특수,80,100,16,0,selected-pokemon,까만 그림자의 덩어리를 내던져서 공격한다. 20% 확률로 상대의 특수방어를 1랭크 떨어뜨린다.,까만 그림자의 덩어리를 내던져서 공격한다. 20% 확률로 상대의 특수방어를 1랭크 떨어뜨린다.,124,opgg_metadata
+shadow-claw,Shadow Claw,섀도크루,official,ghost,고스트,physical,물리,70,100,16,0,selected-pokemon,그림자로 만든 날카로운 발톱으로 상대를 베어 가른다. 급소에 맞을 확률이 높다.,그림자로 만든 날카로운 발톱으로 상대를 베어 가른다. 급소에 맞을 확률이 높다.,78,opgg_metadata
+shadow-punch,Shadow Punch,섀도펀치,official,ghost,고스트,physical,물리,60,,20,0,selected-pokemon,그림자에 섞여 펀치를 날린다. 공격은 반드시 명중한다.,그림자에 섞여 펀치를 날린다. 공격은 반드시 명중한다.,12,opgg_metadata
+shadow-sneak,Shadow Sneak,야습,official,ghost,고스트,physical,물리,40,100,20,1,selected-pokemon,그림자를 늘려 상대의 배후에서 공격한다. 반드시 선제공격할 수 있다. (우선도 +1),그림자를 늘려 상대의 배후에서 공격한다. 반드시 선제공격할 수 있다. (우선도 +1),24,opgg_metadata
+shed-tail,Shed Tail,꼬리자르기,manual_official_ko_fix,normal,노말,status,변화,0.0,,,,,,,4,reference_lookup_fill
+sheer-cold,Sheer Cold,절대영도,official,ice,얼음,special,특수,,30,5,0,selected-pokemon,절대영도의 추위로 상대를 공격한다. 맞으면 일격에 기절한다.,절대영도의 추위로 상대를 공격한다. 맞으면 일격에 기절한다.,6,opgg_metadata
+shell-smash,Shell Smash,껍질깨기,official,normal,노말,status,변화,,,,,,,,7,reference_lookup_fill
+shelter,Shelter,농성,manual_official_ko_fix,steel,강철,status,변화,0.0,,,,,,,2,reference_lookup_fill
+simple-beam,Simple Beam,심플빔,official,normal,노말,status,변화,,100,15,0,selected-pokemon,수수께끼의 염력파를 상대에게 보낸다. 염력파를 받은 상대는 특성이 단순으로 바뀐다.,수수께끼의 염력파를 상대에게 보낸다. 염력파를 받은 상대는 특성이 단순으로 바뀐다.,2,opgg_metadata
+sing,Sing,노래하기,official,normal,노말,status,변화,,55.0,,,,,,8,reference_lookup_fill
+skill-swap,Skill Swap,스킬스웹,official,psychic,에스퍼,status,변화,,,10,0,selected-pokemon,초능력으로 자신의 특성과 상대의 특성을 바꾼다.,초능력으로 자신의 특성과 상대의 특성을 바꾼다.,61,opgg_metadata
+skitter-smack,Skitter Smack,엄습하는일격,official,bug,벌레,physical,물리,70,90,10,0,selected-pokemon,배후에서 엄습해서 공격한다. 상대의 특수공격을 1랭크 떨어뜨린다.,배후에서 엄습해서 공격한다. 상대의 특수공격을 1랭크 떨어뜨린다.,42,opgg_metadata
+sky-attack,Sky Attack,불새,official,flying,비행,physical,물리,140,90,8,0,selected-pokemon,2턴째에 상대를 공격한다. 30% 확률로 풀죽게 만든다.급소에 맞을 확률이 높다.,2턴째에 상대를 공격한다. 30% 확률로 풀죽게 만든다.급소에 맞을 확률이 높다.,17,opgg_metadata
+slack-off,Slack Off,태만함,official,normal,노말,status,변화,,,,,,,,10,reference_lookup_fill
+sleep-powder,Sleep Powder,수면가루,official,grass,풀,status,변화,,75,16,0,selected-pokemon,잠이 오는 가루를 많이 흩뿌려서 상대를 잠듦 상태로 만든다.,잠이 오는 가루를 많이 흩뿌려서 상대를 잠듦 상태로 만든다.,8,opgg_metadata
+sleep-talk,Sleep Talk,잠꼬대,official,normal,노말,status,변화,,,12,0,user,자신이 배운 기술 중 하나를 무작위로 날린다. 자신이 잠들어 있을 때만 쓸 수 있다.,자신이 배운 기술 중 하나를 무작위로 날린다. 자신이 잠들어 있을 때만 쓸 수 있다.,314,opgg_metadata
+sludge-bomb,Sludge Bomb,오물폭탄,official,poison,독,special,특수,90,100,12,0,selected-pokemon,더러운 오물을 상대에게 내던져서 공격한다. 30%의 확률로 독 상태로 만든다.,더러운 오물을 상대에게 내던져서 공격한다. 30%의 확률로 독 상태로 만든다.,60,opgg_metadata
+sludge-wave,Sludge Wave,오물웨이브,official,poison,독,special,특수,95,100,12,0,all-other-pokemon,오물 파도로 자신의 주위에 있는 포켓몬을 공격한다.10%의 확률로 독 상태로 만든다.,오물 파도로 자신의 주위에 있는 포켓몬을 공격한다.10%의 확률로 독 상태로 만든다.,34,opgg_metadata
+smack-down,Smack Down,떨어뜨리기,official,rock,바위,physical,물리,50.0,100.0,,,,,,48,reference_lookup_fill
+smart-strike,Smart Strike,스마트호른,official,steel,강철,physical,물리,70,,12,0,selected-pokemon,뾰족한 뿔로 상대를 꿰찔러서 공격한다. 공격은 반드시 명중한다.,뾰족한 뿔로 상대를 꿰찔러서 공격한다. 공격은 반드시 명중한다.,21,opgg_metadata
+snarl,Snarl,바크아웃,official,dark,악,special,특수,55.0,95.0,,,,,,50,reference_lookup_fill
+snore,Snore,코골기,official,normal,노말,special,특수,50,100,16,0,selected-pokemon,자신이 잠들어 있을 때 소음을 내어 공격한다. 30% 확률로 상대를 풀죽게 만든다.,자신이 잠들어 있을 때 소음을 내어 공격한다. 30% 확률로 상대를 풀죽게 만든다.,279,opgg_metadata
+snowscape,Snowscape,설경,needs_review,ice,얼음,status,변화,0,,10,0,entire-field,5턴 동안 눈을 내리게 한다. 얼음타입의 방어가 올라간다.,5턴 동안 눈을 내리게 한다. 얼음타입의 방어가 올라간다.,40,opgg_metadata
+soak,Soak,물붓기,official,water,물,status,변화,,100.0,,,,,,8,reference_lookup_fill
+solar-beam,Solar Beam,솔라빔,official,grass,풀,special,특수,120,100,12,0,selected-pokemon,1턴째에 빛을 가득 모아 2턴째에 빛의 다발을 발사하여 공격한다.날씨가 맑을 때는 1턴 만에 공격한다.다른 날씨에는 위력이 절반이 된다.,1턴째에 빛을 가득 모아 2턴째에 빛의 다발을 발사하여 공격한다.날씨가 맑을 때는 1턴 만에 공격한다.다른 날씨에는 위력이 절반이 된다.,108,opgg_metadata
+solar-blade,Solar Blade,솔라블레이드,official,grass,풀,physical,물리,125,100,12,0,selected-pokemon,1턴째에 빛을 가득 모아 2턴째에 그 힘을 검에 담아 공격한다.날씨가 맑을 때는 1턴 만에 공격한다.,1턴째에 빛을 가득 모아 2턴째에 그 힘을 검에 담아 공격한다.날씨가 맑을 때는 1턴 만에 공격한다.,16,opgg_metadata
+sparkling-aria,Sparkling Aria,물거품아리아,official,water,물,special,특수,90.0,100.0,,,,,,1,reference_lookup_fill
+speed-swap,Speed Swap,스피드스웹,official,psychic,에스퍼,status,변화,,,10,0,selected-pokemon,상대의 스피드와 자신의 스피드를 교체한다.,상대의 스피드와 자신의 스피드를 교체한다.,4,opgg_metadata
+spicy-extract,Spicy Extract,하바네로엑기스,needs_review,grass,풀,status,변화,0,,15,0,selected-pokemon,어마어마하게 매운 엑기스를 발사한다. 상대의 공격을 2랭크 오르게 하고 방어를 2랭크 낮춘다.,어마어마하게 매운 엑기스를 발사한다. 상대의 공격을 2랭크 오르게 하고 방어를 2랭크 낮춘다.,2,opgg_metadata
+spikes,Spikes,압정뿌리기,official,ground,땅,status,변화,,,20,0,opponents-field,"상대의 발밑에 압정을 뿌린다. 교체된 상대 포켓몬에게 데미지를 준다.1중첩 시 최대 HP의 ⅛, 2중첩 시 ⅙, 3중첩 시 ¼만큼의 데미지를 입힌다.부유 특성이나 비행타입 포켓몬은 압정을 밟지 않는다.","상대의 발밑에 압정을 뿌린다. 교체된 상대 포켓몬에게 데미지를 준다.1중첩 시 최대 HP의 ⅛, 2중첩 시 ⅙, 3중첩 시 ¼만큼의 데미지를 입힌다.부유 특성이나 비행타입 포켓몬은 압정을 밟지 않는다.",28,opgg_metadata
+spiky-shield,Spiky Shield,니들가드,official,grass,풀,status,변화,,,,,,,,4,reference_lookup_fill
+spirit-break,Spirit Break,소울크래시,official,fairy,페어리,physical,물리,75,100,16,0,selected-pokemon,맞으면 기가 꺾여버릴 것 같은 기세로 공격한다. 상대의 특수공격을 1랭크 떨어뜨린다.,맞으면 기가 꺾여버릴 것 같은 기세로 공격한다. 상대의 특수공격을 1랭크 떨어뜨린다.,1,opgg_metadata
+spirit-shackle,Spirit Shackle,그림자꿰매기,official,ghost,고스트,physical,물리,80.0,100.0,,,,,,1,reference_lookup_fill
+spit-up,Spit Up,토해내기,official,normal,노말,special,특수,,100,10,0,selected-pokemon,비축된 힘을 상대에게 부딪쳐서 공격한다. 비축된 만큼 위력이 올라간다.,비축된 힘을 상대에게 부딪쳐서 공격한다. 비축된 만큼 위력이 올라간다.,14,opgg_metadata
+spite,Spite,원한,official,ghost,고스트,status,변화,,100,12,0,selected-pokemon,상대가 마지막으로 사용한 기술에 원한을 품어 그 기술의 PP를 4만큼 줄인다.,상대가 마지막으로 사용한 기술에 원한을 품어 그 기술의 PP를 4만큼 줄인다.,64,opgg_metadata
+stealth-rock,Stealth Rock,스텔스록,official,rock,바위,status,변화,,,20,0,opponents-field,상대의 주위에 무수한 바위를 띄워 교체되어 나온 상대 포켓몬에게 데미지를 준다.교체되어 나온 포켓몬의 바위타입 상성에 따라 데미지가 달라진다.,상대의 주위에 무수한 바위를 띄워 교체되어 나온 상대 포켓몬에게 데미지를 준다.교체되어 나온 포켓몬의 바위타입 상성에 따라 데미지가 달라진다.,63,opgg_metadata
+steel-beam,Steel Beam,철제광선,official,steel,강철,special,특수,140,95,5,0,selected-pokemon,전신에서 끌어모은 강철을 빔으로 바꿔 세차게 발사한다. 자신도 최대 HP의 ½만큼 데미지를 받는다.,전신에서 끌어모은 강철을 빔으로 바꿔 세차게 발사한다. 자신도 최대 HP의 ½만큼 데미지를 받는다.,28,opgg_metadata
+steel-roller,Steel Roller,아이언롤러,official,steel,강철,physical,물리,130,100,5,0,selected-pokemon,필드를 파괴하면서 공격한다. 필드가 어떤 상태로든 변해 있지 않은 경우 기술은 실패한다.,필드를 파괴하면서 공격한다. 필드가 어떤 상태로든 변해 있지 않은 경우 기술은 실패한다.,16,opgg_metadata
+steel-wing,Steel Wing,강철날개,official,steel,강철,physical,물리,70.0,90.0,,,,,,33,reference_lookup_fill
+sticky-web,Sticky Web,끈적끈적네트,official,bug,벌레,status,변화,,,,,,,,3,reference_lookup_fill
+stockpile,Stockpile,비축하기,official,normal,노말,status,변화,,,20,0,user,힘을 비축해서 자신의 방어와 특수방어를 1랭크 올린다. 최대 3회까지 비축할 수 있다.,힘을 비축해서 자신의 방어와 특수방어를 1랭크 올린다. 최대 3회까지 비축할 수 있다.,16,opgg_metadata
+stomping-tantrum,Stomping Tantrum,분함의발구르기,official,ground,땅,physical,물리,75,100,10,0,selected-pokemon,분함을 발판삼아 공격한다. 앞 턴에서 기술이 빗나갔다면 위력이 2배가 된다.,분함을 발판삼아 공격한다. 앞 턴에서 기술이 빗나갔다면 위력이 2배가 된다.,93,opgg_metadata
+stone-axe,Stone Axe,암석액스,needs_review,rock,바위,physical,물리,65,90,15,0,selected-pokemon,암석 도끼로 공격한다.흩어진 암석 파편은 상대의 주위에 떠다니게 된다.,암석 도끼로 공격한다.흩어진 암석 파편은 상대의 주위에 떠다니게 된다.,1,opgg_metadata
+stone-edge,Stone Edge,스톤에지,official,rock,바위,physical,물리,100,80,8,0,selected-pokemon,뾰족한 바위를 상대에게 꿰찔러서 공격한다. 급소에 맞을 확률이 높다.,뾰족한 바위를 상대에게 꿰찔러서 공격한다. 급소에 맞을 확률이 높다.,90,opgg_metadata
+stored-power,Stored Power,어시스트파워,official,psychic,에스퍼,special,특수,20,100,12,0,selected-pokemon,축적된 파워로 상대를 공격한다. 자신의 능력이 올라가 있는 만큼 위력이 오른다.,축적된 파워로 상대를 공격한다. 자신의 능력이 올라가 있는 만큼 위력이 오른다.,59,opgg_metadata
+storm-throw,Storm Throw,업어후리기,official,fighting,격투,physical,물리,60,100,10,0,selected-pokemon,강렬한 일격을 상대에게 날린다. 공격은 반드시 급소에 맞는다.,강렬한 일격을 상대에게 날린다. 공격은 반드시 급소에 맞는다.,6,opgg_metadata
+strength-sap,Strength Sap,힘흡수,official,grass,풀,status,변화,,100,10,0,selected-pokemon,상대 공격력과 동일하게 자신의 HP를 회복한다. 그리고 상대의 공격을 1랭크 떨어뜨린다.,상대 공격력과 동일하게 자신의 HP를 회복한다. 그리고 상대의 공격을 1랭크 떨어뜨린다.,6,opgg_metadata
+string-shot,String Shot,실뿜기,official,bug,벌레,status,변화,,95,40,0,all-opponents,입에서 뿜어낸 실을 휘감아서 상대의 스피드를 2랭크 떨어뜨린다.,입에서 뿜어낸 실을 휘감아서 상대의 스피드를 2랭크 떨어뜨린다.,6,opgg_metadata
+struggle-bug,Struggle Bug,벌레의저항,official,bug,벌레,special,특수,50,100,20,0,all-opponents,저항해서 상대를 공격한다. 상대의 특수공격을 1랭크 떨어뜨린다.,저항해서 상대를 공격한다. 상대의 특수공격을 1랭크 떨어뜨린다.,15,opgg_metadata
+stuff-cheeks,Stuff Cheeks,볼가득넣기,official,normal,노말,status,변화,,,10,0,user,지니고 있는 나무열매를 먹고 방어를 2랭크 올린다.,지니고 있는 나무열매를 먹고 방어를 2랭크 올린다.,3,opgg_metadata
+stun-spore,Stun Spore,저리가루,official,grass,풀,status,변화,,75,20,0,selected-pokemon,저리가루를 많이 흩뿌려서 상대를 마비 상태로 만든다.,저리가루를 많이 흩뿌려서 상대를 마비 상태로 만든다.,8,opgg_metadata
+substitute,Substitute,대타출동,official,normal,노말,status,변화,,,,,,,,314,reference_lookup_fill
+sucker-punch,Sucker Punch,기습,official,dark,악,physical,물리,70.0,100.0,,,,,,47,reference_lookup_fill
+sunny-day,Sunny Day,쾌청,official,fire,불꽃,status,변화,,,8,0,entire-field,5턴 동안 햇살을 강하게 해서 불꽃타입 기술의 위력을 올린다.,5턴 동안 햇살을 강하게 해서 불꽃타입 기술의 위력을 올린다.,235,opgg_metadata
+super-fang,Super Fang,분노의앞니,official,normal,노말,physical,물리,,90,12,0,selected-pokemon,날카로운 앞니로 강하게 물어서 공격한다. 상대의 HP는 절반이 된다.,날카로운 앞니로 강하게 물어서 공격한다. 상대의 HP는 절반이 된다.,19,opgg_metadata
+supercell-slam,Supercell Slam,썬더다이브,official,electric,전기,physical,물리,100,95,15,0,selected-pokemon,몸에 전기를 두르고 상대를 덮친다. 빗나가면 자신이 전체 HP의 ½의 대미지를 입는다.,몸에 전기를 두르고 상대를 덮친다. 빗나가면 자신이 전체 HP의 ½의 대미지를 입는다.,11,opgg_metadata
+superpower,Superpower,엄청난힘,official,fighting,격투,physical,물리,120,100,8,0,selected-pokemon,엄청난 힘을 발휘하여 상대를 공격한다. 사용 후 자신의 공격과 방어가 1랭크 떨어진다.,엄청난 힘을 발휘하여 상대를 공격한다. 사용 후 자신의 공격과 방어가 1랭크 떨어진다.,73,opgg_metadata
+surf,Surf,파도타기,official,water,물,special,특수,90,100,16,0,all-other-pokemon,큰 파도를 일으켜 주위에 있는 모든 포켓몬을 공격한다.다이빙 중인 상대에겐 위력이 2배다.,큰 파도를 일으켜 주위에 있는 모든 포켓몬을 공격한다.다이빙 중인 상대에겐 위력이 2배다.,82,opgg_metadata
+swagger,Swagger,뽐내기,official,normal,노말,status,변화,,85,16,0,selected-pokemon,상대를 화내게 해서 혼란 시킨다. 분노로 상대의 공격은 2랭크 올라가 버린다.,상대를 화내게 해서 혼란 시킨다. 분노로 상대의 공격은 2랭크 올라가 버린다.,78,opgg_metadata
+swallow,Swallow,꿀꺽,official,normal,노말,status,변화,,,,,,,,13,reference_lookup_fill
+sweet-kiss,Sweet Kiss,천사의키스,official,fairy,페어리,status,변화,,75,12,0,selected-pokemon,천사처럼 귀엽게 키스하여 상대를 혼란 상태로 만든다.,천사처럼 귀엽게 키스하여 상대를 혼란 상태로 만든다.,14,opgg_metadata
+sweet-scent,Sweet Scent,달콤한향기,official,normal,노말,status,변화,,100.0,,,,,,20,reference_lookup_fill
+switcheroo,Switcheroo,바꿔치기,official,dark,악,status,변화,,100.0,,,,,,20,reference_lookup_fill
+swords-dance,Swords Dance,칼춤,official,normal,노말,status,변화,,,20,0,user,싸움의 춤을 격렬하게 춰서 기세를 높인다. 자신의 공격을 2랭크 올린다.,싸움의 춤을 격렬하게 춰서 기세를 높인다. 자신의 공격을 2랭크 올린다.,102,opgg_metadata
+synthesis,Synthesis,광합성,official,grass,풀,status,변화,,,,,,,,22,reference_lookup_fill
+syrup-bomb,Syrup Bomb,시럽봄,needs_review,grass,풀,special,특수,60,85,10,0,selected-pokemon,상대에게 물엿을 발사해 폭발시켜 공격한다.상대를 물엿범벅 상태로 만들어 3턴 동안 매 턴 스피드를 1랭크씩 감소시킨다.,상대에게 물엿을 발사해 폭발시켜 공격한다.상대를 물엿범벅 상태로 만들어 3턴 동안 매 턴 스피드를 1랭크씩 감소시킨다.,1,opgg_metadata
+tail-slap,Tail Slap,스위프뺨치기,official,normal,노말,physical,물리,25,85,12,0,selected-pokemon,단단한 꼬리로 상대를 때려서 공격한다. 2-5회 동안 연속으로 쓴다.,단단한 꼬리로 상대를 때려서 공격한다. 2-5회 동안 연속으로 쓴다.,7,opgg_metadata
+tailwind,Tailwind,순풍,official,flying,비행,status,변화,,,16,0,users-field,세차게 불어대는 바람의 소용돌이를 만들어 4턴 동안 같은 편 모두의 스피드를 올린다.,세차게 불어대는 바람의 소용돌이를 만들어 4턴 동안 같은 편 모두의 스피드를 올린다.,28,opgg_metadata
+taunt,Taunt,도발,official,dark,악,status,변화,,100.0,,,,,,113,reference_lookup_fill
+tearful-look,Tearful Look,눈물그렁그렁,official,normal,노말,status,변화,,,,,,,,6,reference_lookup_fill
+teatime,Teatime,다과회,official,normal,노말,status,변화,,,,,,,,1,reference_lookup_fill
+teeter-dance,Teeter Dance,흔들흔들댄스,official,normal,노말,status,변화,,100,20,0,all-other-pokemon,흔들흔들 댄스를 춰서 주위에 있는 모두를 혼란 상태로 만든다.,흔들흔들 댄스를 춰서 주위에 있는 모두를 혼란 상태로 만든다.,6,opgg_metadata
+temper-flare,Temper Flare,열불내기,official,fire,불꽃,physical,물리,75,100,10,0,selected-pokemon,자포자기하는 기세로 공격한다. 앞 턴에서 기술이 빗나갔다면 위력이 2배가 된다.,자포자기하는 기세로 공격한다. 앞 턴에서 기술이 빗나갔다면 위력이 2배가 된다.,35,opgg_metadata
+terrain-pulse,Terrain Pulse,대지의파동,official,normal,노말,special,특수,50.0,100.0,,,,,,11,reference_lookup_fill
+thief,Thief,도둑질,official,dark,악,physical,물리,60.0,100.0,,,,,,162,reference_lookup_fill
+thrash,Thrash,난동부리기,official,normal,노말,physical,물리,120.0,100.0,,,,,,41,reference_lookup_fill
+throat-chop,Throat Chop,지옥찌르기,official,dark,악,physical,물리,80,100,15,0,selected-pokemon,이 기술에 맞은 상대는 지옥의 고통 때문에 2턴 동안 소리 기술을 낼 수 없다.,이 기술에 맞은 상대는 지옥의 고통 때문에 2턴 동안 소리 기술을 낼 수 없다.,74,opgg_metadata
+thunder,Thunder,번개,official,electric,전기,special,특수,110,70,12,0,selected-pokemon,강한 번개를 상대에게 떨어뜨려 공격한다. 30%의 확률로 상대를 마비 상태로 만든다. 비가 내리면 반드시 명중한다.,강한 번개를 상대에게 떨어뜨려 공격한다. 30%의 확률로 상대를 마비 상태로 만든다. 비가 내리면 반드시 명중한다.,77,opgg_metadata
+thunder-fang,Thunder Fang,번개엄니,official,electric,전기,physical,물리,65,95,16,0,selected-pokemon,전기를 모은 이빨로 문다. 10% 확률로 상대를 풀죽게 하거나 마비 상태로 만든다.,전기를 모은 이빨로 문다. 10% 확률로 상대를 풀죽게 하거나 마비 상태로 만든다.,41,opgg_metadata
+thunder-punch,Thunder Punch,번개펀치,official,electric,전기,physical,물리,75,100,16,0,selected-pokemon,전격을 담은 펀치로 상대를 공격한다. 10% 확률로 상대를 마비 상태로 만든다.,전격을 담은 펀치로 상대를 공격한다. 10% 확률로 상대를 마비 상태로 만든다.,91,opgg_metadata
+thunder-wave,Thunder Wave,전기자석파,official,electric,전기,status,변화,,90,20,0,selected-pokemon,약한 전격을 날려서 상대를 마비 상태로 만든다.,약한 전격을 날려서 상대를 마비 상태로 만든다.,95,opgg_metadata
+thunderbolt,Thunderbolt,10만볼트,official,electric,전기,special,특수,90.0,100.0,,,,,,88,reference_lookup_fill
+tickle,Tickle,간지르기,official,normal,노말,status,변화,,100.0,,,,,,34,reference_lookup_fill
+tidy-up,Tidy Up,정리정돈,needs_review,normal,노말,status,변화,0,,10,0,user,"압정뿌리기, 스텔스록, 끈적끈적네트, 독압정, 대타출동을 모두 정리한다. 자신의 공격과 스피드가 1랭크 올라간다.","압정뿌리기, 스텔스록, 끈적끈적네트, 독압정, 대타출동을 모두 정리한다. 자신의 공격과 스피드가 1랭크 올라간다.",2,opgg_metadata
+topsy-turvy,Topsy-Turvy,뒤집어엎기,official,dark,악,status,변화,,,,,,,,2,reference_lookup_fill
+torch-song,Torch Song,플레어송,needs_review,fire,불꽃,special,특수,80,100,10,0,selected-pokemon,활활 타오르는 불꽃을 노래하듯 뿜어서 상대를 태워 버린다.자신의 특수공격을 1랭크 올린다.,활활 타오르는 불꽃을 노래하듯 뿜어서 상대를 태워 버린다.자신의 특수공격을 1랭크 올린다.,1,opgg_metadata
+torment,Torment,트집,official,dark,악,status,변화,,100,16,0,selected-pokemon,상대에게 트집을 잡아서 똑같은 기술을 2회 연속으로 쓸 수 없게 한다.,상대에게 트집을 잡아서 똑같은 기술을 2회 연속으로 쓸 수 없게 한다.,27,opgg_metadata
+toxic,Toxic,맹독,official,poison,독,status,변화,,90.0,,,,,,60,reference_lookup_fill
+toxic-spikes,Toxic Spikes,독압정,official,poison,독,status,변화,,,,,,,,29,reference_lookup_fill
+toxic-thread,Toxic Thread,독실,official,poison,독,status,변화,,100.0,,,,,,1,reference_lookup_fill
+trailblaze,Trailblaze,개척하기,manual_official_ko_fix,grass,풀,physical,물리,50.0,100.0,,,,,,134,reference_lookup_fill
+transform,Transform,변신,official,normal,노말,status,변화,,,10,0,selected-pokemon,상대 포켓몬으로 변신하여 상대와 완전히 똑같은 기술을 사용할 수 있다.,상대 포켓몬으로 변신하여 상대와 완전히 똑같은 기술을 사용할 수 있다.,1,opgg_metadata
+tri-attack,Tri Attack,트라이어택,official,normal,노말,special,특수,80,100,12,0,selected-pokemon,"3개의 광선으로 공격한다. 20% 확률로 상대를 마비, 화상 또는 얼음 상태로 만든다.","3개의 광선으로 공격한다. 20% 확률로 상대를 마비, 화상 또는 얼음 상태로 만든다.",16,opgg_metadata
+trick,Trick,트릭,official,psychic,에스퍼,status,변화,,100,12,0,selected-pokemon,상대의 빈틈을 노려 자신과 상대가 지닌 물건을 바꿔치기한다.,상대의 빈틈을 노려 자신과 상대가 지닌 물건을 바꿔치기한다.,76,opgg_metadata
+trick-or-treat,Trick-or-Treat,핼러윈,official,ghost,고스트,status,변화,,100,20,0,selected-pokemon,상대를 핼러윈으로 초대한다. 상대 타입에 고스트 타입이 추가된다.,상대를 핼러윈으로 초대한다. 상대 타입에 고스트 타입이 추가된다.,4,opgg_metadata
+trick-room,Trick Room,트릭룸,official,psychic,에스퍼,status,변화,,,8,-7,entire-field,이상한 공간을 만든다. 5턴 동안 느린 포켓몬부터 행동할 수 있다. (우선도 -7),이상한 공간을 만든다. 5턴 동안 느린 포켓몬부터 행동할 수 있다. (우선도 -7),57,opgg_metadata
+triple-arrows,Triple Arrows,삼연화살,manual_official_ko_fix,fighting,격투,physical,물리,90.0,100.0,,,,,,1,reference_lookup_fill
+triple-axel,Triple Axel,트리플악셀,official,ice,얼음,physical,물리,20,90,12,0,selected-pokemon,3회 연속으로 킥을 날려 공격한다. 기술이 맞을 때마다 위력이 올라간다.,3회 연속으로 킥을 날려 공격한다. 기술이 맞을 때마다 위력이 올라간다.,18,opgg_metadata
+trop-kick,Trop Kick,트로피컬킥,official,grass,풀,physical,물리,70,100,15,0,selected-pokemon,남쪽 나라에서 유래된 뜨거운 킥을 상대에게 날린다.상대의 공격을 1랭크 떨어뜨린다.,남쪽 나라에서 유래된 뜨거운 킥을 상대에게 날린다.상대의 공격을 1랭크 떨어뜨린다.,1,opgg_metadata
+twin-beam,Twin Beam,트윈빔,needs_review,psychic,에스퍼,special,특수,40,100,10,0,selected-pokemon,두 눈에서 불가사의한 광선을 발사해서 공격한다. 2회 연속으로 데미지를 준다.,두 눈에서 불가사의한 광선을 발사해서 공격한다. 2회 연속으로 데미지를 준다.,1,opgg_metadata
+u-turn,U-turn,유턴,official,bug,벌레,physical,물리,70,100,20,0,selected-pokemon,공격한 뒤 굉장한 스피드로 돌아와서 교대 포켓몬과 교체한다.,공격한 뒤 굉장한 스피드로 돌아와서 교대 포켓몬과 교체한다.,54,opgg_metadata
+upper-hand,Upper Hand,기선제압,official,fighting,격투,physical,물리,65.0,100.0,,,,,,41,reference_lookup_fill
+uproar,Uproar,소란피기,official,normal,노말,special,특수,90,100,12,0,random-opponent,"3턴 동안 소란피워 공격한다.그 동안은 아무도 잠들지 않게 된다.광합성, 아침햇살, 달빛의 회복량이 1/4로 감소한다.","3턴 동안 소란피워 공격한다.그 동안은 아무도 잠들지 않게 된다.광합성, 아침햇살, 달빛의 회복량이 1/4로 감소한다.",97,opgg_metadata
+vacuum-wave,Vacuum Wave,진공파,official,fighting,격투,special,특수,40,100,30,1,selected-pokemon,주먹을 흔들어 진공의 파도를 일으킨다. 반드시 선제 공격을 할 수 있다. (우선도 +1),주먹을 흔들어 진공의 파도를 일으킨다. 반드시 선제 공격을 할 수 있다. (우선도 +1),28,opgg_metadata
+venoshock,Venoshock,베놈쇼크,official,poison,독,special,특수,65,100,12,0,selected-pokemon,특수한 독액을 끼얹는다. 독 상태의 상대에게는 위력이 2배가 된다.,특수한 독액을 끼얹는다. 독 상태의 상대에게는 위력이 2배가 된다.,31,opgg_metadata
+volt-switch,Volt Switch,볼트체인지,official,electric,전기,special,특수,70,100,20,0,selected-pokemon,공격한 뒤 굉장한 스피드로 돌아와서 교대 포켓몬과 교체한다. (우선도 0),공격한 뒤 굉장한 스피드로 돌아와서 교대 포켓몬과 교체한다. (우선도 0),25,opgg_metadata
+volt-tackle,Volt Tackle,볼트태클,official,electric,전기,physical,물리,120,100,15,0,selected-pokemon,전기를 한데 모아 돌진한다. 자신도 대상에게 준 피해의 ⅓만큼 반동 피해를 받는다. 10% 확률로 상대를 마비 상태로 만든다.,전기를 한데 모아 돌진한다. 자신도 대상에게 준 피해의 ⅓만큼 반동 피해를 받는다. 10% 확률로 상대를 마비 상태로 만든다.,5,opgg_metadata
+water-pulse,Water Pulse,물의파동,official,water,물,special,특수,60.0,100.0,,,,,,62,reference_lookup_fill
+water-shuriken,Water Shuriken,물수리검,official,water,물,special,특수,15.0,100.0,,,,,,2,reference_lookup_fill
+water-spout,Water Spout,해수스파우팅,official,water,물,special,특수,150,100,8,0,all-opponents,바닷물을 내뿜어 공격한다. 자신의 HP가 적을수록 기술의 위력이 떨어진다.,바닷물을 내뿜어 공격한다. 자신의 HP가 적을수록 기술의 위력이 떨어진다.,2,opgg_metadata
+waterfall,Waterfall,폭포오르기,official,water,물,physical,물리,80,100,16,0,selected-pokemon,굉장한 기세로 상대에게 돌진한다.20%의 확률로 상대를 풀죽게 만들 때가 있다.,굉장한 기세로 상대에게 돌진한다.20%의 확률로 상대를 풀죽게 만들 때가 있다.,44,opgg_metadata
+wave-crash,Wave Crash,웨이브태클,needs_review,water,물,physical,물리,120,100,10,0,selected-pokemon,물을 두르고 온몸으로 상대에게 부딪친다. 자신도 대상에게 준 피해의 ⅓만큼 반동 피해를 받는다.,물을 두르고 온몸으로 상대에게 부딪친다. 자신도 대상에게 준 피해의 ⅓만큼 반동 피해를 받는다.,10,opgg_metadata
+weather-ball,Weather Ball,웨더볼,official,normal,노말,special,특수,50,100,12,0,selected-pokemon,사용했을 때의 날씨에 따라서 기술 타입과 위력이 바뀐다.,사용했을 때의 날씨에 따라서 기술 타입과 위력이 바뀐다.,59,opgg_metadata
+whirlpool,Whirlpool,바다회오리,official,water,물,special,특수,35.0,85.0,,,,,,41,reference_lookup_fill
+whirlwind,Whirlwind,날려버리기,official,normal,노말,status,변화,,,,,,,,19,reference_lookup_fill
+wide-guard,Wide Guard,와이드가드,official,rock,바위,status,변화,,,12,3,users-field,같은 편 전원에게 향하는 공격을 1턴 동안 막는다. (우선도 +3),같은 편 전원에게 향하는 공격을 1턴 동안 막는다. (우선도 +3),24,opgg_metadata
+wild-charge,Wild Charge,와일드볼트,official,electric,전기,physical,물리,90,100,16,0,selected-pokemon,전기를 두르고 상대에게 부딪쳐 공격한다. 자신도 대상에게 준 피해의 ¼만큼 반동 피해를 받는다.,전기를 두르고 상대에게 부딪쳐 공격한다. 자신도 대상에게 준 피해의 ¼만큼 반동 피해를 받는다.,39,opgg_metadata
+will-o-wisp,Will-O-Wisp,도깨비불,official,fire,불꽃,status,변화,,85.0,,,,,,72,reference_lookup_fill
+wish,Wish,희망사항,official,normal,노말,status,변화,,,12,0,user,다음 턴에 자신 또는 교체한 포켓몬의 HP를 최대 HP의 ½만큼 회복한다.,다음 턴에 자신 또는 교체한 포켓몬의 HP를 최대 HP의 ½만큼 회복한다.,29,opgg_metadata
+wonder-room,Wonder Room,원더룸,official,psychic,에스퍼,status,변화,,,10,0,entire-field,이상한 공간을 만든다. 5턴 동안 모든 포켓몬의 방어와 특수방어가 바뀐다.,이상한 공간을 만든다. 5턴 동안 모든 포켓몬의 방어와 특수방어가 바뀐다.,40,opgg_metadata
+wood-hammer,Wood Hammer,우드해머,official,grass,풀,physical,물리,120,100,16,0,selected-pokemon,단단한 몸통을 상대에게 부딪쳐서 공격한다. 자신도 대상에게 준 피해의 ⅓만큼 반동 피해를 받는다.,단단한 몸통을 상대에게 부딪쳐서 공격한다. 자신도 대상에게 준 피해의 ⅓만큼 반동 피해를 받는다.,8,opgg_metadata
+worry-seed,Worry Seed,고민씨,official,grass,풀,status,변화,,100.0,,,,,,19,reference_lookup_fill
+wrap,Wrap,김밥말이,official,normal,노말,physical,물리,15.0,90.0,,,,,,13,reference_lookup_fill
+x-scissor,X-Scissor,시저크로스,official,bug,벌레,physical,물리,80,100,16,0,selected-pokemon,낫이나 발톱을 가위처럼 교차시키면서 상대를 베어 가른다.,낫이나 발톱을 가위처럼 교차시키면서 상대를 베어 가른다.,42,opgg_metadata
+yawn,Yawn,하품,official,normal,노말,status,변화,,,12,0,selected-pokemon,큰 하품으로 졸음을 유도한다. 다음 턴에 상대를 잠듦 상태로 만든다.,큰 하품으로 졸음을 유도한다. 다음 턴에 상대를 잠듦 상태로 만든다.,42,opgg_metadata
+zap-cannon,Zap Cannon,전자포,official,electric,전기,special,특수,120,50,5,0,selected-pokemon,대포처럼 전기를 발사해서 공격한다. 상대를 반드시 마비 상태로 만든다.,대포처럼 전기를 발사해서 공격한다. 상대를 반드시 마비 상태로 만든다.,11,opgg_metadata
+zen-headbutt,Zen Headbutt,사념의박치기,official,psychic,에스퍼,physical,물리,80,90,16,0,selected-pokemon,사념의 힘을 이마에 모아서 공격한다. 20%의 확률로 상대를 풀죽게 만든다.,사념의 힘을 이마에 모아서 공격한다. 20%의 확률로 상대를 풀죽게 만든다.,108,opgg_metadata

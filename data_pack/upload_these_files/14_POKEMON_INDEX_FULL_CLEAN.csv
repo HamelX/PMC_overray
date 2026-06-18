@@ -1,0 +1,316 @@
+﻿pokemon_id,dex_id,name_en,name_ko,ko_status,generation,type1,type1_ko,type2,type2_ko,abilities,hp,atk,def,spa,spd,spe,total,move_count
+abomasnow,460,Abomasnow,눈설왕,official_or_opgg_ko,4,grass,풀,ice,얼음,snow-warning;soundproof,90,92,75,92,85,60,494,65
+absol,359,Absol,앱솔,official_or_opgg_ko,3,dark,악,,,justified;pressure;super-luck,65,130,60,75,60,75,465,71
+aegislash,681,Aegislash,킬가르도,official_or_opgg_ko,6,steel,강철,ghost,고스트,stance-change,60,50,140,50,140,60,500,45
+aerodactyl,142,Aerodactyl,프테라,official_or_opgg_ko,1,rock,바위,flying,비행,pressure;rock-head;unnerve,80,105,65,60,75,130,515,58
+aggron,306,Aggron,보스로라,official_or_opgg_ko,3,steel,강철,rock,바위,heavy-metal;rock-head;sturdy,70,110,180,60,60,50,530,83
+alakazam,65,Alakazam,후딘,official_or_opgg_ko,1,psychic,에스퍼,,,inner-focus;magic-guard;synchronize,55,50,45,135,95,120,500,60
+alcremie,869,Alcremie,마휘핑,official_or_opgg_ko,8,fairy,페어리,,,aroma-veil;sweet-veil,65,60,75,110,121,64,495,49
+altaria,334,Altaria,파비코리,official_or_opgg_ko,3,dragon,드래곤,flying,비행,cloud-nine;natural-cure,75,70,90,70,105,80,490,65
+ampharos,181,Ampharos,전룡,official_or_opgg_ko,2,electric,전기,,,plus;static,90,75,85,115,90,55,510,67
+annihilape,979,Annihilape,저승갓숭,official_or_opgg_ko,9,fighting,격투,ghost,고스트,defiant;inner-focus;vital-spirit,110,115,80,50,90,90,535,71
+appletun,842,Appletun,단지래플,official_or_opgg_ko,8,grass,풀,dragon,드래곤,gluttony;ripen;thick-fat,110,85,80,100,80,30,485,51
+araquanid,752,Araquanid,깨비물거미,official_or_opgg_ko,7,water,물,bug,벌레,water-absorb;water-bubble,68,70,92,50,132,42,454,51
+arbok,24,Arbok,아보크,official_or_opgg_ko,1,poison,독,,,intimidate;shed-skin;unnerve,60,95,69,65,79,80,448,70
+arcanine,59,Arcanine,윈디,official_or_opgg_ko,1,fire,불꽃,,,flash-fire;intimidate;justified,90,110,80,100,80,95,555,57
+arcanine-hisui,10230,Arcanine,윈디,official_or_opgg_ko,1,fire,불꽃,rock,바위,flash-fire;intimidate;rock-head,95,115,80,95,80,90,555,64
+archaludon,1018,Archaludon,브리두라스,official_or_opgg_ko,9,steel,강철,dragon,드래곤,stalwart;stamina;sturdy,90,105,130,125,65,85,600,51
+ariados,168,Ariados,아리아도스,official_or_opgg_ko,2,bug,벌레,poison,독,insomnia;sniper;swarm,70,90,70,60,70,40,400,64
+armarouge,936,Armarouge,카디나르마,official_or_opgg_ko,9,fire,불꽃,psychic,에스퍼,flash-fire;weak-armor,85,60,100,125,80,75,525,55
+aromatisse,683,Aromatisse,프레프티르,official_or_opgg_ko,6,fairy,페어리,,,aroma-veil;healer,101,72,72,99,89,29,462,48
+audino,531,Audino,다부니,official_or_opgg_ko,5,normal,노말,,,healer;klutz;regenerator,103,60,86,60,86,50,445,69
+aurorus,699,Aurorus,아마루르가,official_or_opgg_ko,6,rock,바위,ice,얼음,refrigerate;snow-warning,123,77,72,99,92,58,521,56
+avalugg,713,Avalugg,크레베이스,official_or_opgg_ko,6,ice,얼음,,,ice-body;own-tempo;sturdy,95,117,184,44,46,28,514,49
+avalugg-hisui,10243,Avalugg,히스이 크레베이스,official_or_opgg_ko,6,ice,얼음,rock,바위,ice-body;strong-jaw,95,127,184,34,36,38,514,49
+azumarill,184,Azumarill,마릴리,official_or_opgg_ko,2,water,물,fairy,페어리,huge-power;sap-sipper;thick-fat,100,50,80,60,80,50,420,66
+banette,354,Banette,다크펫,official_or_opgg_ko,3,ghost,고스트,,,cursed-body;frisk;insomnia,64,115,65,83,63,65,455,66
+barbaracle,689,Barbaracle,거북손데스,official_or_opgg_ko,6,rock,바위,water,물,tough-claws;sniper;pickpocket,72,105,115,54,86,68,500,70
+basculegion-female,10248,Basculegion,대쓰여너 (암컷),official_or_opgg_ko,8,water,물,ghost,고스트,adaptability;mold-breaker;swift-swim,120,92,65,100,75,78,530,48
+basculegion-male,902,Basculegion,대쓰여너 (수컷),official_or_opgg_ko,8,water,물,ghost,고스트,adaptability;mold-breaker;swift-swim,120,112,65,80,75,78,530,48
+bastiodon,411,Bastiodon,바리톱스,official_or_opgg_ko,4,rock,바위,steel,강철,soundproof;sturdy,60,52,168,47,138,30,495,68
+beartic,614,Beartic,툰베어,official_or_opgg_ko,5,ice,얼음,,,slush-rush;snow-cloak;swift-swim,95,130,80,70,80,50,505,75
+beedrill,15,Beedrill,독침붕,official_or_opgg_ko,1,bug,벌레,poison,독,sniper;swarm,65,90,40,45,80,75,395,53
+bellibolt,939,Bellibolt,찌리배리,official_or_opgg_ko,9,electric,전기,,,damp;electromorphosis;static,109,64,91,103,83,45,495,39
+blastoise,9,Blastoise,거북왕,official_or_opgg_ko,1,water,물,,,rain-dish;torrent,79,83,100,85,105,78,530,73
+blaziken,257,Blaziken,번치코,official_or_opgg_ko,3,fire,불꽃,fighting,격투,blaze;speed-boost,80,120,70,110,70,80,530,86
+blaziken-female,257,Blaziken Female,번치코 (암컷),official_or_opgg_ko,3,fire,불꽃,fighting,격투,blaze;speed-boost,80,120,70,110,70,80,530,86
+camerupt,323,Camerupt,폭타,official_or_opgg_ko,3,fire,불꽃,ground,땅,anger-point;magma-armor;solid-rock,70,100,70,105,75,40,460,67
+castform,351,Castform,캐스퐁,official_or_opgg_ko,3,normal,노말,,,forecast,70,70,70,70,70,70,420,37
+ceruledge,937,Ceruledge,파라블레이즈,official_or_opgg_ko,9,fire,불꽃,ghost,고스트,flash-fire;weak-armor,75,125,80,60,100,85,525,55
+chandelure,609,Chandelure,샹델라,official_or_opgg_ko,5,ghost,고스트,fire,불꽃,flame-body;flash-fire;infiltrator,60,55,90,145,90,80,520,54
+charizard,6,Charizard,리자몽,official_or_opgg_ko,1,fire,불꽃,flying,비행,blaze;solar-power,78,84,78,109,85,100,534,72
+chesnaught,652,Chesnaught,브리가론,official_or_opgg_ko,6,grass,풀,fighting,격투,bulletproof;overgrow,88,107,122,74,75,64,530,87
+chimecho,358,Chimecho,치렁,official_or_opgg_ko,3,psychic,에스퍼,,,levitate,75,50,80,95,90,65,455,65
+clawitzer,693,Clawitzer,블로스터,official_or_opgg_ko,6,water,물,,,mega-launcher,71,73,88,120,89,59,500,52
+clefable,36,Clefable,픽시,official_or_opgg_ko,1,fairy,페어리,,,cute-charm;magic-guard;unaware,95,70,73,95,90,60,483,91
+cofagrigus,563,Cofagrigus,데스니칸,official_or_opgg_ko,5,ghost,고스트,,,mummy,58,50,145,95,105,30,483,54
+conkeldurr,534,Conkeldurr,노보청,official_or_opgg_ko,5,fighting,격투,,,guts;iron-fist;sheer-force,105,140,95,55,65,45,505,61
+corviknight,823,Corviknight,아머까오,official_or_opgg_ko,8,flying,비행,steel,강철,mirror-armor;pressure;unnerve,98,87,105,53,85,67,495,55
+crabominable,740,Crabominable,모단단게,official_or_opgg_ko,7,fighting,격투,ice,얼음,anger-point;hyper-cutter;iron-fist,97,132,77,62,67,43,478,63
+decidueye,724,Decidueye,모크나이퍼,official_or_opgg_ko,7,grass,풀,ghost,고스트,long-reach;overgrow,78,107,75,100,100,70,530,66
+decidueye-hisui,10244,Decidueye,히스이 모크나이퍼,official_or_opgg_ko,7,grass,풀,fighting,격투,overgrow;scrappy,88,112,80,95,95,60,530,66
+dedenne,702,Dedenne,데덴네,official_or_opgg_ko,6,electric,전기,fairy,페어리,cheek-pouch;pickup;plus,67,58,57,81,67,101,431,50
+delphox,655,Delphox,마폭시,official_or_opgg_ko,6,fire,불꽃,psychic,에스퍼,blaze;magician,75,69,72,114,100,104,534,72
+diggersby,660,Diggersby,파르토,official_or_opgg_ko,6,normal,노말,ground,땅,cheek-pouch;huge-power;pickup,85,56,77,50,77,78,423,58
+ditto,132,Ditto,메타몽,official_or_opgg_ko,1,normal,노말,,,imposter;limber,48,48,48,48,48,48,288,1
+dragalge,691,Dragalge,드래캄,official_or_opgg_ko,6,poison,독,dragon,드래곤,poison-point;poison-touch;adaptability,65,75,90,97,123,44,494,54
+dragapult,887,Dragapult,드래펄트,official_or_opgg_ko,8,dragon,드래곤,ghost,고스트,clear-body;cursed-body;infiltrator,88,120,75,100,75,142,600,63
+dragonite,149,Dragonite,망나뇽,official_or_opgg_ko,1,dragon,드래곤,flying,비행,inner-focus;multiscale,91,134,95,100,100,80,600,83
+drampa,780,Drampa,할비롱,official_or_opgg_ko,7,normal,노말,dragon,드래곤,berserk;cloud-nine;sap-sipper,78,60,85,135,91,36,485,66
+eelektross,604,Eelektross,저리더프,official_or_opgg_ko,5,electric,전기,,,levitate,85,115,80,105,80,50,515,81
+emboar,500,Emboar,염무왕,official_or_opgg_ko,5,fire,불꽃,fighting,격투,blaze;reckless,110,123,65,100,65,65,528,79
+emolga,587,Emolga,에몽가,official_or_opgg_ko,5,electric,전기,flying,비행,motor-drive;static,55,75,60,75,60,103,428,46
+empoleon,395,Empoleon,엠페르트,official_or_opgg_ko,4,water,물,steel,강철,torrent,84,86,88,111,101,60,530,74
+espathra,956,Espathra,클레스퍼트라,official_or_opgg_ko,9,psychic,에스퍼,,,frisk;opportunist;speed-boost,95,60,60,101,60,105,481,57
+espeon,196,Espeon,에브이,official_or_opgg_ko,2,psychic,에스퍼,,,magic-bounce;synchronize,65,65,60,130,95,110,525,67
+excadrill,530,Excadrill,몰드류,official_or_opgg_ko,5,ground,땅,steel,강철,mold-breaker;sand-force;sand-rush,110,135,60,50,65,88,508,53
+falinks,870,Falinks,대여르,official_or_opgg_ko,8,fighting,격투,,,battle-armor;defiant,65,100,100,70,60,75,470,50
+farigiraf,981,Farigiraf,키키링,official_or_opgg_ko,9,normal,노말,psychic,에스퍼,armor-tail;cud-chew;sap-sipper,120,90,70,110,70,60,520,70
+feraligatr,160,Feraligatr,장크로다일,official_or_opgg_ko,2,water,물,,,sheer-force;torrent,85,105,100,79,83,78,530,82
+flapple,841,Flapple,애프룡,official_or_opgg_ko,8,grass,풀,dragon,드래곤,gluttony;hustle;ripen,70,110,80,95,60,70,485,44
+flareon,136,Flareon,부스터,official_or_opgg_ko,1,fire,불꽃,,,flash-fire;guts,65,130,60,95,110,65,525,57
+floette-eternal-flower,670,Floette Eternal Flower,플라엣테,official_or_opgg_ko,6,fairy,페어리,,,flower-veil;symbiosis,74,65,67,125,128,92,551,41
+florges,671,Florges,플라제스,official_or_opgg_ko,6,fairy,페어리,,,flower-veil;symbiosis,78,65,68,112,154,75,552,46
+forretress,205,Forretress,쏘콘,official_or_opgg_ko,2,bug,벌레,steel,강철,overcoat;sturdy,75,90,140,60,60,40,465,69
+froslass,478,Froslass,눈여아,official_or_opgg_ko,4,ice,얼음,ghost,고스트,cursed-body;snow-cloak,70,80,70,80,70,110,480,68
+furfrou,676,Furfrou,트리미앙,official_or_opgg_ko,6,normal,노말,,,fur-coat,75,80,60,65,90,102,472,40
+gallade,475,Gallade,엘레이드,official_or_opgg_ko,4,psychic,에스퍼,fighting,격투,justified;sharpness;steadfast,68,125,65,65,115,80,518,105
+garbodor,569,Garbodor,더스트나,official_or_opgg_ko,5,poison,독,,,aftermath;stench;weak-armor,80,95,82,60,82,75,474,53
+garchomp,445,Garchomp,한카리아스,official_or_opgg_ko,4,dragon,드래곤,ground,땅,rough-skin;sand-veil,108,130,95,80,85,102,600,58
+gardevoir,282,Gardevoir,가디안,official_or_opgg_ko,3,psychic,에스퍼,fairy,페어리,synchronize;telepathy;trace,68,65,65,125,115,80,518,80
+garganacl,934,Garganacl,콜로솔트,official_or_opgg_ko,9,rock,바위,,,clear-body;purifying-salt;sturdy,100,100,130,45,90,35,500,54
+gengar,94,Gengar,팬텀,official_or_opgg_ko,1,ghost,고스트,poison,독,cursed-body,60,65,60,130,75,110,500,76
+gholdengo,1000,Gholdengo,타부자고,official_or_opgg_ko,9,steel,강철,ghost,고스트,good-as-gold,87,60,95,133,91,84,550,41
+glaceon,471,Glaceon,글레이시아,official_or_opgg_ko,4,ice,얼음,,,ice-body;snow-cloak,65,60,110,130,95,65,525,58
+glalie,362,Glalie,얼음귀신,official_or_opgg_ko,3,ice,얼음,,,ice-body;inner-focus;moody,80,80,80,80,80,80,480,54
+glimmora,970,Glimmora,킬라플로르,official_or_opgg_ko,9,rock,바위,poison,독,corrosion;toxic-debris,83,55,90,130,81,86,525,46
+gliscor,472,Gliscor,글라이온,official_or_opgg_ko,4,ground,땅,flying,비행,hyper-cutter;poison-heal;sand-veil,75,95,125,45,75,95,510,74
+golurk,623,Golurk,골루그,official_or_opgg_ko,5,ground,땅,ghost,고스트,iron-fist;klutz;no-guard,89,124,80,55,80,55,483,78
+goodra,706,Goodra,미끄래곤,official_or_opgg_ko,6,dragon,드래곤,,,gooey;hydration;sap-sipper,90,100,70,110,150,80,600,67
+goodra-hisui,10242,Goodra,히스이 미끄래곤,official_or_opgg_ko,6,steel,강철,dragon,드래곤,sap-sipper;shell-armor;gooey,80,100,100,110,150,60,600,63
+gourgeist-average,711,Gourgeist,펌킨인 (보통사이즈),official_or_opgg_ko,6,ghost,고스트,grass,풀,frisk;insomnia;pickup,65,90,122,58,75,84,494,55
+gourgeist-large,10031,Gourgeist,펌킨인 (라지사이즈),official_or_opgg_ko,6,ghost,고스트,grass,풀,frisk;insomnia;pickup,75,95,122,58,75,69,494,60
+gourgeist-small,10030,Gourgeist,펌킨인 (스몰사이즈),official_or_opgg_ko,6,ghost,고스트,grass,풀,frisk;insomnia;pickup,55,85,122,58,75,99,494,60
+gourgeist-super,10032,Gourgeist,펌킨인 (슈퍼사이즈),official_or_opgg_ko,6,ghost,고스트,grass,풀,frisk;insomnia;pickup,85,100,122,58,75,54,494,60
+greninja,658,Greninja,개굴닌자,official_or_opgg_ko,6,water,물,dark,악,protean;torrent,72,95,67,103,71,122,530,64
+grimmsnarl,861,Grimmsnarl,오롱털,official_or_opgg_ko,8,dark,악,fairy,페어리,prankster;frisk;pickpocket,95,120,65,95,75,60,510,66
+gyarados,130,Gyarados,갸라도스,official_or_opgg_ko,1,water,물,flying,비행,intimidate;moxie,95,125,79,60,100,81,540,67
+hatterene,858,Hatterene,브리무음,official_or_opgg_ko,8,psychic,에스퍼,fairy,페어리,anticipation;healer;magic-bounce,57,90,95,136,103,29,510,59
+hawlucha,701,Hawlucha,루차불,official_or_opgg_ko,6,fighting,격투,flying,비행,limber;mold-breaker;unburden,78,92,75,74,63,118,500,74
+heliolisk,695,Heliolisk,일레도리자드,official_or_opgg_ko,6,electric,전기,normal,노말,dry-skin;sand-veil;solar-power,62,55,52,109,94,109,481,63
+heracross,214,Heracross,헤라크로스,official_or_opgg_ko,2,bug,벌레,fighting,격투,guts;moxie;swarm,80,125,75,40,95,85,500,66
+hippowdon,450,Hippowdon,하마돈,official_or_opgg_ko,4,ground,땅,,,sand-force;sand-stream,108,112,118,68,72,47,525,51
+houndoom,229,Houndoom,헬가,official_or_opgg_ko,2,dark,악,fire,불꽃,early-bird;flash-fire;unnerve,75,90,50,110,80,95,500,67
+houndstone,972,Houndstone,묘두기,official_or_opgg_ko,9,ghost,고스트,,,fluffy;sand-rush,72,101,100,50,97,68,488,45
+hydrapple,1019,Hydrapple,과미드라,official_or_opgg_ko,9,grass,풀,dragon,드래곤,regenerator;sticky-hold;supersweet-syrup,106,80,110,120,80,44,540,51
+hydreigon,635,Hydreigon,삼삼드래,official_or_opgg_ko,5,dark,악,dragon,드래곤,levitate,92,105,90,125,90,98,600,78
+incineroar,727,Incineroar,어흥염,official_or_opgg_ko,7,fire,불꽃,dark,악,blaze;intimidate,95,115,90,80,90,60,530,77
+infernape,392,Infernape,초염몽,official_or_opgg_ko,4,fire,불꽃,fighting,격투,blaze;iron-fist,76,104,71,104,71,108,534,88
+jolteon,135,Jolteon,쥬피썬더,official_or_opgg_ko,1,electric,전기,,,quick-feet;volt-absorb,65,65,60,110,95,130,525,59
+kangaskhan,115,Kangaskhan,캥카,official_or_opgg_ko,1,normal,노말,,,early-bird;inner-focus;scrappy,105,95,80,40,80,90,490,67
+kingambit,983,Kingambit,대도각참,official_or_opgg_ko,9,dark,악,steel,강철,defiant;pressure;supreme-overlord,100,135,120,60,85,50,550,52
+kleavor,900,Kleavor,사마자르,official_or_opgg_ko,8,bug,벌레,rock,바위,sharpness;sheer-force;swarm,70,135,95,45,70,85,500,56
+klefki,707,Klefki,클레피,official_or_opgg_ko,6,steel,강철,fairy,페어리,magician;prankster,57,80,91,80,87,75,470,44
+kommo-o,784,Kommo-o,짜랑고우거,official_or_opgg_ko,7,dragon,드래곤,fighting,격투,bulletproof;overcoat;soundproof,75,110,125,100,105,85,600,78
+krookodile,553,Krookodile,악비아르,official_or_opgg_ko,5,ground,땅,dark,악,anger-point;intimidate;moxie,95,117,80,65,70,92,519,83
+leafeon,470,Leafeon,리피아,official_or_opgg_ko,4,grass,풀,,,chlorophyll;leaf-guard,65,110,130,60,65,95,525,58
+liepard,510,Liepard,레파르다스,official_or_opgg_ko,5,dark,악,,,limber;prankster;unburden,64,88,50,88,50,106,446,60
+lopunny,428,Lopunny,이어롭,official_or_opgg_ko,4,normal,노말,,,cute-charm;klutz;limber,65,76,84,54,96,105,480,76
+lucario,448,Lucario,루카리오,official_or_opgg_ko,4,fighting,격투,steel,강철,inner-focus;justified;steadfast,70,110,70,115,70,90,525,83
+luxray,405,Luxray,렌트라,official_or_opgg_ko,4,electric,전기,,,guts;intimidate;rivalry,80,120,79,95,79,70,523,53
+lycanroc,745,Lycanroc,루가루암,official_or_opgg_ko,7,rock,바위,,,keen-eye;sand-rush;steadfast,75,115,65,55,65,112,487,58
+lycanroc-dusk,10152,Lycanroc,루가루암 (황혼의 모습),official_or_opgg_ko,7,rock,바위,,,tough-claws,75,117,65,55,65,110,487,61
+lycanroc-midnight,10126,Lycanroc,루가루암 (한밤의 모습),official_or_opgg_ko,7,rock,바위,,,keen-eye;no-guard;vital-spirit,85,115,75,55,75,82,487,68
+machamp,68,Machamp,괴력몬,official_or_opgg_ko,1,fighting,격투,,,guts;no-guard;steadfast,90,130,80,65,85,55,505,66
+malamar,687,Malamar,칼라마네로,official_or_opgg_ko,6,dark,악,psychic,에스퍼,contrary;suction-cups;infiltrator,86,92,88,68,75,73,482,73
+mamoswine,473,Mamoswine,맘모꾸리,official_or_opgg_ko,4,ice,얼음,ground,땅,oblivious;snow-cloak;thick-fat,110,130,80,70,60,80,530,63
+manectric,310,Manectric,썬더볼트,official_or_opgg_ko,3,electric,전기,,,lightning-rod;minus;static,70,75,60,105,60,105,475,49
+maushold-family-of-four,925,Maushold,파밀리쥐 (네 식구),official_or_opgg_ko,9,normal,노말,,,cheek-pouch;friend-guard;technician,74,75,70,65,75,111,470,46
+maushold-family-of-three,10257,Maushold,파밀리쥐 (세 식구),official_or_opgg_ko,9,normal,노말,,,cheek-pouch;friend-guard;technician,74,75,70,65,75,111,470,46
+mawile,303,Mawile,입치트,official_or_opgg_ko,3,steel,강철,fairy,페어리,hyper-cutter;intimidate;sheer-force,50,85,85,55,55,50,380,74
+medicham,308,Medicham,요가램,official_or_opgg_ko,3,fighting,격투,psychic,에스퍼,pure-power;telepathy,60,60,75,60,75,80,410,77
+mega-abomasnow,10060,Mega Abomasnow,메가눈설왕,official_or_opgg_ko,4,grass,풀,ice,얼음,snow-warning,90,132,105,132,105,30,594,65
+mega-absol,10057,Mega Absol,메가앱솔,official_or_opgg_ko,3,dark,악,,,magic-bounce,65,150,60,115,60,115,565,71
+mega-aerodactyl,10042,Mega Aerodactyl,메가프테라,official_or_opgg_ko,1,rock,바위,flying,비행,tough-claws,80,135,85,70,95,150,615,58
+mega-aggron,10053,Mega Aggron,메가보스로라,official_or_opgg_ko,3,steel,강철,,,filter,70,140,230,60,80,50,630,83
+mega-alakazam,10037,Mega Alakazam,메가후딘,official_or_opgg_ko,1,psychic,에스퍼,,,trace,55,50,65,175,105,150,600,60
+mega-altaria,10067,Mega Altaria,메가파비코리,official_or_opgg_ko,3,dragon,드래곤,fairy,페어리,pixilate,75,110,110,110,105,80,590,65
+mega-ampharos,10045,Mega Ampharos,메가전룡,official_or_opgg_ko,2,electric,전기,dragon,드래곤,mold-breaker,90,95,105,165,110,45,610,67
+mega-audino,10069,Mega Audino,메가다부니,official_or_opgg_ko,5,normal,노말,fairy,페어리,healer,103,60,126,80,126,50,545,69
+mega-banette,10056,Mega Banette,메가다크펫,official_or_opgg_ko,3,ghost,고스트,,,prankster,64,165,75,93,83,75,555,66
+mega-barbaracle,10298,Mega Barbaracle,메가거북손데스,official_or_opgg_ko,6,rock,바위,fighting,격투,tough-claws,72,140,130,64,106,88,600,77
+mega-beedrill,10090,Mega Beedrill,메가독침붕,official_or_opgg_ko,1,bug,벌레,poison,독,adaptability,65,150,40,15,80,145,495,53
+mega-blastoise,10036,Mega Blastoise,메가거북왕,official_or_opgg_ko,1,water,물,,,mega-launcher,79,103,120,135,115,78,630,73
+mega-blaziken,10050,Mega Blaziken,메가번치코,official_or_opgg_ko,3,fire,불꽃,fighting,격투,speed-boost,80,160,80,130,80,100,630,86
+mega-camerupt,10087,Mega Camerupt,메가폭타,official_or_opgg_ko,3,fire,불꽃,ground,땅,sheer-force,70,120,100,145,105,20,560,67
+mega-chandelure,10291,Mega Chandelure,메가샹델라,official_or_opgg_ko,5,ghost,고스트,fire,불꽃,infiltrator,60,75,110,175,110,90,620,54
+mega-charizard-x,10034,Mega Charizard X,메가리자몽 X,official_or_opgg_ko,1,fire,불꽃,dragon,드래곤,tough-claws,78,130,111,130,85,100,634,72
+mega-charizard-y,10035,Mega Charizard Y,메가리자몽 Y,official_or_opgg_ko,1,fire,불꽃,flying,비행,drought,78,104,78,159,115,100,634,72
+mega-chesnaught,10292,Mega Chesnaught,메가브리가론,official_or_opgg_ko,6,grass,풀,fighting,격투,bulletproof,88,137,172,74,115,44,630,87
+mega-chimecho,10306,Mega Chimecho,메가치렁,official_or_opgg_ko,3,psychic,에스퍼,steel,강철,levitate,75,50,110,135,120,65,555,65
+mega-clefable,10278,Mega Clefable,메가픽시,official_or_opgg_ko,1,fairy,페어리,flying,비행,magic-bounce,95,80,93,135,110,70,583,91
+mega-crabominable,10315,Mega Crabominable,메가모단단게,official_or_opgg_ko,7,fighting,격투,ice,얼음,iron-fist,97,157,122,62,107,33,578,63
+mega-delphox,10293,Mega Delphox,메가마폭시,official_or_opgg_ko,6,fire,불꽃,psychic,에스퍼,levitate,75,69,72,159,125,134,634,72
+mega-dragalge,10299,Mega Dragalge,메가드래캄,official_or_opgg_ko,6,poison,독,dragon,드래곤,regenerator,65,85,105,132,163,44,594,54
+mega-dragonite,10281,Mega Dragonite,메가망나뇽,official_or_opgg_ko,1,dragon,드래곤,flying,비행,multiscale,91,124,115,145,125,100,700,83
+mega-drampa,10302,Mega Drampa,메가할비롱,official_or_opgg_ko,7,normal,노말,dragon,드래곤,berserk,78,85,110,160,116,36,585,66
+mega-eelektross,10290,Mega Eelektross,메가저리더프,official_or_opgg_ko,5,electric,전기,,,eelevate,85,145,80,135,90,80,615,81
+mega-emboar,10286,Mega Emboar,메가염무왕,official_or_opgg_ko,5,fire,불꽃,fighting,격투,mold-breaker,110,148,75,110,110,75,628,79
+mega-excadrill,10287,Mega Excadrill,메가몰드류,official_or_opgg_ko,5,ground,땅,steel,강철,piercing-drill,110,165,100,65,65,103,608,53
+mega-falinks,10303,Mega Falinks,메가대여르,official_or_opgg_ko,8,fighting,격투,,,defiant,65,135,135,70,65,100,570,50
+mega-feraligatr,10283,Mega Feraligatr,메가장크로다일,official_or_opgg_ko,2,water,물,dragon,드래곤,dragonize,85,160,125,89,93,78,630,82
+mega-floette,10296,Mega Floette,메가플라엣테,official_or_opgg_ko,6,fairy,페어리,,,flower-veil,74,65,67,125,128,92,551,41
+mega-froslass,10285,Mega Froslass,메가눈여아,official_or_opgg_ko,4,ice,얼음,ghost,고스트,snow-warning,70,80,70,140,100,120,580,68
+mega-gallade,10068,Mega Gallade,메가엘레이드,official_or_opgg_ko,4,psychic,에스퍼,fighting,격투,inner-focus,68,165,95,65,115,110,618,105
+mega-garchomp,10058,Mega Garchomp,메가한카리아스,official_or_opgg_ko,4,dragon,드래곤,ground,땅,sand-force,108,170,115,120,95,92,700,58
+mega-gardevoir,10051,Mega Gardevoir,메가가디안,official_or_opgg_ko,3,psychic,에스퍼,fairy,페어리,pixilate,68,85,65,165,135,100,618,80
+mega-gengar,10038,Mega Gengar,메가팬텀,official_or_opgg_ko,1,ghost,고스트,poison,독,shadow-tag,60,65,80,170,95,130,600,76
+mega-glalie,10074,Mega Glalie,메가얼음귀신,official_or_opgg_ko,3,ice,얼음,,,refrigerate,80,120,80,120,80,100,580,54
+mega-glimmora,10321,Mega Glimmora,메가킬라플로르,official_or_opgg_ko,9,rock,바위,poison,독,adaptability,83,90,105,150,96,101,625,46
+mega-golurk,10313,Mega Golurk,메가골루그,official_or_opgg_ko,5,ground,땅,ghost,고스트,unseen-fist,89,159,105,70,105,55,583,78
+mega-greninja,10294,Mega Greninja,메가개굴닌자,official_or_opgg_ko,6,water,물,dark,악,protean,72,125,77,133,81,142,630,64
+mega-gyarados,10041,Mega Gyarados,메가갸라도스,official_or_opgg_ko,1,water,물,dark,악,mold-breaker,95,155,109,70,130,81,640,67
+mega-hawlucha,10300,Mega Hawlucha,메가루차불,official_or_opgg_ko,6,fighting,격투,flying,비행,no-guard,78,137,100,74,93,118,600,74
+mega-heracross,10047,Mega Heracross,메가헤라크로스,official_or_opgg_ko,2,bug,벌레,fighting,격투,skill-link,80,185,115,40,105,75,600,66
+mega-houndoom,10048,Mega Houndoom,메가헬가,official_or_opgg_ko,2,dark,악,fire,불꽃,solar-power,75,90,90,140,90,115,600,67
+mega-kangaskhan,10039,Mega Kangaskhan,메가캥카,official_or_opgg_ko,1,normal,노말,,,parental-bond,105,125,100,60,100,100,590,67
+mega-lopunny,10088,Mega Lopunny,메가이어롭,official_or_opgg_ko,4,normal,노말,fighting,격투,scrappy,65,136,94,54,96,135,580,76
+mega-lucario,10059,Mega Lucario,메가루카리오,official_or_opgg_ko,4,fighting,격투,steel,강철,adaptability,70,145,88,140,70,112,625,83
+mega-malamar,10297,Mega Malamar,메가칼라마네로,official_or_opgg_ko,6,dark,악,psychic,에스퍼,contrary,86,102,88,98,120,88,582,73
+mega-manectric,10055,Mega Manectric,메가썬더볼트,official_or_opgg_ko,3,electric,전기,,,intimidate,70,75,80,135,80,135,575,49
+mega-mawile,10052,Mega Mawile,메가입치트,official_or_opgg_ko,3,steel,강철,fairy,페어리,huge-power,50,105,125,55,95,50,480,84
+mega-medicham,10054,Mega Medicham,메가요가램,official_or_opgg_ko,3,fighting,격투,psychic,에스퍼,pure-power,60,100,85,80,85,100,510,77
+mega-meganium,10282,Mega Meganium,메가메가니움,official_or_opgg_ko,2,grass,풀,fairy,페어리,mega-sol,80,92,115,143,115,80,625,61
+mega-meowstic,10314,Mega Meowstic,메가냐오닉스,official_or_opgg_ko,6,psychic,에스퍼,,,trace,74,48,76,143,101,124,566,58
+mega-metagross,10076,Mega Metagross,메가메타그로스,official_or_opgg_ko,3,steel,강철,psychic,에스퍼,tough-claws,80,145,150,105,110,110,700,73
+mega-pidgeot,10073,Mega Pidgeot,메가피죤투,official_or_opgg_ko,1,normal,노말,flying,비행,no-guard,83,80,80,135,80,121,579,31
+mega-pinsir,10040,Mega Pinsir,메가쁘사이저,official_or_opgg_ko,1,bug,벌레,flying,비행,aerilate,65,155,120,65,90,105,600,52
+mega-pyroar,10295,Mega Pyroar,메가화염레오,official_or_opgg_ko,6,fire,불꽃,normal,노말,fire-mane,86,88,92,129,86,126,607,52
+mega-raichu-x,10304,Mega Raichu X,메가라이츄 X,official_or_opgg_ko,1,electric,전기,,,electric-surge,60,135,95,90,95,110,585,66
+mega-raichu-y,10305,Mega Raichu Y,메가라이츄 Y,official_or_opgg_ko,1,electric,전기,,,no-guard,60,100,55,160,80,130,585,66
+mega-sableye,10066,Mega Sableye,메가깜까미,official_or_opgg_ko,3,dark,악,ghost,고스트,magic-bounce,50,85,125,85,115,20,480,88
+mega-sceptile,10065,Mega Sceptile,메가나무킹,official_or_opgg_ko,3,grass,풀,dragon,드래곤,lightning-rod,70,110,75,145,85,145,630,85
+mega-scizor,10046,Mega Scizor,메가핫삼,official_or_opgg_ko,2,bug,벌레,steel,강철,technician,70,150,140,65,100,75,600,64
+mega-scolipede,10288,Mega Scolipede,메가펜드라,official_or_opgg_ko,5,bug,벌레,poison,독,shell-armor,60,140,149,75,99,62,585,55
+mega-scovillain,10320,Mega Scovillain,메가스코빌런,official_or_opgg_ko,9,grass,풀,fire,불꽃,spicy-spray,65,138,85,138,85,75,586,48
+mega-scrafty,10289,Mega Scrafty,메가곤율거니,official_or_opgg_ko,5,dark,악,fighting,격투,intimidate,65,130,135,55,135,68,588,85
+mega-sharpedo,10070,Mega Sharpedo,메가샤크니아,official_or_opgg_ko,3,water,물,dark,악,strong-jaw,70,140,70,110,65,105,560,56
+mega-skarmory,10284,Mega Skarmory,메가무장조,official_or_opgg_ko,2,steel,강철,flying,비행,stalwart,65,140,110,40,100,110,565,51
+mega-slowbro,10071,Mega Slowbro,메가야도란,official_or_opgg_ko,1,water,물,psychic,에스퍼,shell-armor,95,75,180,130,80,30,590,78
+mega-staraptor,10308,Mega Staraptor,메가찌르호크,official_or_opgg_ko,4,fighting,격투,flying,비행,contrary,85,140,100,60,90,110,585,49
+mega-starmie,10280,Mega Starmie,메가아쿠스타,official_or_opgg_ko,1,water,물,psychic,에스퍼,huge-power,60,100,105,130,105,120,620,62
+mega-steelix,10072,Mega Steelix,메가강철톤,official_or_opgg_ko,2,steel,강철,ground,땅,sand-force,75,125,230,55,95,30,610,66
+mega-swampert,10064,Mega Swampert,메가대짱이,official_or_opgg_ko,3,water,물,ground,땅,swift-swim,100,150,110,95,110,70,635,85
+mega-tyranitar,10049,Mega Tyranitar,메가마기라스,official_or_opgg_ko,2,rock,바위,dark,악,sand-stream,100,164,150,95,120,71,700,92
+mega-venusaur,10033,Mega Venusaur,메가이상해꽃,official_or_opgg_ko,1,grass,풀,poison,독,thick-fat,80,100,123,122,120,80,625,57
+mega-victreebel,10279,Mega Victreebel,메가우츠보트,official_or_opgg_ko,1,grass,풀,poison,독,innards-out,80,125,85,135,95,70,590,59
+meganium,154,Meganium,메가니움,official_or_opgg_ko,2,grass,풀,,,leaf-guard;overgrow,80,82,100,83,100,80,525,61
+meowscarada,908,Meowscarada,마스카나,official_or_opgg_ko,9,grass,풀,dark,악,overgrow;protean,76,110,70,81,70,123,530,65
+meowstic-female,10025,Meowstic,냐오닉스 (암컷),official_or_opgg_ko,6,psychic,에스퍼,,,competitive;infiltrator;keen-eye,74,48,76,83,81,104,466,54
+meowstic-male,678,Meowstic,냐오닉스 (수컷),official_or_opgg_ko,6,psychic,에스퍼,,,infiltrator;keen-eye;prankster,74,48,76,83,81,104,466,58
+metagross,376,Metagross,메타그로스,official_or_opgg_ko,3,steel,강철,psychic,에스퍼,clear-body;light-metal,80,135,130,95,90,70,600,73
+milotic,350,Milotic,밀로틱,official_or_opgg_ko,3,water,물,,,competitive;cute-charm;marvel-scale,95,60,79,100,125,81,540,61
+mimikyu,778,Mimikyu,따라큐,official_or_opgg_ko,7,ghost,고스트,fairy,페어리,disguise,55,90,80,50,105,96,476,60
+morpeko,877,Morpeko,모르페코,official_or_opgg_ko,8,electric,전기,dark,악,hunger-switch,58,95,58,70,58,97,436,65
+mr.-rime,866,Mr. Rime,마임꽁꽁,official_or_opgg_ko,8,ice,얼음,psychic,에스퍼,screen-cleaner;tangled-feet,80,85,75,110,100,70,520,81
+mudsdale,750,Mudsdale,만마드,official_or_opgg_ko,7,ground,땅,,,inner-focus;own-tempo;stamina,100,125,100,55,85,35,500,45
+musharna,518,Musharna,몽얌나,official_or_opgg_ko,5,psychic,에스퍼,,,forewarn;synchronize;telepathy,116,55,85,107,95,29,487,49
+ninetales,38,Ninetales,나인테일,official_or_opgg_ko,1,fire,불꽃,,,drought;flash-fire,73,76,75,81,100,100,505,67
+ninetales-alolan,10104,Ninetales Alolan,알로라 나인테일,official_or_opgg_ko,1,ice,얼음,fairy,페어리,snow-cloak;snow-warning,73,67,75,81,100,109,505,64
+noivern,715,Noivern,음번,official_or_opgg_ko,6,flying,비행,dragon,드래곤,frisk;infiltrator;telepathy,85,70,80,97,80,123,535,64
+oranguru,765,Oranguru,하랑우탄,official_or_opgg_ko,7,normal,노말,psychic,에스퍼,inner-focus;symbiosis;telepathy,90,60,80,90,110,60,490,64
+orthworm,968,Orthworm,꿈트렁,official_or_opgg_ko,9,steel,강철,,,earth-eater;sand-veil,70,85,145,60,55,65,480,40
+overqwil,904,Overqwil,장침바루,official_or_opgg_ko,8,dark,악,poison,독,intimidate;poison-point;swift-swim,85,115,95,65,65,85,510,56
+palafin,964,Palafin,돌핀맨,official_or_opgg_ko,9,water,물,,,zero-to-hero,100,70,72,53,62,100,457,58
+pangoro,675,Pangoro,부란다,official_or_opgg_ko,6,fighting,격투,dark,악,iron-fist;mold-breaker;scrappy,95,124,78,69,71,58,495,80
+passimian,766,Passimian,내던숭이,official_or_opgg_ko,7,fighting,격투,,,defiant;receiver,100,120,90,40,60,80,490,66
+pelipper,279,Pelipper,패리퍼,official_or_opgg_ko,3,water,물,flying,비행,drizzle;keen-eye;rain-dish,60,50,100,95,70,65,440,53
+pidgeot,18,Pidgeot,피죤투,official_or_opgg_ko,1,normal,노말,flying,비행,big-pecks;keen-eye;tangled-feet,83,80,75,70,70,101,479,31
+pikachu,25,Pikachu,피카츄,official_or_opgg_ko,1,electric,전기,,,lightning-rod;static,35,55,40,50,50,90,320,60
+pinsir,127,Pinsir,쁘사이저,official_or_opgg_ko,1,bug,벌레,,,hyper-cutter;mold-breaker;moxie,65,125,100,55,70,85,500,52
+politoed,186,Politoed,왕구리,official_or_opgg_ko,2,water,물,,,damp;drizzle;water-absorb,90,75,75,90,100,70,500,56
+polteageist,855,Polteageist,포트데스,official_or_opgg_ko,8,ghost,고스트,,,cursed-body;weak-armor,60,65,65,134,114,70,508,46
+primarina,730,Primarina,누리레느,official_or_opgg_ko,7,water,물,fairy,페어리,liquid-voice;torrent,80,74,74,126,116,60,530,63
+pyroar,668,Pyroar,화염레오,official_or_opgg_ko,6,fire,불꽃,normal,노말,rivalry;unnerve;moxie,86,68,72,109,66,106,507,52
+pyroar-female,668,Pyroar Female,화염레오 (암컷),official_or_opgg_ko,6,fire,불꽃,normal,노말,rivalry;unnerve;moxie,86,68,72,109,66,106,507,52
+quaquaval,914,Quaquaval,웨이니발,official_or_opgg_ko,9,water,물,fighting,격투,moxie;torrent,85,120,80,85,75,85,530,59
+qwilfish,211,Qwilfish,침바루,official_or_opgg_ko,2,water,물,poison,독,poison-point;swift-swim;intimidate,65,95,85,55,55,85,440,70
+raichu,26,Raichu,라이츄,official_or_opgg_ko,1,electric,전기,,,lightning-rod;static,60,90,55,90,80,110,485,66
+raichu-alolan,10100,Raichu Alolan,알로라 라이츄,official_or_opgg_ko,1,electric,전기,psychic,에스퍼,surge-surfer,60,85,50,95,85,110,485,74
+rampardos,409,Rampardos,램펄드,official_or_opgg_ko,4,rock,바위,,,mold-breaker;sheer-force,97,165,60,65,50,58,495,74
+reuniclus,579,Reuniclus,란쿨루스,official_or_opgg_ko,5,psychic,에스퍼,,,magic-guard;overcoat;regenerator,110,65,75,125,85,30,490,66
+rhyperior,464,Rhyperior,거대코뿌리,official_or_opgg_ko,4,ground,땅,rock,바위,lightning-rod;reckless;solid-rock,115,140,130,55,55,40,535,91
+roserade,407,Roserade,로즈레이드,official_or_opgg_ko,4,grass,풀,poison,독,natural-cure;poison-point;technician,60,70,65,125,105,90,515,51
+rotom,479,Rotom,로토무,official_or_opgg_ko,4,electric,전기,ghost,고스트,levitate,50,50,77,95,77,91,440,42
+rotom-fan,10011,Rotom,스핀로토무,official_or_opgg_ko,4,electric,전기,flying,비행,levitate,50,65,107,105,107,86,520,43
+rotom-frost,10010,Rotom,프로스트로토무,official_or_opgg_ko,4,electric,전기,ice,얼음,levitate,50,65,107,105,107,86,520,43
+rotom-heat,10008,Rotom,히트로토무,official_or_opgg_ko,4,electric,전기,fire,불꽃,levitate,50,65,107,105,107,86,520,43
+rotom-mow,10012,Rotom,컷로토무,official_or_opgg_ko,4,electric,전기,grass,풀,levitate,50,65,107,105,107,86,520,43
+rotom-wash,10009,Rotom,워시로토무,official_or_opgg_ko,4,electric,전기,water,물,levitate,50,65,107,105,107,86,520,43
+runerigus,867,Runerigus,데스판,official_or_opgg_ko,8,ground,땅,ghost,고스트,wandering-spirit,58,95,145,50,105,30,483,69
+sableye,302,Sableye,깜까미,official_or_opgg_ko,3,dark,악,ghost,고스트,keen-eye;prankster;stall,50,75,75,65,65,50,380,88
+salazzle,758,Salazzle,염뉴트,official_or_opgg_ko,7,poison,독,fire,불꽃,corrosion;oblivious,68,64,60,111,60,117,480,70
+samurott,503,Samurott,대검귀,official_or_opgg_ko,5,water,물,,,shell-armor;torrent,95,100,85,108,70,70,528,61
+samurott-hisui,10236,Samurott,대검귀,official_or_opgg_ko,5,water,물,dark,악,sharpness;torrent,90,108,80,100,65,85,528,67
+sandaconda,844,Sandaconda,사다이사,official_or_opgg_ko,8,ground,땅,,,sand-spit;sand-veil;shed-skin,72,107,125,65,70,71,510,48
+sceptile,254,Sceptile,나무킹,official_or_opgg_ko,3,grass,풀,,,overgrow;unburden,70,85,65,105,85,120,530,85
+scizor,212,Scizor,핫삼,official_or_opgg_ko,2,bug,벌레,steel,강철,light-metal;swarm;technician,70,130,100,55,80,65,500,64
+scolipede,545,Scolipede,펜드라,official_or_opgg_ko,5,bug,벌레,poison,독,poison-point;swarm;speed-boost,60,100,89,55,69,112,485,51
+scovillain,952,Scovillain,스코빌런,official_or_opgg_ko,9,grass,풀,fire,불꽃,chlorophyll;insomnia;moody,65,108,65,108,65,75,486,48
+scrafty,560,Scrafty,곤율거니,official_or_opgg_ko,5,dark,악,fighting,격투,shed-skin;moxie;intimidate,65,90,115,45,115,58,488,85
+serperior,497,Serperior,샤로다,official_or_opgg_ko,5,grass,풀,,,contrary;overgrow,75,75,95,75,95,113,528,53
+sharpedo,319,Sharpedo,샤크니아,official_or_opgg_ko,3,water,물,dark,악,rough-skin;speed-boost,70,120,40,95,40,95,460,56
+simipour,516,Simipour,앗차키,official_or_opgg_ko,5,water,물,,,gluttony;torrent,75,98,63,98,63,101,498,52
+simisage,512,Simisage,야나키,official_or_opgg_ko,5,grass,풀,,,gluttony;overgrow,75,98,63,98,63,101,498,50
+simisear,514,Simisear,바오키,official_or_opgg_ko,5,fire,불꽃,,,blaze;gluttony,75,98,63,98,63,101,498,55
+sinistcha,1013,Sinistcha,그우린차,official_or_opgg_ko,9,grass,풀,ghost,고스트,heatproof;hospitality,71,60,106,121,80,70,508,35
+skarmory,227,Skarmory,무장조,official_or_opgg_ko,2,steel,강철,flying,비행,keen-eye;sturdy;weak-armor,65,80,140,40,70,70,465,51
+skeledirge,911,Skeledirge,라우드본,official_or_opgg_ko,9,fire,불꽃,ghost,고스트,blaze;unaware,104,75,100,110,75,66,530,56
+slowbro,80,Slowbro,야도란,official_or_opgg_ko,1,water,물,psychic,에스퍼,oblivious;own-tempo;regenerator,95,75,110,100,80,30,490,78
+slowbro-galarian,10165,Slowbro Galarian,가라르 야도란,official_or_opgg_ko,1,poison,독,psychic,에스퍼,own-tempo;quick-draw,95,100,95,100,70,30,490,86
+slowking,199,Slowking,야도킹,official_or_opgg_ko,2,water,물,psychic,에스퍼,oblivious;own-tempo;regenerator,95,75,80,100,110,30,490,85
+slowking-galarian,10172,Slowking Galarian,가라르 야도킹,official_or_opgg_ko,2,poison,독,psychic,에스퍼,curious-medicine;own-tempo;regenerator,95,65,80,110,110,30,490,91
+slurpuff,685,Slurpuff,나루림,official_or_opgg_ko,6,fairy,페어리,,,sweet-veil;unburden,82,80,86,85,75,72,480,42
+sneasler,903,Sneasler,포푸니크,official_or_opgg_ko,8,fighting,격투,poison,독,poison-touch;pressure;unburden,80,130,60,40,80,120,510,61
+snorlax,143,Snorlax,잠만보,official_or_opgg_ko,1,normal,노말,,,gluttony;immunity;thick-fat,160,110,65,65,110,30,540,83
+spiritomb,442,Spiritomb,화강돌,official_or_opgg_ko,4,ghost,고스트,dark,악,infiltrator;pressure,50,92,108,92,108,35,485,54
+staraptor,398,Staraptor,찌르호크,official_or_opgg_ko,4,normal,노말,flying,비행,intimidate;reckless,85,120,70,50,60,100,485,49
+staraptor-female,398,Staraptor Female,찌르호크 (암컷),official_or_opgg_ko,4,normal,노말,flying,비행,intimidate;reckless,85,120,70,50,60,100,485,49
+starmie,121,Starmie,아쿠스타,official_or_opgg_ko,1,water,물,psychic,에스퍼,analytic;illuminate;natural-cure,60,75,85,100,85,115,520,62
+steelix,208,Steelix,강철톤,official_or_opgg_ko,2,steel,강철,ground,땅,rock-head;sheer-force;sturdy,75,85,200,55,65,30,510,66
+stunfisk,618,Stunfisk,메더,official_or_opgg_ko,5,ground,땅,electric,전기,limber;sand-veil;static,109,66,84,81,99,32,471,48
+stunfisk-galarian,10180,Stunfisk Galarian,가라르 메더,official_or_opgg_ko,5,ground,땅,steel,강철,mimicry,109,81,99,66,84,32,471,41
+swampert,260,Swampert,대짱이,official_or_opgg_ko,3,water,물,ground,땅,torrent;damp,100,110,90,85,90,60,535,85
+sylveon,700,Sylveon,님피아,official_or_opgg_ko,6,fairy,페어리,,,cute-charm;pixilate,95,65,65,110,130,60,525,55
+talonflame,663,Talonflame,파이어로,official_or_opgg_ko,6,fire,불꽃,flying,비행,flame-body;gale-wings,78,81,71,74,69,126,499,50
+tauros,128,Tauros,켄타로스,official_or_opgg_ko,1,normal,노말,,,anger-point;intimidate;sheer-force,75,100,95,40,70,110,490,57
+tauros-paldean-aqua,10252,Tauros Paldean Aqua,팔데아 켄타로스 (아쿠아종),official_or_opgg_ko,1,fighting,격투,water,물,anger-point;cud-chew;intimidate,75,110,105,30,70,100,490,49
+tauros-paldean-blaze,10251,Tauros Paldean Blaze,팔데아 켄타로스 (블레이즈종),official_or_opgg_ko,1,fighting,격투,fire,불꽃,anger-point;cud-chew;intimidate,75,110,105,30,70,100,490,47
+tauros-paldean-combat,10250,Tauros Paldean Combat,팔데아 켄타로스 (컴뱃종),official_or_opgg_ko,1,fighting,격투,,,anger-point;cud-chew;intimidate,75,110,105,30,70,100,490,48
+tinkaton,959,Tinkaton,두드리짱,official_or_opgg_ko,9,fairy,페어리,steel,강철,mold-breaker;own-tempo;pickpocket,85,75,77,70,105,94,506,47
+torkoal,324,Torkoal,코터스,official_or_opgg_ko,3,fire,불꽃,,,drought;shell-armor;white-smoke,70,85,140,85,70,20,470,57
+torterra,389,Torterra,토대부기,official_or_opgg_ko,4,grass,풀,ground,땅,overgrow;shell-armor,95,109,105,75,85,56,525,72
+toucannon,733,Toucannon,왕큰부리,official_or_opgg_ko,7,normal,노말,flying,비행,keen-eye;sheer-force;skill-link,80,120,75,75,75,60,485,53
+toxapex,748,Toxapex,더시마사리,official_or_opgg_ko,7,poison,독,water,물,limber;merciless;regenerator,50,63,152,53,142,35,495,51
+toxicroak,454,Toxicroak,독개굴,official_or_opgg_ko,4,poison,독,fighting,격투,anticipation;dry-skin;poison-touch,83,106,65,86,65,85,490,81
+trevenant,709,Trevenant,대로트,official_or_opgg_ko,6,ghost,고스트,grass,풀,frisk;harvest;natural-cure,85,110,76,65,82,56,474,73
+tsareena,763,Tsareena,달코퀸,official_or_opgg_ko,7,grass,풀,,,leaf-guard;queenly-majesty;sweet-veil,72,120,98,50,98,72,510,54
+typhlosion,157,Typhlosion,블레이범,official_or_opgg_ko,2,fire,불꽃,,,blaze;flash-fire,78,84,78,109,85,100,534,63
+typhlosion-hisui,10233,Typhlosion,블레이범,official_or_opgg_ko,2,fire,불꽃,ghost,고스트,blaze;frisk,73,84,78,119,85,95,534,66
+tyranitar,248,Tyranitar,마기라스,official_or_opgg_ko,2,rock,바위,dark,악,sand-stream;unnerve,100,134,110,95,100,61,600,92
+tyrantrum,697,Tyrantrum,견고라스,official_or_opgg_ko,6,rock,바위,dragon,드래곤,rock-head;strong-jaw,82,121,119,69,59,71,521,64
+umbreon,197,Umbreon,블래키,official_or_opgg_ko,2,dark,악,,,inner-focus;synchronize,95,65,110,60,130,65,525,67
+vanilluxe,584,Vanilluxe,배바닐라,official_or_opgg_ko,5,ice,얼음,,,ice-body;snow-warning;weak-armor,71,95,85,110,95,79,535,41
+vaporeon,134,Vaporeon,샤미드,official_or_opgg_ko,1,water,물,,,hydration;water-absorb,130,65,60,110,95,65,525,59
+venusaur,3,Venusaur,이상해꽃,official_or_opgg_ko,1,grass,풀,poison,독,chlorophyll;overgrow,80,82,83,100,100,80,525,57
+victreebel,71,Victreebel,우츠보트,official_or_opgg_ko,1,grass,풀,poison,독,chlorophyll;gluttony,80,105,65,100,70,70,490,59
+vileplume,45,Vileplume,라플레시아,official_or_opgg_ko,1,grass,풀,poison,독,chlorophyll;effect-spore,75,80,85,110,90,50,490,64
+vileplume-female,45,Vileplume Female,라플레시아 (암컷),official_or_opgg_ko,1,grass,풀,poison,독,chlorophyll;effect-spore,75,80,85,110,90,50,490,64
+vivillon,666,Vivillon,비비용,official_or_opgg_ko,6,bug,벌레,flying,비행,compound-eyes;friend-guard;shield-dust,80,52,50,90,50,89,411,43
+volcarona,637,Volcarona,불카모스,official_or_opgg_ko,5,bug,벌레,fire,불꽃,flame-body;swarm,85,60,65,135,105,100,550,57
+watchog,505,Watchog,보르그,official_or_opgg_ko,5,normal,노말,,,analytic;illuminate;keen-eye,60,85,69,60,69,77,420,52
+weavile,461,Weavile,포푸니라,official_or_opgg_ko,4,dark,악,ice,얼음,pickpocket;pressure,70,120,65,45,85,125,510,72
+whimsicott,547,Whimsicott,엘풍,official_or_opgg_ko,5,grass,풀,fairy,페어리,chlorophyll;infiltrator;prankster,60,67,85,77,75,116,480,50
+wyrdeer,899,Wyrdeer,신비록,official_or_opgg_ko,8,normal,노말,psychic,에스퍼,frisk;intimidate;sap-sipper,103,105,72,105,75,65,525,61
+zoroark,571,Zoroark,조로아크,official_or_opgg_ko,5,dark,악,,,illusion,60,105,60,120,60,105,510,70
+zoroark-hisui,10239,Zoroark,히스이 조로아크,official_or_opgg_ko,5,normal,노말,ghost,고스트,illusion,55,100,60,125,60,110,510,73
