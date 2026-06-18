@@ -9,7 +9,7 @@ from app.config import DATA_DIR, DEFAULT_TARGET_WINDOW_TITLE, OVERLAY_SETTINGS_F
 from app.data.data_loader import ChampionsData, DataLoadError
 from app.data.tactical_analyzer import analyze_state
 from app.data.tooltip_builder import build_tooltips
-from app.state.current_state import load_current_state
+from app.state.current_state import load_current_state, save_current_state
 from app.state.party_memory import load_party_memory
 from app.state.pending_scan_result import confirm_pending_scan
 from app.state.target_window import TargetWindowConfig, load_target_window, save_target_window
@@ -18,6 +18,7 @@ from app.capture.screen_capture import capture_window_or_fullscreen
 from app.vision.status_screen_reader import StatusScreenReader
 from .hotkeys import bind_hotkeys
 from .settings_dialog import OverlaySettingsDialog
+from .state_editor import BattleStateEditorDialog
 from .window_selector import WindowSelectorDialog
 from .layout import rebuild_cards
 from .window_tracker import TrackedWindow
@@ -51,11 +52,14 @@ class TacticalOverlayWindow(QWidget):
         top_bar = QHBoxLayout()
         self.status = QLabel('드래그로 이동 · F6/F7 스캔 · F11 창 선택')
         self.status.setStyleSheet('color: #eeeeee; background: rgba(0,0,0,120); padding: 4px; border-radius: 6px;')
+        state_button = QPushButton('상태')
+        state_button.clicked.connect(self.open_state_editor)
         settings_button = QPushButton('설정')
         settings_button.clicked.connect(self.open_settings)
         close_button = QPushButton('끄기')
         close_button.clicked.connect(QApplication.instance().quit)
         top_bar.addWidget(self.status, 1)
+        top_bar.addWidget(state_button)
         top_bar.addWidget(settings_button)
         top_bar.addWidget(close_button)
         self.layout.addLayout(top_bar)
@@ -80,6 +84,17 @@ class TacticalOverlayWindow(QWidget):
         self.setWindowOpacity(self.overlay_settings.opacity)
         self.setFixedWidth(self.overlay_settings.width)
         self.status.setToolTip('마우스로 드래그해 오버레이를 이동할 수 있습니다. 설정에서 위치 잠금을 켤 수 있습니다.')
+
+
+    def open_state_editor(self) -> None:
+        state = load_current_state(self.state_path)
+        self.party_memory = load_party_memory(PARTY_MEMORY_FILE)
+        dialog = BattleStateEditorDialog(state, self.data, self.party_memory, self)
+        if dialog.exec():
+            new_state = dialog.to_state(state)
+            save_current_state(self.state_path, new_state)
+            self.reload_state()
+            self.status.setText('현재 대면을 저장하고 툴팁을 갱신했습니다')
 
     def open_settings(self) -> None:
         dialog = OverlaySettingsDialog(self.overlay_settings, self)
