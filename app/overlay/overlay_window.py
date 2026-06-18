@@ -2,10 +2,10 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from PySide6.QtCore import Qt
-from PySide6.QtWidgets import QApplication, QLabel, QVBoxLayout, QWidget
+from PySide6.QtCore import QPoint, Qt
+from PySide6.QtWidgets import QApplication, QHBoxLayout, QLabel, QPushButton, QVBoxLayout, QWidget
 
-from app.config import DATA_DIR, DEFAULT_TARGET_WINDOW_TITLE, PARTY_MEMORY_FILE, PENDING_SCAN_FILE, STATE_FILE, TARGET_WINDOW_FILE
+from app.config import DATA_DIR, DEFAULT_TARGET_WINDOW_TITLE, OVERLAY_SETTINGS_FILE, PARTY_MEMORY_FILE, PENDING_SCAN_FILE, STATE_FILE, TARGET_WINDOW_FILE
 from app.data.data_loader import ChampionsData, DataLoadError
 from app.data.tactical_analyzer import analyze_state
 from app.data.tooltip_builder import build_tooltips
@@ -13,9 +13,11 @@ from app.state.current_state import load_current_state
 from app.state.party_memory import load_party_memory
 from app.state.pending_scan_result import confirm_pending_scan
 from app.state.target_window import TargetWindowConfig, load_target_window, save_target_window
+from app.state.overlay_settings import load_overlay_settings, save_overlay_settings
 from app.capture.screen_capture import capture_window_or_fullscreen
 from app.vision.status_screen_reader import StatusScreenReader
 from .hotkeys import bind_hotkeys
+from .settings_dialog import OverlaySettingsDialog
 from .window_selector import WindowSelectorDialog
 from .layout import rebuild_cards
 from .window_tracker import TrackedWindow
@@ -29,6 +31,8 @@ class TacticalOverlayWindow(QWidget):
         self.state_path = state_path
         self.click_through = False
         self.target_config = load_target_window(TARGET_WINDOW_FILE)
+        self.overlay_settings = load_overlay_settings(OVERLAY_SETTINGS_FILE)
+        self._drag_offset: QPoint | None = None
         if self.target_config.title_keyword == 'Pokémon Champions' and target_window_title != DEFAULT_TARGET_WINDOW_TITLE:
             self.target_config.title_keyword = target_window_title
         self.tracker = TrackedWindow(self.target_config.title_keyword, self.target_config.process_name)
@@ -39,14 +43,22 @@ class TacticalOverlayWindow(QWidget):
         self.setWindowTitle('Pokémon Champions 전술 툴팁 HUD')
         self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint | Qt.Tool)
         self.setAttribute(Qt.WA_TranslucentBackground, True)
-        self.setMinimumWidth(300)
-        self.setMaximumWidth(390)
+        self.setMinimumWidth(260)
+        self.setMaximumWidth(520)
 
         self.layout = QVBoxLayout(self)
         self.layout.setContentsMargins(8, 8, 8, 8)
-        self.status = QLabel('F6 능력스캔 · F7 스탯스캔 · F8 숨김 · F9 클릭통과 · F10 reload · F11 창/프로세스 선택 · F12 확정 · ESC 종료')
+        top_bar = QHBoxLayout()
+        self.status = QLabel('드래그로 이동 · F6/F7 스캔 · F11 창 선택')
         self.status.setStyleSheet('color: #eeeeee; background: rgba(0,0,0,120); padding: 4px; border-radius: 6px;')
-        self.layout.addWidget(self.status)
+        settings_button = QPushButton('설정')
+        settings_button.clicked.connect(self.open_settings)
+        close_button = QPushButton('끄기')
+        close_button.clicked.connect(QApplication.instance().quit)
+        top_bar.addWidget(self.status, 1)
+        top_bar.addWidget(settings_button)
+        top_bar.addWidget(close_button)
+        self.layout.addLayout(top_bar)
 
         bind_hotkeys(
             self,
@@ -59,8 +71,24 @@ class TacticalOverlayWindow(QWidget):
             scan_status=lambda: self.scan_party_screen('status'),
             confirm_pending=self.confirm_pending_scan,
         )
+        self.apply_overlay_settings()
         self.refind_window()
         self.reload_state()
+
+
+    def apply_overlay_settings(self) -> None:
+        self.setWindowOpacity(self.overlay_settings.opacity)
+        self.setFixedWidth(self.overlay_settings.width)
+        self.status.setToolTip('마우스로 드래그해 오버레이를 이동할 수 있습니다. 설정에서 위치 잠금을 켤 수 있습니다.')
+
+    def open_settings(self) -> None:
+        dialog = OverlaySettingsDialog(self.overlay_settings, self)
+        if dialog.exec():
+            self.overlay_settings = dialog.settings()
+            save_overlay_settings(OVERLAY_SETTINGS_FILE, self.overlay_settings)
+            self.apply_overlay_settings()
+            self.reload_state()
+            self.status.setText('설정을 저장했습니다')
 
     def _load_data(self) -> ChampionsData | None:
         try:
@@ -70,6 +98,8 @@ class TacticalOverlayWindow(QWidget):
 
     def reload_state(self) -> None:
         state = load_current_state(self.state_path)
+        if not self.overlay_settings.compact_mode:
+            state.mode = 'expanded'
         self.party_memory = load_party_memory(PARTY_MEMORY_FILE)
         report = analyze_state(state, self.data, self.party_memory)
         cards = build_tooltips(report)
@@ -117,6 +147,26 @@ class TacticalOverlayWindow(QWidget):
         self.setWindowFlag(Qt.WindowTransparentForInput, self.click_through)
         self.show()
         self.status.setText(('클릭 통과 ON' if self.click_through else '클릭 통과 OFF') + ' · F10 reload')
+
+
+    def mousePressEvent(self, event):
+        if event.button() == Qt.LeftButton and not self.click_through and not self.overlay_settings.lock_position:
+            self._drag_offset = event.globalPosition().toPoint() - self.frameGeometry().topLeft()
+            event.accept()
+            return
+        super().mousePressEvent(event)
+
+    def mouseMoveEvent(self, event):
+        if self._drag_offset is not None and not self.overlay_settings.lock_position:
+            self.move(event.globalPosition().toPoint() - self._drag_offset)
+            event.accept()
+            return
+        super().mouseMoveEvent(event)
+
+    def mouseReleaseEvent(self, event):
+        if event.button() == Qt.LeftButton:
+            self._drag_offset = None
+        super().mouseReleaseEvent(event)
 
     def scan_party_screen(self, mode: str) -> None:
         tmp = self.state_path.parent / f'_party_scan_{mode}.png'
