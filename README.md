@@ -1,7 +1,5 @@
 # Pokémon Champions 전략 지식팩 v2.0 Full Final
 
-이 zip은 OP.GG Pokémon Champions RSC 데이터 추출 결과를 ChatGPT 프로젝트 업로드용으로 정리한 최종 지식팩입니다.
-
 - 포켓몬/폼: 315개
 - 포켓몬-기술 연결: 19,742행
 - 기술폭 등장 기술: 493개
